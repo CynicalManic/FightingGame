@@ -1,0 +1,14 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Parsing headers for FightingGameEditor
+    Running UnrealHeaderTool "C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\FightingGame.uproject" "C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FightingGameEditor in 10.5376432 seconds
+  Building 4 actions with 8 processes...
+    [1/4] Camera.gen.cpp
+    [2/4] Camera.cpp
+    [3/4] UE4Editor-FightingGame-5970.lib
+       Creating library C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5970.lib and object C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5970.exp
+    [4/4] UE4Editor-FightingGame-5970.dll
+       Creating library C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5970.suppressed.lib and object C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5970.suppressed.exp
+  Deploying FightingGameEditor Win64 Development...
+  Total build time: 26.13 seconds (Parallel executor: 13.57 seconds)
