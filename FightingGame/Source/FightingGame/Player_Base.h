@@ -25,6 +25,7 @@ protected:
 	float movementSpeed;
 	float jumpForce;
 	float jumpMod;
+	bool grounded;
 
 public:	
 	// Called every frame
@@ -38,4 +39,7 @@ public:
 
 	virtual void LightAttackInput();
 	virtual void HeavyAttackInput();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int playerNum;
 };

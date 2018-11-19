@@ -14,6 +14,17 @@ APlayer_Base::APlayer_Base()
 void APlayer_Base::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//this->AutoPossessPlayer = EAutoReceiveInput::Player0;
+	/*if (playerNum == 0)
+	{
+		this->AutoPossessPlayer = EAutoReceiveInput::Player0;
+	}
+	else
+	{
+		this->AutoPossessPlayer = EAutoReceiveInput::Player1;
+	}*/
+
 	CharacterMovementComponent = GetCharacterMovement();
 }
 
@@ -23,13 +34,16 @@ void APlayer_Base::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	UpdateMovement(DeltaTime);
 	movementSpeed = 100;
-	jumpMod = 600000;
+	jumpMod = 9999999;
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)
 {
 	AddMovementInput(FVector(0, movementInput * movementSpeed, 0) * DeltaTime);
-	CharacterMovementComponent->AddImpulse(FVector(0, 0, jumpForce * jumpMod) * DeltaTime);
+	if (CharacterMovementComponent->IsMovingOnGround())
+	{
+		CharacterMovementComponent->AddImpulse(FVector(0, 0, jumpForce * jumpMod) * DeltaTime);
+	}
 }
 
 // Called to bind functionality to input
