@@ -22,14 +22,13 @@ void APlayer_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	UpdateMovement(DeltaTime);
-	movementSpeed = 900000;
-	jumpMod = 100000;
+	movementSpeed = 100;
+	jumpMod = 600000;
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)
 {
-	//AddMovementInput(FVector(0, movementInput * movementSpeed, 0) * DeltaTime);
-	CharacterMovementComponent->AddForce(FVector(0, movementInput * movementSpeed, 0) * DeltaTime);
+	AddMovementInput(FVector(0, movementInput * movementSpeed, 0) * DeltaTime);
 	CharacterMovementComponent->AddImpulse(FVector(0, 0, jumpForce * jumpMod) * DeltaTime);
 }
 
