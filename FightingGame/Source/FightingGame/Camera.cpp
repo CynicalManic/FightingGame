@@ -22,7 +22,7 @@ void ACamera::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (CameraOne != nullptr)
 	{
-		CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
+		//CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
 	}
 }
 
