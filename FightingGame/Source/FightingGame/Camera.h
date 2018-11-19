@@ -7,6 +7,7 @@
 #include "GameFramework/Actor.h"
 #include "Camera.generated.h"
 
+
 class APlayerController;
 UCLASS()
 class FIGHTINGGAME_API ACamera : public AActor
@@ -18,6 +19,8 @@ private:
 public:	
 	// Sets default values for this actor's properties
 	ACamera();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<AActor*> _players;
 
 protected:
 	// Called when the game starts or when spawned
@@ -27,6 +30,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "GetFunction")
+		void GetPlayerArray();
+
+	UFUNCTION(BlueprintCallable)
+		void SetPlayerArray(TArray<AActor*> players);
+		
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		AActor* CameraOne;
 

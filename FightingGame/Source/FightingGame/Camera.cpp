@@ -20,10 +20,32 @@ void ACamera::BeginPlay()
 void ACamera::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	GetPlayerArray();
+
 	if (CameraOne != nullptr)
 	{
-		CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
+		//CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
 	}
+	if (_players.Num() != 0)
+	{
+		//CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
+		FVector midpoint = {0,0,0};
+		for (int i = 0; i < _players.Num(); i++)
+		{
+			midpoint+= _players[i]->GetActorLocation();
+		}
+		float temp = (float)(1 / (float)_players.Num());
+		midpoint *= temp;
+		midpoint.X = CameraOne->GetActorLocation().X;
+		CameraOne->SetActorLocation(midpoint);
+		
+		//_players[0]->SetActorLocation(temp);
+	}
+}
+
+void ACamera::SetPlayerArray(TArray<AActor*> players)
+{
+	_players = players;
 }
 
 AActor* ACamera::GetCamera()
