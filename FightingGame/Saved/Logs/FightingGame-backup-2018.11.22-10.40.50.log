@@ -1,0 +1,1162 @@
+﻿Log file open, 11/22/18 10:38:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FightingGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.389033
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.200s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.22-10.38.43:051][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-10.38.43:051][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.22-10.38.43:067][  0]LogHAL: Display: Platform has ~ 32 GB [34065870848 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.22-10.38.43:067][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.22-10.38.43:067][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.22-10.38.43:067][  0]LogInit: Computer: C117B-06
+[2018.11.22-10.38.43:067][  0]LogInit: User: c016193g
+[2018.11.22-10.38.43:068][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.22-10.38.43:068][  0]LogInit: High frequency timer resolution =3.515631 MHz
+[2018.11.22-10.38.43:068][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2018.11.22-10.38.43:068][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.22-10.38.43:068][  0]LogMemory: Process Physical Memory: 100.84 MB used, 100.84 MB peak
+[2018.11.22-10.38.43:068][  0]LogMemory: Process Virtual Memory: 91.03 MB used, 91.03 MB peak
+[2018.11.22-10.38.43:068][  0]LogMemory: Physical Memory: 8325.29 MB used,  24162.46 MB free, 32487.75 MB total
+[2018.11.22-10.38.43:068][  0]LogMemory: Virtual Memory: 4640.09 MB used,  24162.46 MB free, 134217728.00 MB total
+[2018.11.22-10.38.43:175][  0]LogInit: Using OS detected language (en-US).
+[2018.11.22-10.38.43:175][  0]LogInit: Using OS detected locale (en-GB).
+[2018.11.22-10.38.43:177][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.22-10.38.43:523][  0]LogStreaming: Display: Took  0.348s to InitEngineTextLocalization.
+[2018.11.22-10.38.43:524][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.22-10.38.43:589][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.22-10.38.43:589][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.22-10.38.43:823][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.22-10.38.43:823][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.22-10.38.43:907][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.11.22-10.38.43:907][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.22-10.38.43:912][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.22-10.38.43:912][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.22-10.38.43:912][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.22-10.38.43:919][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.22-10.38.43:919][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.22-10.38.43:919][  0]LogWindows: EnumDisplayDevices:
+[2018.11.22-10.38.43:919][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.11.22-10.38.43:919][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.11.22-10.38.43:919][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.22-10.38.43:920][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.22-10.38.43:920][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.22-10.38.43:920][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.11.22-10.38.43:920][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.11.22-10.38.43:920][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.11.22-10.38.43:920][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.11.22-10.38.43:974][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.22-10.38.43:993][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.22-10.38.43:999][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/c016193g/Documents/Github/FightingGame/FightingGame/Intermediate/Shaders/WorkingDirectory/16028/).
+[2018.11.22-10.38.43:999][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/c016193g/AppData/Local/Temp/UnrealShaderWorkingDir/5AF7AAF747E51FDAB55EC9BBF2FB5E06/'.
+[2018.11.22-10.38.44:300][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.22-10.38.44:316][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.22-10.38.44:334][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.22-10.38.44:351][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.22-10.38.44:370][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.22-10.38.44:386][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.22-10.38.44:402][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.22-10.38.44:417][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.22-10.38.44:429][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.22-10.38.44:508][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:508][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-10.38.44:516][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.22-10.38.44:620][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-10.38.44:620][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-10.38.44:651][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-10.38.44:651][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-10.38.44:683][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.22-10.38.44:697][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.22-10.38.44:710][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.22-10.38.44:726][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.22-10.38.44:738][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.22-10.38.44:738][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.22-10.38.44:860][  0]LogXGEController: Cleaning working directory: C:/Users/c016193g/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.22-10.38.44:860][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.22-10.38.44:860][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.22-10.38.44:860][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.22-10.38.45:702][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.22-10.38.45:762][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/c016193g/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-10.38.45:762][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/c016193g/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.22-10.38.45:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/c016193g/Documents/Github/FightingGame/FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.22-10.38.45:763][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.22-10.38.45:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/c016193g/Documents/Github/FightingGame/FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.22-10.38.45:763][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.22-10.38.45:782][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.22-10.38.45:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/c016193g/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.22-10.38.45:796][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.22-10.38.45:796][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.22-10.38.45:823][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.22-10.38.45:827][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.22-10.38.45:829][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.22-10.38.45:938][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2018.11.22-10.38.46:320][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-10.38.46:437][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.22-10.38.46:446][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.22-10.38.46:446][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.22-10.38.46:446][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.22-10.38.46:446][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.22-10.38.46:541][  0]LogNetVersion: FightingGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 156865789)
+[2018.11.22-10.38.47:128][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.145863 seconds
+[2018.11.22-10.38.47:136][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.22-10.38.47:136][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.22-10.38.47:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.22-10.38.48:193][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.22-10.38.48:210][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.22-10.38.48:429][  0]SourceControl: Source control is disabled
+[2018.11.22-10.38.48:429][  0]SourceControl: Source control is disabled
+[2018.11.22-10.38.48:433][  0]SourceControl: Source control is disabled
+[2018.11.22-10.38.48:437][  0]SourceControl: Source control is disabled
+[2018.11.22-10.38.48:737][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.22-10.38.48:817][  0]LogOcInput: OculusInput pre-init called
+[2018.11.22-10.38.48:883][  0]LogEngine: Initializing Engine...
+[2018.11.22-10.38.48:884][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.22-10.38.48:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-10.38.48:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-10.38.48:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-10.38.48:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-10.38.49:101][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.22-10.38.49:128][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.22-10.38.49:139][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.38.49:165][  0]LogInit: FAudioDevice initialized.
+[2018.11.22-10.38.49:165][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.22-10.38.49:214][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/c016193g/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-10.38.49:228][  0]LogInit: Texture streaming: Enabled
+[2018.11.22-10.38.49:266][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.22-10.38.49:267][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={31B5BF43-4185-26E4-8C43-DA81CD92C2CD}
+[2018.11.22-10.38.49:267][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={3AA49CAA-4390-D9F6-29CE-F6B3676765D7}
+[2018.11.22-10.38.49:279][  0]LogInit: Transaction tracking system initialized
+[2018.11.22-10.38.49:319][  0]BlueprintLog: New page: Editor Load
+[2018.11.22-10.38.49:465][  0]LocalizationService: Localization service is disabled
+[2018.11.22-10.38.49:771][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.22-10.38.49:771][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.22-10.38.49:771][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.22-10.38.49:771][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-10.38.49:771][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-10.38.49:772][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-10.38.49:772][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-10.38.49:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c016193g/Documents/Github/FightingGame/FightingGame/Content/' took 0.02s
+[2018.11.22-10.38.49:975][  0]SourceControl: Source control is disabled
+[2018.11.22-10.38.49:975][  0]Cmd: MAP LOAD FILE="../../../../../../Users/c016193g/Documents/Github/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.22-10.38.49:976][  0]LightingResults: New page: Lighting Build
+[2018.11.22-10.38.49:981][  0]MapCheck: New page: Map Check
+[2018.11.22-10.38.49:981][  0]LightingResults: New page: Lighting Build
+[2018.11.22-10.38.50:313][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.38.50:327][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.22-10.38.50:358][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.22-10.38.50:469][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.341ms to complete.
+[2018.11.22-10.38.50:469][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.493
+[2018.11.22-10.38.50:620][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.38.50:627][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.38.50:635][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.38.50:643][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.38.50:659][  0]LogCollectionManager: Loaded 0 collections in 0.006873 seconds
+[2018.11.22-10.38.50:719][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c016193g/Documents/Github/FightingGame/FightingGame/Saved/Collections/' took 0.01s
+[2018.11.22-10.38.50:719][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c016193g/Documents/Github/FightingGame/FightingGame/Content/Developers/c016193g/Collections/' took 0.01s
+[2018.11.22-10.38.50:719][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c016193g/Documents/Github/FightingGame/FightingGame/Content/Collections/' took 0.01s
+[2018.11.22-10.38.50:719][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.22-10.38.50:730][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2575 classes and 605 folders.
+[2018.11.22-10.38.50:737][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.22-10.38.50:792][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.22-10.38.50:803][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.22-10.38.50:818][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.22-10.38.50:821][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.22-10.38.50:828][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.22-10.38.50:915][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.22-10.38.51:068][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.11.22-10.38.51:068][  0]LogLoad: (Engine Initialization) Total time: 10.45 seconds
+[2018.11.22-10.38.51:069][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.22-10.38.51:081][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.22-10.38.51:104][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.22-10.38.51:126][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.22-10.38.51:139][  1]LogAssetRegistry: Asset discovery search completed in 5.2254 seconds
+[2018.11.22-10.38.51:141][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.22-10.38.51:141][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000132 seconds (updated 0 objects)
+[2018.11.22-10.38.53:882][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.38.53:940][318]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-10.38.53:955][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.38.53:956][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-10.38.53:973][318]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:38:53)
+[2018.11.22-10.38.53:973][318]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.11.22-10.38.53:978][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004120s)
+[2018.11.22-10.38.53:979][318]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.38.53:979][318]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2018.11.22-10.38.53:979][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.005786s)
+[2018.11.22-10.38.54:009][318]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.38.54:018][318]LogInit: FAudioDevice initialized.
+[2018.11.22-10.38.54:111][318]LogLoad: Game class is 'FightingGameMode_C'
+[2018.11.22-10.38.54:115][318]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.38.54
+[2018.11.22-10.38.54:116][318]LogWorld: Bringing up level for play took: 0.001640
+[2018.11.22-10.38.54:145][318]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.11.22-10.38.54:148][318]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.38.54:148][318]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.11.22-10.38.54:149][318]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.38.54:149][318]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.22-10.38.54:149][318]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.11.22-10.38.54:157][318]LogInit: WinSock: I am c117b-06 (10.6.118.48:0)
+[2018.11.22-10.38.54:157][318]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.38.54:157][318]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.11.22-10.38.54:158][318]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default 1.117
+[2018.11.22-10.38.54:162][318]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:38:54)
+[2018.11.22-10.38.54:175][318]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.38.54:179][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.38.54:246][318]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.38.54:246][318]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.38.54:246][318]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.11.22-10.38.54:247][318]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.38.54:247][318]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.38.54:248][318]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.38.54:249][318]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.38.54:253][318]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 1.214
+[2018.11.22-10.38.54:259][318]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:38:54)
+[2018.11.22-10.38.54:269][318]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.38.54:276][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.38.54:324][318]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.38.54:324][318]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.38.54:324][318]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.11.22-10.38.54:325][318]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.38.54:325][318]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.38.54:327][318]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.38.54:327][318]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.38.54:332][318]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 1.292
+[2018.11.22-10.38.54:342][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.38.54:343][318]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52140
+[2018.11.22-10.38.54:343][318]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 000090183097132244151172198230085140094202166066063248036061
+[2018.11.22-10.38.54:343][318]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52141
+[2018.11.22-10.38.54:344][318]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 149231167238192160168239013247053047021201057076184139233061
+[2018.11.22-10.38.54:351][318]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 000090183097132244151172198230085140094202166066063248036061
+[2018.11.22-10.38.54:352][318]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 149231167238192160168239013247053047021201057076184139233061
+[2018.11.22-10.38.54:453][319]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52140
+[2018.11.22-10.38.54:453][319]LogHandshake: SendChallengeAck. InCookie: 000090183097132244151172198230085140094202166066063248036061
+[2018.11.22-10.38.54:453][319]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52140
+[2018.11.22-10.38.54:454][319]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.38.54:455][319]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:38:54, [UNetConnection] RemoteAddr: 127.0.0.1:52140, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.38.54:455][319]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52140, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.38.54:455][319]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52141
+[2018.11.22-10.38.54:455][319]LogHandshake: SendChallengeAck. InCookie: 149231167238192160168239013247053047021201057076184139233061
+[2018.11.22-10.38.54:455][319]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52141
+[2018.11.22-10.38.54:456][319]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.38.54:456][319]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:38:54, [UNetConnection] RemoteAddr: 127.0.0.1:52141, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.38.54:456][319]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52141, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.38.54:458][319]LogNetVersion: FightingGame 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4124689447)
+[2018.11.22-10.38.54:458][319]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.38.54:458][319]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.38.54:474][320]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.38.54:474][320]LogNet: Remote platform little endian=1
+[2018.11.22-10.38.54:474][320]LogNet: This platform little endian=1
+[2018.11.22-10.38.54:474][320]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.38.54:475][320]LogNet: Remote platform little endian=1
+[2018.11.22-10.38.54:475][320]LogNet: This platform little endian=1
+[2018.11.22-10.38.54:507][321]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-119EF6804ACA97BF1D1667884943974C userId: c117b-06-119EF6804ACA97BF1D1667884943974C
+[2018.11.22-10.38.54:507][321]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-29F93899415B6CAF00763DAAB762BA71 userId: c117b-06-29F93899415B6CAF00763DAAB762BA71
+[2018.11.22-10.38.54:508][321]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.38.54:509][321]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.38.54:540][321]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.38.54:541][321]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.38.54:542][321]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.38.54
+[2018.11.22-10.38.54:542][321]LogWorld: Bringing up level for play took: 0.001063
+[2018.11.22-10.38.54:543][321]LogLoad: Took 0.033864 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.38.54:543][321]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.38.54:551][321]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.38.54:580][321]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.38.54:580][321]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.38.54:581][321]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_3_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.38.54
+[2018.11.22-10.38.54:582][321]LogWorld: Bringing up level for play took: 0.000759
+[2018.11.22-10.38.54:582][321]LogLoad: Took 0.031280 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.38.54:593][322]LogNet: Client netspeed is 10000
+[2018.11.22-10.38.54:593][322]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-119EF6804ACA97BF1D1667884943974C?SplitscreenCount=1
+[2018.11.22-10.38.54:593][322]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.38.54:595][322]LogNet: Join succeeded: c117b-06-119EF6804AC
+[2018.11.22-10.38.54:595][322]LogNet: Client netspeed is 10000
+[2018.11.22-10.38.54:595][322]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-29F93899415B6CAF00763DAAB762BA71?SplitscreenCount=1
+[2018.11.22-10.38.54:596][322]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.38.54:597][322]LogNet: Join succeeded: c117b-06-29F93899415
+[2018.11.22-10.38.54:608][323]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.11.22-10.38.54:625][323]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.38.54:628][323]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.38.54:649][325]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.38.54:650][325]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.38.54:651][325]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.38.54:660][326]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.04:027][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.04:027][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.04:044][436]LogSlate: Window 'FightingGame Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.04:077][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.04:100][436]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.04:140][436]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.11.22-10.39.04:141][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.04:183][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-10.39.04:184][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.04:222][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52141, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-29F93899415B6CAF00763DAAB762BA71
+[2018.11.22-10.39.04:222][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52141, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-29F93899415B6CAF00763DAAB762BA71, Channels: 2, Time: 2018.11.22-10.39.04
+[2018.11.22-10.39.04:222][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52141, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-29F93899415B6CAF00763DAAB762BA71
+[2018.11.22-10.39.04:222][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52140, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-119EF6804ACA97BF1D1667884943974C
+[2018.11.22-10.39.04:222][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52140, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-119EF6804ACA97BF1D1667884943974C, Channels: 2, Time: 2018.11.22-10.39.04
+[2018.11.22-10.39.04:222][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52140, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-119EF6804ACA97BF1D1667884943974C
+[2018.11.22-10.39.04:223][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-29F93899415B6CAF00763DAAB762BA71
+[2018.11.22-10.39.04:223][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-29F93899415B6CAF00763DAAB762BA71, Channels: 2, Time: 2018.11.22-10.39.04
+[2018.11.22-10.39.04:223][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-29F93899415B6CAF00763DAAB762BA71
+[2018.11.22-10.39.04:223][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-119EF6804ACA97BF1D1667884943974C
+[2018.11.22-10.39.04:223][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-119EF6804ACA97BF1D1667884943974C, Channels: 2, Time: 2018.11.22-10.39.04
+[2018.11.22-10.39.04:223][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-119EF6804ACA97BF1D1667884943974C
+[2018.11.22-10.39.04:226][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.04:227][436]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.04:227][436]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.04:228][436]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.04:250][437]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.22-10.39.04:250][437]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.11.22-10.39.04:250][437]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.11.22-10.39.06:754][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.39.06:821][740]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-10.39.06:837][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.06:837][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-10.39.06:840][740]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:06)
+[2018.11.22-10.39.06:840][740]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.11.22-10.39.06:843][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002946s)
+[2018.11.22-10.39.06:844][740]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.06:844][740]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2018.11.22-10.39.06:845][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.004157s)
+[2018.11.22-10.39.06:876][740]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.39.06:885][740]LogInit: FAudioDevice initialized.
+[2018.11.22-10.39.06:922][740]LogLoad: Game class is 'FightingGameMode_C'
+[2018.11.22-10.39.06:923][740]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.06
+[2018.11.22-10.39.06:924][740]LogWorld: Bringing up level for play took: 0.001018
+[2018.11.22-10.39.06:937][740]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.06:937][740]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.11.22-10.39.06:937][740]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.06:938][740]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.22-10.39.06:938][740]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.11.22-10.39.06:938][740]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.06:938][740]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 17777
+[2018.11.22-10.39.06:939][740]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default -0.101
+[2018.11.22-10.39.06:943][740]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:06)
+[2018.11.22-10.39.06:951][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.06:955][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.07:016][740]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.07:016][740]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.07:017][740]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.11.22-10.39.07:017][740]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.07:017][740]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.07:018][740]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.07:018][740]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.07:023][740]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default -0.017
+[2018.11.22-10.39.07:029][740]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:07)
+[2018.11.22-10.39.07:040][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.07:048][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.07:109][740]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.07:109][740]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.07:109][740]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.11.22-10.39.07:110][740]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.07:110][740]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.07:112][740]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.07:112][740]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.07:118][740]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 0.078
+[2018.11.22-10.39.07:132][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.07:132][740]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55180
+[2018.11.22-10.39.07:133][740]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 022062164161234055006206123028156053174050085154212057250069
+[2018.11.22-10.39.07:133][740]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55182
+[2018.11.22-10.39.07:133][740]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 179091093058222151101255249054197156105131173203203028110079
+[2018.11.22-10.39.07:135][740]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 022062164161234055006206123028156053174050085154212057250069
+[2018.11.22-10.39.07:136][740]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 179091093058222151101255249054197156105131173203203028110079
+[2018.11.22-10.39.07:239][741]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55180
+[2018.11.22-10.39.07:239][741]LogHandshake: SendChallengeAck. InCookie: 022062164161234055006206123028156053174050085154212057250069
+[2018.11.22-10.39.07:239][741]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55180
+[2018.11.22-10.39.07:240][741]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.07:240][741]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:07, [UNetConnection] RemoteAddr: 127.0.0.1:55180, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.07:241][741]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55180, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.07:241][741]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55182
+[2018.11.22-10.39.07:241][741]LogHandshake: SendChallengeAck. InCookie: 179091093058222151101255249054197156105131173203203028110079
+[2018.11.22-10.39.07:241][741]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55182
+[2018.11.22-10.39.07:242][741]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.07:242][741]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:07, [UNetConnection] RemoteAddr: 127.0.0.1:55182, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.07:243][741]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55182, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.07:245][741]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.07:246][741]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.07:267][742]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.07:267][742]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.07:267][742]LogNet: This platform little endian=1
+[2018.11.22-10.39.07:268][742]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.07:268][742]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.07:268][742]LogNet: This platform little endian=1
+[2018.11.22-10.39.07:302][743]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-6F05E1A34CF0B024408561835810499D userId: c117b-06-6F05E1A34CF0B024408561835810499D
+[2018.11.22-10.39.07:303][743]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-BE1EE4B04728F967C8B637858276AAC8 userId: c117b-06-BE1EE4B04728F967C8B637858276AAC8
+[2018.11.22-10.39.07:303][743]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.07:304][743]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.07:336][743]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.07:336][743]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.07:337][743]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.07
+[2018.11.22-10.39.07:337][743]LogWorld: Bringing up level for play took: 0.000759
+[2018.11.22-10.39.07:338][743]LogLoad: Took 0.033883 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.07:338][743]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.07:347][743]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.07:375][743]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.07:376][743]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.07:377][743]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_3_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.07
+[2018.11.22-10.39.07:377][743]LogWorld: Bringing up level for play took: 0.000792
+[2018.11.22-10.39.07:377][743]LogLoad: Took 0.030712 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.07:387][744]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.07:387][744]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-6F05E1A34CF0B024408561835810499D?SplitscreenCount=1
+[2018.11.22-10.39.07:388][744]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.07:389][744]LogNet: Join succeeded: c117b-06-6F05E1A34CF
+[2018.11.22-10.39.07:389][744]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.07:389][744]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-BE1EE4B04728F967C8B637858276AAC8?SplitscreenCount=1
+[2018.11.22-10.39.07:390][744]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.07:391][744]LogNet: Join succeeded: c117b-06-BE1EE4B0472
+[2018.11.22-10.39.07:407][745]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.07:409][745]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.07:425][747]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.07:434][748]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.07:442][749]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.07:451][750]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.14:759][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.14:759][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.14:785][613]LogSlate: Window 'FightingGame Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.14:820][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.14:849][613]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.14:889][613]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.11.22-10.39.14:890][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.14:931][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-10.39.14:931][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.14:970][613]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55182, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-BE1EE4B04728F967C8B637858276AAC8
+[2018.11.22-10.39.14:970][613]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55182, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-BE1EE4B04728F967C8B637858276AAC8, Channels: 2, Time: 2018.11.22-10.39.14
+[2018.11.22-10.39.14:971][613]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55182, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-BE1EE4B04728F967C8B637858276AAC8
+[2018.11.22-10.39.14:971][613]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55180, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-6F05E1A34CF0B024408561835810499D
+[2018.11.22-10.39.14:971][613]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55180, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-6F05E1A34CF0B024408561835810499D, Channels: 2, Time: 2018.11.22-10.39.14
+[2018.11.22-10.39.14:971][613]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55180, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-6F05E1A34CF0B024408561835810499D
+[2018.11.22-10.39.14:971][613]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-BE1EE4B04728F967C8B637858276AAC8
+[2018.11.22-10.39.14:971][613]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-BE1EE4B04728F967C8B637858276AAC8, Channels: 2, Time: 2018.11.22-10.39.14
+[2018.11.22-10.39.14:971][613]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-BE1EE4B04728F967C8B637858276AAC8
+[2018.11.22-10.39.14:972][613]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-6F05E1A34CF0B024408561835810499D
+[2018.11.22-10.39.14:972][613]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-6F05E1A34CF0B024408561835810499D, Channels: 2, Time: 2018.11.22-10.39.14
+[2018.11.22-10.39.14:972][613]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-6F05E1A34CF0B024408561835810499D
+[2018.11.22-10.39.14:975][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.14:976][613]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.14:976][613]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.14:976][613]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.14:991][614]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.22-10.39.14:991][614]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.22-10.39.14:991][614]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.11.22-10.39.15:356][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.39.15:440][667]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-10.39.15:455][667]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.15:455][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-10.39.15:458][667]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:15)
+[2018.11.22-10.39.15:458][667]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.11.22-10.39.15:461][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002908s)
+[2018.11.22-10.39.15:462][667]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.15:462][667]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2018.11.22-10.39.15:462][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.004108s)
+[2018.11.22-10.39.15:497][667]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.39.15:506][667]LogInit: FAudioDevice initialized.
+[2018.11.22-10.39.15:542][667]LogLoad: Game class is 'FightingGameMode_C'
+[2018.11.22-10.39.15:545][667]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.15
+[2018.11.22-10.39.15:546][667]LogWorld: Bringing up level for play took: 0.002205
+[2018.11.22-10.39.15:563][667]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.15:563][667]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.11.22-10.39.15:564][667]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.15:564][667]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.22-10.39.15:564][667]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.11.22-10.39.15:565][667]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.15:565][667]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2018.11.22-10.39.15:566][667]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default 0.526
+[2018.11.22-10.39.15:576][667]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:15)
+[2018.11.22-10.39.15:588][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.15:593][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.15:655][667]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.15:656][667]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.15:656][667]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.11.22-10.39.15:656][667]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.15:657][667]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.15:658][667]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.15:658][667]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.15:663][667]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 0.623
+[2018.11.22-10.39.15:672][667]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:15)
+[2018.11.22-10.39.15:683][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.15:690][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.15:741][667]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.15:742][667]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.15:742][667]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2018.11.22-10.39.15:742][667]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.15:742][667]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.15:743][667]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.15:743][667]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.15:747][667]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 0.707
+[2018.11.22-10.39.15:754][667]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.15:755][667]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55187
+[2018.11.22-10.39.15:755][667]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 133029067024161040183237024160026100160048225155004205168179
+[2018.11.22-10.39.15:755][667]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55188
+[2018.11.22-10.39.15:755][667]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 182106124184203049160142236153183129178058048104245135243059
+[2018.11.22-10.39.15:756][667]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 133029067024161040183237024160026100160048225155004205168179
+[2018.11.22-10.39.15:757][667]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 182106124184203049160142236153183129178058048104245135243059
+[2018.11.22-10.39.15:848][668]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55187
+[2018.11.22-10.39.15:848][668]LogHandshake: SendChallengeAck. InCookie: 133029067024161040183237024160026100160048225155004205168179
+[2018.11.22-10.39.15:848][668]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55187
+[2018.11.22-10.39.15:849][668]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.15:850][668]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:15, [UNetConnection] RemoteAddr: 127.0.0.1:55187, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.15:850][668]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55187, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.15:850][668]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55188
+[2018.11.22-10.39.15:851][668]LogHandshake: SendChallengeAck. InCookie: 182106124184203049160142236153183129178058048104245135243059
+[2018.11.22-10.39.15:851][668]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55188
+[2018.11.22-10.39.15:852][668]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.15:852][668]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:15, [UNetConnection] RemoteAddr: 127.0.0.1:55188, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.15:852][668]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55188, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.15:854][668]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.15:855][668]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_8, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.15:877][669]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.15:878][669]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.15:878][669]LogNet: This platform little endian=1
+[2018.11.22-10.39.15:878][669]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.15:878][669]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.15:879][669]LogNet: This platform little endian=1
+[2018.11.22-10.39.15:920][670]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-FDD669F349ED55C554D5C9ADFEB812CD userId: c117b-06-FDD669F349ED55C554D5C9ADFEB812CD
+[2018.11.22-10.39.15:921][670]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-E44EB4654997B48D4790F3A2AD84D028 userId: c117b-06-E44EB4654997B48D4790F3A2AD84D028
+[2018.11.22-10.39.15:922][670]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.15:923][670]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.15:962][670]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.15:962][670]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.15:963][670]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.15
+[2018.11.22-10.39.15:964][670]LogWorld: Bringing up level for play took: 0.000833
+[2018.11.22-10.39.15:964][670]LogLoad: Took 0.041073 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.15:964][670]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.15:972][670]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.16:002][670]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.16:002][670]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.16:004][670]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_3_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.16
+[2018.11.22-10.39.16:004][670]LogWorld: Bringing up level for play took: 0.000802
+[2018.11.22-10.39.16:004][670]LogLoad: Took 0.031836 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.16:014][671]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.16:014][671]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-FDD669F349ED55C554D5C9ADFEB812CD?SplitscreenCount=1
+[2018.11.22-10.39.16:015][671]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.16:016][671]LogNet: Join succeeded: c117b-06-FDD669F349E
+[2018.11.22-10.39.16:017][671]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.16:017][671]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-E44EB4654997B48D4790F3A2AD84D028?SplitscreenCount=1
+[2018.11.22-10.39.16:017][671]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.16:018][671]LogNet: Join succeeded: c117b-06-E44EB465499
+[2018.11.22-10.39.16:032][672]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.16:033][672]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.16:035][672]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.16:062][675]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.16:070][676]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.16:079][677]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.18:120][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.18:121][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.18:136][919]LogSlate: Window 'FightingGame Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.18:172][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.18:208][919]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.18:244][919]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.11.22-10.39.18:245][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.18:285][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-10.39.18:285][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.18:321][919]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55188, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-E44EB4654997B48D4790F3A2AD84D028
+[2018.11.22-10.39.18:321][919]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55188, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-E44EB4654997B48D4790F3A2AD84D028, Channels: 2, Time: 2018.11.22-10.39.18
+[2018.11.22-10.39.18:321][919]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55188, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-E44EB4654997B48D4790F3A2AD84D028
+[2018.11.22-10.39.18:321][919]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55187, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-FDD669F349ED55C554D5C9ADFEB812CD
+[2018.11.22-10.39.18:322][919]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55187, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-FDD669F349ED55C554D5C9ADFEB812CD, Channels: 2, Time: 2018.11.22-10.39.18
+[2018.11.22-10.39.18:322][919]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55187, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-FDD669F349ED55C554D5C9ADFEB812CD
+[2018.11.22-10.39.18:322][919]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-E44EB4654997B48D4790F3A2AD84D028
+[2018.11.22-10.39.18:322][919]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-E44EB4654997B48D4790F3A2AD84D028, Channels: 2, Time: 2018.11.22-10.39.18
+[2018.11.22-10.39.18:322][919]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-E44EB4654997B48D4790F3A2AD84D028
+[2018.11.22-10.39.18:322][919]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-FDD669F349ED55C554D5C9ADFEB812CD
+[2018.11.22-10.39.18:322][919]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-FDD669F349ED55C554D5C9ADFEB812CD, Channels: 2, Time: 2018.11.22-10.39.18
+[2018.11.22-10.39.18:322][919]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-FDD669F349ED55C554D5C9ADFEB812CD
+[2018.11.22-10.39.18:325][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.18:326][919]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.18:326][919]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.18:327][919]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.18:340][920]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.22-10.39.18:340][920]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.22-10.39.18:340][920]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.22-10.39.18:733][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.39.18:835][979]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-10.39.18:850][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.18:850][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-10.39.18:854][979]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:18)
+[2018.11.22-10.39.18:854][979]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.11.22-10.39.18:858][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003684s)
+[2018.11.22-10.39.18:859][979]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.18:859][979]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2018.11.22-10.39.18:859][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.005241s)
+[2018.11.22-10.39.18:888][979]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.39.18:897][979]LogInit: FAudioDevice initialized.
+[2018.11.22-10.39.18:938][979]LogLoad: Game class is 'FightingGameMode_C'
+[2018.11.22-10.39.18:941][979]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.18
+[2018.11.22-10.39.18:942][979]LogWorld: Bringing up level for play took: 0.001881
+[2018.11.22-10.39.18:959][979]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.18:959][979]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2018.11.22-10.39.18:959][979]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.18:960][979]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.22-10.39.18:960][979]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.11.22-10.39.18:961][979]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.18:961][979]LogNet: GameNetDriver IpNetDriver_9 IpNetDriver listening on port 17777
+[2018.11.22-10.39.18:962][979]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default -0.078
+[2018.11.22-10.39.18:972][979]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:18)
+[2018.11.22-10.39.18:987][979]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.18:993][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.19:054][979]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.19:054][979]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.19:054][979]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2018.11.22-10.39.19:054][979]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.19:055][979]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.19:056][979]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.19:056][979]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.19:060][979]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 0.02
+[2018.11.22-10.39.19:065][979]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:19)
+[2018.11.22-10.39.19:074][979]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.19:078][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.19:138][979]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.19:138][979]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.19:139][979]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2018.11.22-10.39.19:139][979]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.19:139][979]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.19:141][979]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.19:141][979]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.19:147][979]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 0.107
+[2018.11.22-10.39.19:159][979]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.19:160][979]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55191
+[2018.11.22-10.39.19:160][979]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 033169220046156030109158002214082135153207094236002116182215
+[2018.11.22-10.39.19:160][979]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55192
+[2018.11.22-10.39.19:160][979]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 208201111120250004177208046220024142002035123012113223065089
+[2018.11.22-10.39.19:162][979]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 033169220046156030109158002214082135153207094236002116182215
+[2018.11.22-10.39.19:164][979]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 208201111120250004177208046220024142002035123012113223065089
+[2018.11.22-10.39.19:271][980]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55191
+[2018.11.22-10.39.19:271][980]LogHandshake: SendChallengeAck. InCookie: 033169220046156030109158002214082135153207094236002116182215
+[2018.11.22-10.39.19:271][980]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55191
+[2018.11.22-10.39.19:272][980]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.19:272][980]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:19, [UNetConnection] RemoteAddr: 127.0.0.1:55191, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.19:273][980]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55191, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.19:273][980]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55192
+[2018.11.22-10.39.19:273][980]LogHandshake: SendChallengeAck. InCookie: 208201111120250004177208046220024142002035123012113223065089
+[2018.11.22-10.39.19:273][980]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55192
+[2018.11.22-10.39.19:274][980]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.19:274][980]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:19, [UNetConnection] RemoteAddr: 127.0.0.1:55192, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.19:275][980]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55192, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.19:275][980]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074260 > MaxSimulationTimeStep (0.050) for 'TestPlayer_C_0', movement 'Walking'
+[2018.11.22-10.39.19:277][980]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_10, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.19:278][980]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_13, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.19:294][981]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.19:294][981]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.19:294][981]LogNet: This platform little endian=1
+[2018.11.22-10.39.19:295][981]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.19:295][981]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.19:295][981]LogNet: This platform little endian=1
+[2018.11.22-10.39.19:329][982]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-C5206BEB4589A99D72CD10A34912C60F userId: c117b-06-C5206BEB4589A99D72CD10A34912C60F
+[2018.11.22-10.39.19:329][982]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC userId: c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC
+[2018.11.22-10.39.19:330][982]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.19:331][982]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.19:362][982]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.19:363][982]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.19:364][982]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.19
+[2018.11.22-10.39.19:365][982]LogWorld: Bringing up level for play took: 0.001063
+[2018.11.22-10.39.19:365][982]LogLoad: Took 0.034267 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.19:365][982]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.19:374][982]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.19:404][982]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.19:405][982]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.19:406][982]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_3_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.19
+[2018.11.22-10.39.19:406][982]LogWorld: Bringing up level for play took: 0.001036
+[2018.11.22-10.39.19:407][982]LogLoad: Took 0.032706 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.19:417][983]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.19:417][983]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-C5206BEB4589A99D72CD10A34912C60F?SplitscreenCount=1
+[2018.11.22-10.39.19:418][983]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.19:420][983]LogNet: Join succeeded: c117b-06-C5206BEB458
+[2018.11.22-10.39.19:420][983]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.19:420][983]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC?SplitscreenCount=1
+[2018.11.22-10.39.19:420][983]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.19:422][983]LogNet: Join succeeded: c117b-06-3DEB5E8A4A5
+[2018.11.22-10.39.19:437][984]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.19:440][984]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.19:458][986]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.19:467][987]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.19:475][988]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.19:483][989]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.24:049][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.39.35:843][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.39.35:956][794]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.35:956][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.35:972][794]LogSlate: Window 'FightingGame Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.36:007][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.36:021][794]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.36:060][794]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.11.22-10.39.36:060][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.36:100][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-10.39.36:101][794]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.36:139][794]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55192, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC
+[2018.11.22-10.39.36:139][794]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55192, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC, Channels: 2, Time: 2018.11.22-10.39.36
+[2018.11.22-10.39.36:139][794]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55192, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC
+[2018.11.22-10.39.36:139][794]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55191, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-C5206BEB4589A99D72CD10A34912C60F
+[2018.11.22-10.39.36:139][794]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55191, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-C5206BEB4589A99D72CD10A34912C60F, Channels: 2, Time: 2018.11.22-10.39.36
+[2018.11.22-10.39.36:139][794]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55191, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_9, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-C5206BEB4589A99D72CD10A34912C60F
+[2018.11.22-10.39.36:140][794]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC
+[2018.11.22-10.39.36:140][794]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC, Channels: 2, Time: 2018.11.22-10.39.36
+[2018.11.22-10.39.36:140][794]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-3DEB5E8A4A514F6138E64E8D61D55CFC
+[2018.11.22-10.39.36:140][794]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-C5206BEB4589A99D72CD10A34912C60F
+[2018.11.22-10.39.36:140][794]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-C5206BEB4589A99D72CD10A34912C60F, Channels: 2, Time: 2018.11.22-10.39.36
+[2018.11.22-10.39.36:140][794]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-C5206BEB4589A99D72CD10A34912C60F
+[2018.11.22-10.39.36:143][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.36:144][794]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.36:144][794]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.36:144][794]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.36:157][795]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.22-10.39.36:157][795]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.22-10.39.36:157][795]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.22-10.39.36:634][852]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-10.39.36:650][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.36:651][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-10.39.36:654][852]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:36)
+[2018.11.22-10.39.36:654][852]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.11.22-10.39.36:658][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003070s)
+[2018.11.22-10.39.36:658][852]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.36:659][852]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2018.11.22-10.39.36:659][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.004322s)
+[2018.11.22-10.39.36:688][852]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.39.36:697][852]LogInit: FAudioDevice initialized.
+[2018.11.22-10.39.36:740][852]LogLoad: Game class is 'FightingGameMode_C'
+[2018.11.22-10.39.36:743][852]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.36
+[2018.11.22-10.39.36:744][852]LogWorld: Bringing up level for play took: 0.001909
+[2018.11.22-10.39.36:761][852]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.36:761][852]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2018.11.22-10.39.36:762][852]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.36:762][852]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.22-10.39.36:762][852]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.11.22-10.39.36:763][852]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.36:763][852]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 17777
+[2018.11.22-10.39.36:764][852]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default -0.275
+[2018.11.22-10.39.36:774][852]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:36)
+[2018.11.22-10.39.36:789][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.36:795][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.36:855][852]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.36:856][852]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.36:856][852]LogTemp: Display: ParseSettings for IpNetDriver_13
+[2018.11.22-10.39.36:856][852]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.36:857][852]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.36:858][852]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.36:858][852]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.36:863][852]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default -0.177
+[2018.11.22-10.39.36:873][852]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:36)
+[2018.11.22-10.39.36:889][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.36:897][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.36:944][852]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.36:945][852]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.36:945][852]LogTemp: Display: ParseSettings for IpNetDriver_14
+[2018.11.22-10.39.36:945][852]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.36:945][852]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.36:946][852]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.36:946][852]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.36:949][852]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default -0.091
+[2018.11.22-10.39.36:957][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.36:957][852]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65392
+[2018.11.22-10.39.36:957][852]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 215081208069196111219067101138118251048248123012094175234067
+[2018.11.22-10.39.36:957][852]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65393
+[2018.11.22-10.39.36:958][852]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 062129085254166048004030193033054161033054192223173154214155
+[2018.11.22-10.39.36:959][852]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 215081208069196111219067101138118251048248123012094175234067
+[2018.11.22-10.39.36:959][852]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 062129085254166048004030193033054161033054192223173154214155
+[2018.11.22-10.39.37:055][853]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65392
+[2018.11.22-10.39.37:056][853]LogHandshake: SendChallengeAck. InCookie: 215081208069196111219067101138118251048248123012094175234067
+[2018.11.22-10.39.37:056][853]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65392
+[2018.11.22-10.39.37:057][853]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.37:057][853]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:37, [UNetConnection] RemoteAddr: 127.0.0.1:65392, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.37:057][853]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65392, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.37:057][853]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65393
+[2018.11.22-10.39.37:057][853]LogHandshake: SendChallengeAck. InCookie: 062129085254166048004030193033054161033054192223173154214155
+[2018.11.22-10.39.37:058][853]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65393
+[2018.11.22-10.39.37:058][853]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.37:059][853]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:37, [UNetConnection] RemoteAddr: 127.0.0.1:65393, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.37:059][853]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65393, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.37:060][853]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.37:061][853]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_17, Driver: PendingNetDriver IpNetDriver_14, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.37:078][854]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.37:079][854]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.37:079][854]LogNet: This platform little endian=1
+[2018.11.22-10.39.37:079][854]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.37:079][854]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.37:079][854]LogNet: This platform little endian=1
+[2018.11.22-10.39.37:113][855]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E userId: c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E
+[2018.11.22-10.39.37:113][855]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-073649574E2A81BC459E3998CDB3CB18 userId: c117b-06-073649574E2A81BC459E3998CDB3CB18
+[2018.11.22-10.39.37:115][855]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.37:115][855]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.37:146][855]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.37:146][855]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.37:147][855]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.37
+[2018.11.22-10.39.37:148][855]LogWorld: Bringing up level for play took: 0.000852
+[2018.11.22-10.39.37:148][855]LogLoad: Took 0.033359 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.37:149][855]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.37:158][855]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.37:190][855]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.37:190][855]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.37:192][855]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_3_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.37
+[2018.11.22-10.39.37:192][855]LogWorld: Bringing up level for play took: 0.000862
+[2018.11.22-10.39.37:192][855]LogLoad: Took 0.034425 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.37:204][856]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.37:204][856]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E?SplitscreenCount=1
+[2018.11.22-10.39.37:205][856]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.37:206][856]LogNet: Join succeeded: c117b-06-D3D3EBAC498
+[2018.11.22-10.39.37:206][856]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.37:206][856]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-073649574E2A81BC459E3998CDB3CB18?SplitscreenCount=1
+[2018.11.22-10.39.37:206][856]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.37:208][856]LogNet: Join succeeded: c117b-06-073649574E2
+[2018.11.22-10.39.37:227][857]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.37:230][857]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.37:248][859]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.37:257][860]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.37:258][860]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.37:268][861]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.39:688][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.39:689][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.39:705][148]LogSlate: Window 'FightingGame Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.39:742][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.39:758][148]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.39.39:797][148]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.11.22-10.39.39:798][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.39:839][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-10.39.39:839][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.39:865][148]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65393, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-073649574E2A81BC459E3998CDB3CB18
+[2018.11.22-10.39.39:866][148]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65393, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-073649574E2A81BC459E3998CDB3CB18, Channels: 2, Time: 2018.11.22-10.39.39
+[2018.11.22-10.39.39:866][148]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65393, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-073649574E2A81BC459E3998CDB3CB18
+[2018.11.22-10.39.39:866][148]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65392, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E
+[2018.11.22-10.39.39:866][148]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65392, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E, Channels: 2, Time: 2018.11.22-10.39.39
+[2018.11.22-10.39.39:866][148]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65392, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E
+[2018.11.22-10.39.39:866][148]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_14, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-073649574E2A81BC459E3998CDB3CB18
+[2018.11.22-10.39.39:866][148]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_14, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-073649574E2A81BC459E3998CDB3CB18, Channels: 2, Time: 2018.11.22-10.39.39
+[2018.11.22-10.39.39:866][148]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_14, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-073649574E2A81BC459E3998CDB3CB18
+[2018.11.22-10.39.39:867][148]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E
+[2018.11.22-10.39.39:867][148]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E, Channels: 2, Time: 2018.11.22-10.39.39
+[2018.11.22-10.39.39:867][148]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-D3D3EBAC498EB4107C1864B8D88DB23E
+[2018.11.22-10.39.39:869][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.39:870][148]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.39:870][148]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.39:871][148]LogExit: GameNetDriver None shut down
+[2018.11.22-10.39.39:889][149]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.11.22-10.39.39:889][149]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.11.22-10.39.39:889][149]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.11.22-10.39.49:168][208]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start3)
+[2018.11.22-10.39.49:493][242]Cmd: DELETE
+[2018.11.22-10.39.49:494][242]Cmd: ACTOR DELETE
+[2018.11.22-10.39.49:502][242]LogEditorActor: Deleted Actor: PlayerStart
+[2018.11.22-10.39.49:535][242]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.11.22-10.39.50:913][401]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.53:630][718]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.11.22-10.39.55:086][858]LogEditorViewport: Clicking on Actor (LMB): CameraController_C (CameraController)
+[2018.11.22-10.39.56:686][  9]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.11.22-10.39.57:163][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2018.11.22-10.39.57:954][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.39.58:034][143]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-10.39.58:050][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.58:050][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-10.39.58:054][143]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:58)
+[2018.11.22-10.39.58:054][143]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.11.22-10.39.58:057][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002968s)
+[2018.11.22-10.39.58:058][143]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.58:058][143]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2018.11.22-10.39.58:058][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.004184s)
+[2018.11.22-10.39.58:087][143]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.39.58:096][143]LogInit: FAudioDevice initialized.
+[2018.11.22-10.39.58:135][143]LogLoad: Game class is 'FightingGameMode_C'
+[2018.11.22-10.39.58:138][143]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.58
+[2018.11.22-10.39.58:138][143]LogWorld: Bringing up level for play took: 0.001639
+[2018.11.22-10.39.58:156][143]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.58:156][143]LogTemp: Display: ParseSettings for IpNetDriver_15
+[2018.11.22-10.39.58:156][143]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.58:157][143]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.22-10.39.58:157][143]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.11.22-10.39.58:158][143]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.58:158][143]LogNet: GameNetDriver IpNetDriver_15 IpNetDriver listening on port 17777
+[2018.11.22-10.39.58:159][143]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default -0.881
+[2018.11.22-10.39.58:168][143]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:39:58)
+[2018.11.22-10.39.58:178][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.39.58:184][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.39.58:229][143]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.39.58:229][143]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.58:229][143]LogTemp: Display: ParseSettings for IpNetDriver_16
+[2018.11.22-10.39.58:229][143]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.39.58:229][143]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.39.58:230][143]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.58:230][143]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.39.58:233][143]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default -0.807
+[2018.11.22-10.39.58:240][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.39.58:240][143]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63727
+[2018.11.22-10.39.58:240][143]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 090224162166103008029251094070044228024051020217106095035153
+[2018.11.22-10.39.58:241][143]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 090224162166103008029251094070044228024051020217106095035153
+[2018.11.22-10.39.58:299][144]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63727
+[2018.11.22-10.39.58:300][144]LogHandshake: SendChallengeAck. InCookie: 090224162166103008029251094070044228024051020217106095035153
+[2018.11.22-10.39.58:300][144]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63727
+[2018.11.22-10.39.58:301][144]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.39.58:301][144]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:39:58, [UNetConnection] RemoteAddr: 127.0.0.1:63727, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_15, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.58:301][144]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63727, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_15, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.58:303][144]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: PendingNetDriver IpNetDriver_16, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.39.58:316][145]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.39.58:317][145]LogNet: Remote platform little endian=1
+[2018.11.22-10.39.58:317][145]LogNet: This platform little endian=1
+[2018.11.22-10.39.58:338][146]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA userId: c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA
+[2018.11.22-10.39.58:339][146]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.39.58:340][146]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.39.58:371][146]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.39.58:371][146]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.39.58:372][146]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.39.58
+[2018.11.22-10.39.58:373][146]LogWorld: Bringing up level for play took: 0.001109
+[2018.11.22-10.39.58:373][146]LogLoad: Took 0.033401 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.39.58:385][147]LogNet: Client netspeed is 10000
+[2018.11.22-10.39.58:385][147]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA?SplitscreenCount=1
+[2018.11.22-10.39.58:385][147]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.58:387][147]LogNet: Join succeeded: c117b-06-92EFBAA04A9
+[2018.11.22-10.39.58:431][152]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.39.58:456][155]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.40.20:126][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.40.20:126][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.40.20:144][725]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.40.20:184][725]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.11.22-10.40.20:184][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.40.20:224][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-10.40.20:224][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.40.20:250][725]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63727, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_15, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA
+[2018.11.22-10.40.20:250][725]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63727, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_15, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA, Channels: 2, Time: 2018.11.22-10.40.20
+[2018.11.22-10.40.20:250][725]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63727, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_15, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA
+[2018.11.22-10.40.20:251][725]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_16, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA
+[2018.11.22-10.40.20:251][725]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_16, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA, Channels: 2, Time: 2018.11.22-10.40.20
+[2018.11.22-10.40.20:251][725]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_16, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-92EFBAA04A9A9CEE540F9583F29EE1DA
+[2018.11.22-10.40.20:253][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.40.20:254][725]LogExit: GameNetDriver None shut down
+[2018.11.22-10.40.20:254][725]LogExit: GameNetDriver None shut down
+[2018.11.22-10.40.20:273][726]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.22-10.40.20:273][726]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.11.22-10.40.20:787][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-10.40.20:880][796]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-10.40.20:895][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.40.20:895][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-10.40.20:899][796]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:40:20)
+[2018.11.22-10.40.20:899][796]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.11.22-10.40.20:902][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2018.11.22-10.40.20:903][796]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.40.20:903][796]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2018.11.22-10.40.20:903][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.004135s)
+[2018.11.22-10.40.20:932][796]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.22-10.40.20:941][796]LogInit: FAudioDevice initialized.
+[2018.11.22-10.40.20:980][796]LogLoad: Game class is 'FightingGameMode_C'
+[2018.11.22-10.40.20:983][796]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.40.20
+[2018.11.22-10.40.20:983][796]LogWorld: Bringing up level for play took: 0.001869
+[2018.11.22-10.40.21:000][796]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.40.21:000][796]LogTemp: Display: ParseSettings for IpNetDriver_17
+[2018.11.22-10.40.21:000][796]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.40.21:001][796]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.22-10.40.21:001][796]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.11.22-10.40.21:002][796]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.40.21:002][796]LogNet: GameNetDriver IpNetDriver_17 IpNetDriver listening on port 17777
+[2018.11.22-10.40.21:004][796]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default -0.037
+[2018.11.22-10.40.21:013][796]PIE: New page: PIE session: Minimal_Default (22 Nov 2018 10:40:21)
+[2018.11.22-10.40.21:027][796]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-10.40.21:034][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.40.21:084][796]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.11.22-10.40.21:084][796]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.40.21:085][796]LogTemp: Display: ParseSettings for IpNetDriver_18
+[2018.11.22-10.40.21:085][796]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.11.22-10.40.21:085][796]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.11.22-10.40.21:085][796]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.40.21:086][796]LogNet: Game client on port 17777, rate 10000
+[2018.11.22-10.40.21:089][796]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 0.049
+[2018.11.22-10.40.21:097][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.40.21:097][796]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63740
+[2018.11.22-10.40.21:097][796]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 208198217073159148052166210052020221093166032179089096202070
+[2018.11.22-10.40.21:099][796]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 208198217073159148052166210052020221093166032179089096202070
+[2018.11.22-10.40.21:171][797]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63740
+[2018.11.22-10.40.21:171][797]LogHandshake: SendChallengeAck. InCookie: 208198217073159148052166210052020221093166032179089096202070
+[2018.11.22-10.40.21:171][797]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63740
+[2018.11.22-10.40.21:172][797]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.22-10.40.21:172][797]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 11/22/18 10:40:21, [UNetConnection] RemoteAddr: 127.0.0.1:63740, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_17, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.40.21:173][797]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63740, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_17, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.40.21:174][797]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_22, Driver: PendingNetDriver IpNetDriver_18, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.11.22-10.40.21:187][798]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.11.22-10.40.21:187][798]LogNet: Remote platform little endian=1
+[2018.11.22-10.40.21:187][798]LogNet: This platform little endian=1
+[2018.11.22-10.40.21:208][799]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D userId: c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D
+[2018.11.22-10.40.21:209][799]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.11.22-10.40.21:209][799]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.11.22-10.40.21:243][799]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.22-10.40.21:244][799]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.22-10.40.21:246][799]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.22-10.40.21
+[2018.11.22-10.40.21:246][799]LogWorld: Bringing up level for play took: 0.001231
+[2018.11.22-10.40.21:246][799]LogLoad: Took 0.036918 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.11.22-10.40.21:262][800]LogNet: Client netspeed is 10000
+[2018.11.22-10.40.21:262][800]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D?SplitscreenCount=1
+[2018.11.22-10.40.21:263][800]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.40.21:265][800]LogNet: Join succeeded: c117b-06-F8D0206C4DD
+[2018.11.22-10.40.21:302][804]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.40.21:327][807]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.11.22-10.40.24:678][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.40.24:679][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.40.24:695][206]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.22-10.40.24:733][206]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.11.22-10.40.24:733][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.40.24:772][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-10.40.24:773][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.22-10.40.24:799][206]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63740, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_17, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D
+[2018.11.22-10.40.24:800][206]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63740, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_17, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D, Channels: 2, Time: 2018.11.22-10.40.24
+[2018.11.22-10.40.24:800][206]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63740, Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_17, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D
+[2018.11.22-10.40.24:800][206]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_22, Driver: GameNetDriver IpNetDriver_18, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D
+[2018.11.22-10.40.24:800][206]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_22, Driver: GameNetDriver IpNetDriver_18, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D, Channels: 2, Time: 2018.11.22-10.40.24
+[2018.11.22-10.40.24:800][206]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_22, Driver: GameNetDriver IpNetDriver_18, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:c117b-06-F8D0206C4DD8997C5207C99FFFB85E5D
+[2018.11.22-10.40.24:803][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-10.40.24:804][206]LogExit: GameNetDriver None shut down
+[2018.11.22-10.40.24:804][206]LogExit: GameNetDriver None shut down
+[2018.11.22-10.40.24:824][207]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.11.22-10.40.24:824][207]LogPlayLevel: Display: Destroying online subsystem :Context_21
