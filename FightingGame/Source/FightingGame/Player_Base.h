@@ -13,33 +13,46 @@ class FIGHTINGGAME_API APlayer_Base : public ACharacter
 {
 	GENERATED_BODY()
 
+//Public Variables
 public:
-	// Sets default values for this character's properties
-	APlayer_Base();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int playerNum;
 
+//Protected Variables
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
 	UCharacterMovementComponent* CharacterMovementComponent;
 	float movementInput;
 	float movementSpeed;
 	float jumpForce;
 	float jumpMod;
 	bool grounded;
+	float knockbackMod;
 
+	FVector attackDirection;
+	float attackRange = 2000;
+
+	float lightAttackDamage = 100;
+	float lightAttackKnockback = 1000;
+
+//Public Functions
 public:
-	// Called every frame
+	APlayer_Base();
+	//Frame based updates
 	virtual void Tick(float DeltaTime) override;
 	virtual void UpdateMovement(float DeltaTime);
 
-	// Called to bind functionality to input
+	//Action On Call
+	virtual void Damage(float damage, float knockback, FVector attackerPosition);
+
+//Protected Functions
+protected:
+	virtual void BeginPlay() override;
+	//Inputs
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void MovementInput(float value);
 	virtual void JumpInput(float value);
-
 	virtual void LightAttackInput();
 	virtual void HeavyAttackInput();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int playerNum;
+	APlayer_Base* CheckAttackCollision();
 };
