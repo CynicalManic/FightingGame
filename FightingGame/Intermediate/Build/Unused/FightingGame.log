@@ -6,4 +6,4 @@
     [3/3] UE4Editor-FightingGame.dll
        Creating library C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.lib and object C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.exp
   Deploying FightingGameEditor Win64 Development...
-  Total build time: 12.14 seconds (Parallel executor: 10.73 seconds)
+  Total build time: 15.05 seconds (Parallel executor: 12.37 seconds)

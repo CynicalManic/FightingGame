@@ -15,9 +15,10 @@ class FIGHTINGGAME_API ACamera : public AActor
 	GENERATED_BODY()
 	
 private:
-	float GetAngle(AActor* inputActor, FVector startPoint, FVector cameraFacing);
-	float _cameraMaxAngle = 40;
-
+	float GetAngleX(AActor* inputActor, FVector startPoint, FVector cameraFacing);
+	float GetAngleZ(AActor* inputActor, FVector startPoint, FVector cameraFacing);
+	float _cameraMaxAngleX = 40;
+	float _cameraMaxAngleZ = 20;
 public:	
 	// Sets default values for this actor's properties
 	ACamera();
