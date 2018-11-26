@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\FightingGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{B763C50C-7247-460C-96DE-DBEA4D8B5B0C}</UniqueIdentifier>
+			<UniqueIdentifier>{879CF14F-AB22-44F2-A118-E2043AECE461}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\FightingGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0D44DD49-92E8-4605-86A8-1F8636D06060}</UniqueIdentifier>
+			<UniqueIdentifier>{C972445A-1810-4F44-81F9-4E3E62F12000}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\FightingGame">
-			<UniqueIdentifier>{8AADFC16-EE2C-477F-A76D-6FC855BA31DD}</UniqueIdentifier>
+			<UniqueIdentifier>{E0EF71D5-8FB0-4B51-9401-13E5169A4C68}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\FightingGame\Camera.cpp">
 			<Filter>Source\FightingGame</Filter>

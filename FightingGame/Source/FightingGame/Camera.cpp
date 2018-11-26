@@ -19,7 +19,7 @@ void ACamera::BeginPlay()
 // Called every frame
 void ACamera::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(DeltaTime);	
 	GetPlayerArray();
 
 	if (CameraOne != nullptr)
@@ -27,82 +27,96 @@ void ACamera::Tick(float DeltaTime)
 		//CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
 	}
 	if (_players.Num() != 0)
-	{
-		//CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
-		FVector midpoint = {0,0,0};
-		for (int i = 0; i < _players.Num(); i++)
-		{
-			midpoint+= _players[i]->GetActorLocation();
-			
-		}
-		float temp = (float)(1 / (float)_players.Num());
-		midpoint *= temp;
-		midpoint.X = CameraOne->GetActorLocation().X;
-		CameraOne->SetActorLocation(midpoint);
-		
+	{		
+		SetActorMidpoint();
+
 		FVector cameraLocation = CameraOne->GetActorLocation();
 		FVector cameraFacing = CameraOne->GetActorForwardVector();
+		FVector* largestPosition = new FVector{0,0,0};
 
+		// Calculate how far zoomed out the camera would need to be to see all objects in x and z axis
+		float lengthX = CalculateXLength(cameraLocation, cameraFacing, largestPosition);
+		float lengthZ = CalculateZLength(cameraLocation, cameraFacing, largestPosition);
 
-		//scane the x for the camera view
-
-		float largestAngle = 0;
-		FVector largestPosition = {0,0,0};
-
-		for (int i = 0; i < _players.Num(); i++)
-		{
-			float test = GetAngleZ(_players[i], cameraLocation, cameraFacing);
-			if (test > largestAngle)
-			{
-				largestAngle = test;
-				largestPosition = _players[i]->GetActorLocation();
-			}
-		}
-
-		float adjacent = largestPosition.Y - cameraLocation.Y;
-		float lengthX = 0;
-		lengthX = adjacent * FMath::Tan(_cameraMaxAngleX);
-		lengthX = FMath::Abs(lengthX);
-
-
-		// Scan the z for the camera fov
-					
-		for (int i = 0; i < _players.Num(); i++)
-		{
-			float test = GetAngleX(_players[i], cameraLocation, cameraFacing);
-			if (test > largestAngle)
-			{
-				largestAngle = test;
-				largestPosition = _players[i]->GetActorLocation();
-			}
-		}
-
-		adjacent = largestPosition.Z - cameraLocation.Z;
-		float lengthZ = 0;
-		lengthZ = adjacent * FMath::Tan(_cameraMaxAngleZ);
-		lengthZ = FMath::Abs(lengthZ);
-
-		FVector finalCameraLocation = CameraOne->GetActorLocation();
+		FVector finalCameraLocation = CameraOne->GetActorLocation();		
 
 		if (lengthX < 600 && lengthZ < 600)
-			finalCameraLocation.X = (largestPosition.X - 600 - 200);
+			finalCameraLocation.X = (largestPosition->X - 600 - 200);
 		else if (lengthX > lengthZ)
-			finalCameraLocation.X = (largestPosition.X - lengthX - 200);
+			finalCameraLocation.X = (largestPosition->X - lengthX - 200);
 		else 
-			finalCameraLocation.X = (largestPosition.X - lengthZ - 200);
-
-		
+			finalCameraLocation.X = (largestPosition->X - lengthZ - 200);	
 
 		CameraOne->SetActorLocation(finalCameraLocation);
 
-		//_players[0]->SetActorLocation(temp);
+	/*	Debugging Code
+		
 		if (GEngine)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(lengthX));
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(lengthZ));
-			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(length));
+		}*/
+	}
+}
+
+void ACamera::SetActorMidpoint()
+{
+	FVector midpoint = { 0,0,0 };
+	for (int i = 0; i < _players.Num(); i++)
+	{
+		midpoint += _players[i]->GetActorLocation();
+
+	}
+	float temp = (float)(1 / (float)_players.Num());
+	midpoint *= temp;
+	midpoint.X = CameraOne->GetActorLocation().X;
+	CameraOne->SetActorLocation(midpoint);	
+}
+
+float ACamera::CalculateXLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition)
+{
+	float largestAngle = 0;	
+
+	for (int i = 0; i < _players.Num(); i++)
+	{
+		float test = GetAngleZ(_players[i], _cameraLocation, _cameraFacing);
+		if (test > largestAngle)
+		{
+			largestAngle = test;
+			FVector largestPosition = _players[i]->GetActorLocation();
+			_largestPosition = &largestPosition;
 		}
 	}
+
+	float adjacent = _largestPosition->Y - _cameraLocation.Y;
+	float lengthX = 0;
+	lengthX = adjacent * FMath::Tan(_cameraMaxAngleX);
+	lengthX = FMath::Abs(lengthX);
+
+	return lengthX;
+}
+
+float ACamera::CalculateZLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition)
+{
+	float largestAngle = 0;
+
+	for (int i = 0; i < _players.Num(); i++)
+	{
+		float test = GetAngleZ(_players[i], _cameraLocation, _cameraFacing);
+		if (test > largestAngle)
+		{
+			largestAngle = test;
+			FVector largestPosition = _players[i]->GetActorLocation();
+			_largestPosition = &largestPosition;
+		}
+	}
+
+	float adjacent = _largestPosition->Z - _cameraLocation.Z;
+	float lengthZ = 0;
+	lengthZ = adjacent * FMath::Tan(_cameraMaxAngleZ);
+	lengthZ = FMath::Abs(lengthZ);
+
+	return lengthZ;
 }
 
 float ACamera::GetAngleX(AActor* inputActor, FVector startPoint, FVector cameraFacing)

@@ -19,7 +19,13 @@ private:
 	float GetAngleZ(AActor* inputActor, FVector startPoint, FVector cameraFacing);
 	float _cameraMaxAngleX = 40;
 	float _cameraMaxAngleZ = 20;
+	void SetActorMidpoint();
+
+
+	float CalculateXLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition);
+	float CalculateZLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition);
 public:	
+	
 	// Sets default values for this actor's properties
 	ACamera();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

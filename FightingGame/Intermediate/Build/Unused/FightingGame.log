@@ -1,9 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Building 3 actions with 8 processes...
+  Compiling game modules for hot reload
+  Building 3 actions with 4 processes...
     [1/3] Camera.cpp
-    [2/3] UE4Editor-FightingGame.lib
-       Creating library C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.lib and object C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.exp
-    [3/3] UE4Editor-FightingGame.dll
-       Creating library C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.lib and object C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.exp
+    [2/3] UE4Editor-FightingGame-4185.lib
+       Creating library C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-4185.lib and object C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-4185.exp
+    [3/3] UE4Editor-FightingGame-4185.dll
+       Creating library C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-4185.suppressed.lib and object C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-4185.suppressed.exp
   Deploying FightingGameEditor Win64 Development...
-  Total build time: 15.05 seconds (Parallel executor: 12.37 seconds)
+  Total build time: 14.85 seconds (Parallel executor: 11.65 seconds)
