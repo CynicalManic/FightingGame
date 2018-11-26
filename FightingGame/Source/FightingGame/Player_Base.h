@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Player_Base.generated.h"
@@ -34,6 +33,9 @@ protected:
 	float lightAttackDamage = 100;
 	float lightAttackKnockback = 1000;
 
+	UPROPERTY(BlueprintReadOnly)
+	int playerID = 10;
+
 //Public Functions
 public:
 	APlayer_Base();
@@ -43,6 +45,8 @@ public:
 
 	//Action On Call
 	virtual void Damage(float damage, float knockback, FVector attackerPosition);
+	int GetPlayerID() { return playerID; }
+	void SetPlayerID(int ID) { playerID = ID; }
 
 //Protected Functions
 protected:
