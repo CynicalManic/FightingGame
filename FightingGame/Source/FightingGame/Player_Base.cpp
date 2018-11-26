@@ -27,7 +27,6 @@ void APlayer_Base::Tick(float DeltaTime)
 	UpdateMovement(DeltaTime);
 	movementSpeed = 100;
 	jumpMod = 9999999;
-	attackDirection = FVector(0, movementSpeed, 0);
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)
@@ -52,6 +51,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void APlayer_Base::MovementInput(float value)
 {
 	movementInput = value;
+	attackDirection.Y = (value != 0) ? value : attackDirection.Y;
 }
 
 void APlayer_Base::JumpInput(float value)
