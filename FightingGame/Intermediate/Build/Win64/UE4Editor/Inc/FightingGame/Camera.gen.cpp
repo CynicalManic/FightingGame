@@ -20,6 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeCamera() {}
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_ACamera_GetCamera();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_ACamera_GetPlayerArray();
+	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_ACamera_SetCameraMode();
+	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_ACamera_SetCameraTarget();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_ACamera_SetPlayerArray();
 // End Cross Module References
 	static FName NAME_ACamera_GetPlayerArray = FName(TEXT("GetPlayerArray"));
@@ -32,6 +34,8 @@ void EmptyLinkFunctionForGeneratedCodeCamera() {}
 		UClass* Class = ACamera::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetCamera", &ACamera::execGetCamera },
+			{ "SetCameraMode", &ACamera::execSetCameraMode },
+			{ "SetCameraTarget", &ACamera::execSetCameraTarget },
 			{ "SetPlayerArray", &ACamera::execSetPlayerArray },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -88,6 +92,50 @@ void EmptyLinkFunctionForGeneratedCodeCamera() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACamera_GetPlayerArray_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACamera_SetCameraMode_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACamera_SetCameraMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACamera_SetCameraMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACamera, "SetCameraMode", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACamera_SetCameraMode_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACamera_SetCameraMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACamera_SetCameraMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACamera_SetCameraMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACamera_SetCameraTarget_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACamera_SetCameraTarget_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACamera_SetCameraTarget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACamera, "SetCameraTarget", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACamera_SetCameraTarget_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACamera_SetCameraTarget_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACamera_SetCameraTarget()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACamera_SetCameraTarget_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -157,6 +205,8 @@ void EmptyLinkFunctionForGeneratedCodeCamera() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACamera_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ACamera_GetCamera, "GetCamera" }, // 2572844847
 		{ &Z_Construct_UFunction_ACamera_GetPlayerArray, "GetPlayerArray" }, // 2874595533
+		{ &Z_Construct_UFunction_ACamera_SetCameraMode, "SetCameraMode" }, // 1037806527
+		{ &Z_Construct_UFunction_ACamera_SetCameraTarget, "SetCameraTarget" }, // 851447857
 		{ &Z_Construct_UFunction_ACamera_SetPlayerArray, "SetPlayerArray" }, // 3614809456
 	};
 #if WITH_METADATA
@@ -208,7 +258,7 @@ void EmptyLinkFunctionForGeneratedCodeCamera() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACamera, 435145961);
+	IMPLEMENT_CLASS(ACamera, 4278150615);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACamera(Z_Construct_UClass_ACamera, &ACamera::StaticClass, TEXT("/Script/FightingGame"), TEXT("ACamera"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACamera);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

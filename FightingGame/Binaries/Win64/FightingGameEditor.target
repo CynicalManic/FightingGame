@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FightingGame-2469.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FightingGame-3064.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FightingGame-2469.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-FightingGame-3064.pdb",
 			"Type": "SymbolFile"
 		},
 		{

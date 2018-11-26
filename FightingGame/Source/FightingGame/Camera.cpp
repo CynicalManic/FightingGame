@@ -26,7 +26,7 @@ void ACamera::Tick(float DeltaTime)
 	{
 		//CameraOne->SetActorLocation(CameraOne->GetActorLocation() + FVector(0, 1, 0));
 	}
-	if (_players.Num() != 0)
+	if (_players.Num() != 0 && _cameraMode == Follow)
 	{		
 		SetActorMidpoint();
 
@@ -39,6 +39,9 @@ void ACamera::Tick(float DeltaTime)
 		float lengthZ = CalculateZLength(cameraLocation, cameraFacing, largestPosition);
 
 		FVector finalCameraLocation = CameraOne->GetActorLocation();		
+
+		// This code checks how far the camera needs to be
+		// the first check sets a minimum camera range and the following zoom out to fit in all the objects into the scene.
 
 		if (lengthX < 600 && lengthZ < 600)
 			finalCameraLocation.X = (largestPosition->X - 600 - 200);
@@ -57,10 +60,17 @@ void ACamera::Tick(float DeltaTime)
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(lengthZ));
 		}*/
 	}
+	if (_players.Num() != 0 && _cameraMode == Chase)
+	{
+		FVector cameraLocation = _players[_cameraFollowNumber]->GetActorLocation();
+		cameraLocation.X = -600;
+		CameraOne->SetActorLocation(cameraLocation);
+	}
 }
 
 void ACamera::SetActorMidpoint()
 {
+	//checks the positions of all the actors and finds the midpoint between them
 	FVector midpoint = { 0,0,0 };
 	for (int i = 0; i < _players.Num(); i++)
 	{
@@ -75,6 +85,8 @@ void ACamera::SetActorMidpoint()
 
 float ACamera::CalculateXLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition)
 {
+	//checks out how zoomed out the camera needs to be to have all the objects at least within 40 degrees of the camera on the X axis
+
 	float largestAngle = 0;	
 
 	for (int i = 0; i < _players.Num(); i++)
@@ -96,8 +108,26 @@ float ACamera::CalculateXLength(FVector _cameraLocation, FVector _cameraFacing, 
 	return lengthX;
 }
 
+void ACamera::SetCameraTarget()
+{
+	if (_cameraMode == Follow)
+		_cameraMode = Chase;
+	else if(_cameraMode == Chase)
+		_cameraMode = Follow;
+}
+
+void ACamera::SetCameraMode()
+{
+	if (_cameraFollowNumber != _players.Num() - 1)	
+		_cameraFollowNumber++;	
+	else
+		_cameraFollowNumber = 0;
+}
+
 float ACamera::CalculateZLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition)
 {
+	//checks out how zoomed out the camera needs to be to have all the objects at least within 40 degrees of the camera ion the z axis
+
 	float largestAngle = 0;
 
 	for (int i = 0; i < _players.Num(); i++)

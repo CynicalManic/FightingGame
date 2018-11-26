@@ -8,6 +8,7 @@
 #include "Camera.generated.h"
 
 
+
 class APlayerController;
 UCLASS()
 class FIGHTINGGAME_API ACamera : public AActor
@@ -20,8 +21,9 @@ private:
 	float _cameraMaxAngleX = 40;
 	float _cameraMaxAngleZ = 20;
 	void SetActorMidpoint();
-
-
+	enum CameraMode { Follow, Chase };
+	CameraMode _cameraMode = Chase;
+	int _cameraFollowNumber = 1;
 	float CalculateXLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition);
 	float CalculateZLength(FVector _cameraLocation, FVector _cameraFacing, FVector* _largestPosition);
 public:	
@@ -44,6 +46,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void SetPlayerArray(TArray<AActor*> players);
+
+	UFUNCTION(BlueprintCallable)
+		void SetCameraTarget();
+
+	UFUNCTION(BlueprintCallable)
+		void SetCameraMode();
 		
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		AActor* CameraOne;
