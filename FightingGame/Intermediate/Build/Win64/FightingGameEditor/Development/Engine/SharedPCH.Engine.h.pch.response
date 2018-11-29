@@ -190,6 +190,11 @@
 /Fp"C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.cpp"
 /Fo"C:\Users\c016193g\Documents\Github\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine
+/Yc"C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
