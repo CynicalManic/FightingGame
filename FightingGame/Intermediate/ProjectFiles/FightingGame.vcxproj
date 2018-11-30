@@ -425,6 +425,8 @@
 		<ClInclude Include="..\..\Source\FightingGame\FightingGame.h" />
 		<ClCompile Include="..\..\Source\FightingGame\FightingGameGameModeBase.cpp" />
 		<ClInclude Include="..\..\Source\FightingGame\FightingGameGameModeBase.h" />
+		<ClCompile Include="..\..\Source\FightingGame\PlayerManager.cpp" />
+		<ClInclude Include="..\..\Source\FightingGame\PlayerManager.h" />
 		<ClCompile Include="..\..\Source\FightingGame\Player_Base.cpp" />
 		<ClInclude Include="..\..\Source\FightingGame\Player_Base.h" />
 	</ItemGroup>

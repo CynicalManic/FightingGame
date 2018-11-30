@@ -1,6 +1,37 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading FightingGameEditor (modules to compile have changed)
-  Compiling game modules for hot reload
+  Creating makefile for FightingGameEditor (no existing makefile)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.
+  Parsing headers for FightingGameEditor
+    Running UnrealHeaderTool "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\FightingGame.uproject" "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FightingGameEditor in 13.936813 seconds
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-2257.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-2515.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-2642.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-3064.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-3720.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-3858.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-4292.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-6168.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-744.dll".
+  Deleting old hot reload file: "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-7522.dll".
+  Building 13 actions with 8 processes...
+    [1/13] SharedPCH.Engine.cpp
+    [2/13] FightingGame.cpp
+    [3/13] FightingGame.init.gen.cpp
+    [4/13] FightingGameGameModeBase.cpp
+    [5/13] FightingGameGameModeBase.gen.cpp
+    [6/13] PlayerManager.gen.cpp
+    [7/13] PlayerManager.cpp
+    [8/13] Player_Base.gen.cpp
+    [9/13] Player_Base.cpp
+    [10/13] Camera.gen.cpp
+    [11/13] Camera.cpp
+    [12/13] UE4Editor-FightingGame.lib
+       Creating library C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.lib and object C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.exp
+    [13/13] UE4Editor-FightingGame.dll
+       Creating library C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.lib and object C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.exp
+  Deploying FightingGameEditor Win64 Development...
+UnrealBuildTool : error : Failed to write dependency cache: Access to the path 'C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor' is denied.
+UnrealBuildTool : error : Failed to write FlatCPPIncludeDependencyCache: Access to the path 'C:\Users\w017177h\Documents\GitHub\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor' is denied.
+  Total build time: 149.67 seconds (Parallel executor: 64.55 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "C:\Epic\UE4\UE_4.20\Engine\Build\BatchFiles\Build.bat FightingGameEditor Win64 Development "C:\Users\c016193g\Documents\GitHub\FightingGame\FightingGame\FightingGame.uproject" -WaitMutex -FromMsBuild" exited with code -1.

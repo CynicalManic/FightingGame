@@ -2,6 +2,9 @@
 
 #include "Player_Base.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Engine/World.h"
+#include "Engine/GameEngine.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 APlayer_Base::APlayer_Base()
@@ -14,17 +17,6 @@ APlayer_Base::APlayer_Base()
 void APlayer_Base::BeginPlay()
 {
 	Super::BeginPlay();
-
-	//this->AutoPossessPlayer = EAutoReceiveInput::Player0;
-	/*if (playerNum == 0)
-	{
-	this->AutoPossessPlayer = EAutoReceiveInput::Player0;
-	}
-	else
-	{
-	this->AutoPossessPlayer = EAutoReceiveInput::Player1;
-	}*/
-
 	CharacterMovementComponent = GetCharacterMovement();
 }
 
@@ -59,6 +51,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void APlayer_Base::MovementInput(float value)
 {
 	movementInput = value;
+	attackDirection.Y = (value != 0) ? value : attackDirection.Y;
 }
 
 void APlayer_Base::JumpInput(float value)
@@ -68,10 +61,47 @@ void APlayer_Base::JumpInput(float value)
 
 void APlayer_Base::LightAttackInput()
 {
-
+	APlayer_Base* hitActor = CheckAttackCollision();
+	if (hitActor != nullptr)
+	{
+		hitActor->Damage(lightAttackDamage, lightAttackKnockback, this->GetActorLocation());
+	}
 }
 
 void APlayer_Base::HeavyAttackInput()
 {
 
+}
+
+void APlayer_Base::Damage(float damage, float knockback, FVector attackerPosition)
+{
+	knockbackMod += damage;
+	FVector knockbackVector = (this->GetActorLocation() - attackerPosition).GetSafeNormal();
+	CharacterMovementComponent->AddImpulse((knockbackVector * knockback) * knockbackMod);
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I have been hit"));
+}
+
+APlayer_Base* APlayer_Base::CheckAttackCollision()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Casting Hit"));
+	FHitResult RV_Hit(ForceInit);
+	FCollisionQueryParams paramaters;
+	paramaters.AddIgnoredActor(this);
+	GetWorld()->LineTraceSingleByChannel(RV_Hit, this->GetActorLocation(), this->GetActorLocation() + (attackDirection * attackRange), ECollisionChannel::ECC_Pawn, paramaters);
+	DrawDebugLine(GetWorld(),this->GetActorLocation(), RV_Hit.Location,FColor(255, 0, 0),false, -1, 0,12.333);
+	if (RV_Hit.Actor != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I Hit Something"));
+	}
+
+	try
+	{
+		AActor* actor = RV_Hit.GetActor();
+		APlayer_Base* player = (APlayer_Base*)actor;
+		return player;
+	}
+	catch (const std::exception&)
+	{
+		return nullptr;
+	}
 }
