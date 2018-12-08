@@ -6,6 +6,7 @@
 #include "Player_Base.generated.h"
 
 class UCharacterMovementComponent;
+class UAnimation_Handler;
 
 UCLASS()
 class FIGHTINGGAME_API APlayer_Base : public ACharacter
@@ -20,12 +21,17 @@ public:
 //Protected Variables
 protected:
 	UCharacterMovementComponent* CharacterMovementComponent;
+	UAnimation_Handler* AnimationHandler;
+
 	float movementInput;
 	float movementSpeed;
 	float jumpForce;
 	float jumpMod;
 	bool grounded;
+	bool attacking;
 	float knockbackMod;
+
+	int attackingType;
 
 	FVector attackDirection;
 	float attackRange = 2000;

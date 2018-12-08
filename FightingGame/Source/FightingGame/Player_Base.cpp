@@ -5,12 +5,14 @@
 #include "Engine/World.h"
 #include "Engine/GameEngine.h"
 #include "DrawDebugHelpers.h"
+#include "Animation_Handler.h"
 
 // Sets default values
 APlayer_Base::APlayer_Base()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	AnimationHandler = CreateDefaultSubobject<UAnimation_Handler>(TEXT("Animation Handler Component"));
 }
 
 // Called when the game starts or when spawned
@@ -18,6 +20,7 @@ void APlayer_Base::BeginPlay()
 {
 	Super::BeginPlay();
 	CharacterMovementComponent = GetCharacterMovement();
+	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &movementInput, &(attackDirection.X), &attackingType);
 }
 
 // Called every frame

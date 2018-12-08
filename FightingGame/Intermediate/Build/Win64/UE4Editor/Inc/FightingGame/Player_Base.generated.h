@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FIGHTINGGAME_Player_Base_generated_h
 
-#define FightingGame_Source_FightingGame_Player_Base_h_13_RPC_WRAPPERS
-#define FightingGame_Source_FightingGame_Player_Base_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define FightingGame_Source_FightingGame_Player_Base_h_13_INCLASS_NO_PURE_DECLS \
+#define FightingGame_Source_FightingGame_Player_Base_h_14_RPC_WRAPPERS
+#define FightingGame_Source_FightingGame_Player_Base_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FightingGame_Source_FightingGame_Player_Base_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayer_Base(); \
 	friend struct Z_Construct_UClass_APlayer_Base_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(APlayer_Base)
 
 
-#define FightingGame_Source_FightingGame_Player_Base_h_13_INCLASS \
+#define FightingGame_Source_FightingGame_Player_Base_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayer_Base(); \
 	friend struct Z_Construct_UClass_APlayer_Base_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(APlayer_Base)
 
 
-#define FightingGame_Source_FightingGame_Player_Base_h_13_STANDARD_CONSTRUCTORS \
+#define FightingGame_Source_FightingGame_Player_Base_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayer_Base(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayer_Base) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define FightingGame_Source_FightingGame_Player_Base_h_13_ENHANCED_CONSTRUCTORS \
+#define FightingGame_Source_FightingGame_Player_Base_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlayer_Base(APlayer_Base&&); \
@@ -57,29 +57,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayer_Base); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayer_Base)
 
 
-#define FightingGame_Source_FightingGame_Player_Base_h_13_PRIVATE_PROPERTY_OFFSET \
+#define FightingGame_Source_FightingGame_Player_Base_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__playerID() { return STRUCT_OFFSET(APlayer_Base, playerID); }
 
 
-#define FightingGame_Source_FightingGame_Player_Base_h_10_PROLOG
-#define FightingGame_Source_FightingGame_Player_Base_h_13_GENERATED_BODY_LEGACY \
+#define FightingGame_Source_FightingGame_Player_Base_h_11_PROLOG
+#define FightingGame_Source_FightingGame_Player_Base_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FightingGame_Source_FightingGame_Player_Base_h_13_PRIVATE_PROPERTY_OFFSET \
-	FightingGame_Source_FightingGame_Player_Base_h_13_RPC_WRAPPERS \
-	FightingGame_Source_FightingGame_Player_Base_h_13_INCLASS \
-	FightingGame_Source_FightingGame_Player_Base_h_13_STANDARD_CONSTRUCTORS \
+	FightingGame_Source_FightingGame_Player_Base_h_14_PRIVATE_PROPERTY_OFFSET \
+	FightingGame_Source_FightingGame_Player_Base_h_14_RPC_WRAPPERS \
+	FightingGame_Source_FightingGame_Player_Base_h_14_INCLASS \
+	FightingGame_Source_FightingGame_Player_Base_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FightingGame_Source_FightingGame_Player_Base_h_13_GENERATED_BODY \
+#define FightingGame_Source_FightingGame_Player_Base_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FightingGame_Source_FightingGame_Player_Base_h_13_PRIVATE_PROPERTY_OFFSET \
-	FightingGame_Source_FightingGame_Player_Base_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FightingGame_Source_FightingGame_Player_Base_h_13_INCLASS_NO_PURE_DECLS \
-	FightingGame_Source_FightingGame_Player_Base_h_13_ENHANCED_CONSTRUCTORS \
+	FightingGame_Source_FightingGame_Player_Base_h_14_PRIVATE_PROPERTY_OFFSET \
+	FightingGame_Source_FightingGame_Player_Base_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FightingGame_Source_FightingGame_Player_Base_h_14_INCLASS_NO_PURE_DECLS \
+	FightingGame_Source_FightingGame_Player_Base_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
