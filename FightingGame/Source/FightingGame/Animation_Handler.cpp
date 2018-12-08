@@ -11,7 +11,6 @@ UAnimation_Handler::UAnimation_Handler()
 	// ...
 }
 
-
 // Called when the game starts
 void UAnimation_Handler::BeginPlay()
 {
@@ -20,7 +19,6 @@ void UAnimation_Handler::BeginPlay()
 	// ...
 	
 }
-
 
 // Called every frame
 void UAnimation_Handler::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)

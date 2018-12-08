@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FIGHTINGGAME_Animation_Handler_generated_h
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_RPC_WRAPPERS \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetAttackType) \
 	{ \
@@ -56,7 +56,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetAttackType) \
 	{ \
@@ -99,7 +99,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_INCLASS_NO_PURE_DECLS \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAnimation_Handler(); \
 	friend struct Z_Construct_UClass_UAnimation_Handler_Statics; \
@@ -108,7 +108,7 @@ public: \
 	DECLARE_SERIALIZER(UAnimation_Handler)
 
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_INCLASS \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesUAnimation_Handler(); \
 	friend struct Z_Construct_UClass_UAnimation_Handler_Statics; \
@@ -117,7 +117,7 @@ public: \
 	DECLARE_SERIALIZER(UAnimation_Handler)
 
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_STANDARD_CONSTRUCTORS \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAnimation_Handler(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimation_Handler) \
@@ -130,7 +130,7 @@ private: \
 public:
 
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_ENHANCED_CONSTRUCTORS \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UAnimation_Handler(UAnimation_Handler&&); \
@@ -141,26 +141,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimation_Handler); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UAnimation_Handler)
 
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_PRIVATE_PROPERTY_OFFSET
-#define FightingGame_Source_FightingGame_Animation_Handler_h_10_PROLOG
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_GENERATED_BODY_LEGACY \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_PRIVATE_PROPERTY_OFFSET
+#define FightingGame_Source_FightingGame_Animation_Handler_h_9_PROLOG
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_PRIVATE_PROPERTY_OFFSET \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_RPC_WRAPPERS \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_INCLASS \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_STANDARD_CONSTRUCTORS \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_PRIVATE_PROPERTY_OFFSET \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_RPC_WRAPPERS \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_INCLASS \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FightingGame_Source_FightingGame_Animation_Handler_h_13_GENERATED_BODY \
+#define FightingGame_Source_FightingGame_Animation_Handler_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_PRIVATE_PROPERTY_OFFSET \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_INCLASS_NO_PURE_DECLS \
-	FightingGame_Source_FightingGame_Animation_Handler_h_13_ENHANCED_CONSTRUCTORS \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_PRIVATE_PROPERTY_OFFSET \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_INCLASS_NO_PURE_DECLS \
+	FightingGame_Source_FightingGame_Animation_Handler_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

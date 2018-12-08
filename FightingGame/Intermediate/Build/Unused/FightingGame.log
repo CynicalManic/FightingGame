@@ -2,15 +2,17 @@
   Compiling game modules for hot reload
   Parsing headers for FightingGameEditor
     Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FightingGameEditor in 8.7529976 seconds
-  Building 6 actions with 8 processes...
-    [1/6] Animation_Handler.cpp
-    [2/6] FightingGame.init.gen.cpp
-    [3/6] Animation_Handler.gen.cpp
-    [4/6] Player_Base.cpp
-    [5/6] UE4Editor-FightingGame-3348.lib
-       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3348.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3348.exp
-    [6/6] UE4Editor-FightingGame-3348.dll
-       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3348.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3348.suppressed.exp
+  Reflection code generated for FightingGameEditor in 20.0998636 seconds
+  Building 8 actions with 8 processes...
+    [1/8] Animation_Handler.cpp
+    [2/8] PlayerManager.cpp
+    [3/8] Animation_Handler.gen.cpp
+    [4/8] Player_Base.gen.cpp
+    [5/8] FightingGame.init.gen.cpp
+    [6/8] Player_Base.cpp
+    [7/8] UE4Editor-FightingGame-7279.lib
+       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-7279.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-7279.exp
+    [8/8] UE4Editor-FightingGame-7279.dll
+       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-7279.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-7279.suppressed.exp
   Deploying FightingGameEditor Win64 Development...
-  Total build time: 16.92 seconds (Parallel executor: 5.62 seconds)
+  Total build time: 134.49 seconds (Parallel executor: 111.31 seconds)

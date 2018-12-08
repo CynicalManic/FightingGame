@@ -21,6 +21,8 @@ public:
 //Protected Variables
 protected:
 	UCharacterMovementComponent* CharacterMovementComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
 	UAnimation_Handler* AnimationHandler;
 
 	float movementInput;

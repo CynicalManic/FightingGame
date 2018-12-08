@@ -1,0 +1,1841 @@
+﻿Log file open, 12/08/18 16:22:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FightingGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.369977
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.282s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.035s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.08-16.22.18:988][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.08-16.22.18:988][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.08-16.22.19:029][  0]LogHAL: Display: Platform has ~ 16 GB [17126547456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.08-16.22.19:036][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.08-16.22.19:036][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.08-16.22.19:046][  0]LogInit: Computer: EDWARD
+[2018.12.08-16.22.19:046][  0]LogInit: User: John
+[2018.12.08-16.22.19:046][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.08-16.22.19:046][  0]LogInit: High frequency timer resolution =3.914068 MHz
+[2018.12.08-16.22.19:046][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.12.08-16.22.19:046][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.08-16.22.19:046][  0]LogMemory: Process Physical Memory: 100.14 MB used, 100.14 MB peak
+[2018.12.08-16.22.19:046][  0]LogMemory: Process Virtual Memory: 90.90 MB used, 90.90 MB peak
+[2018.12.08-16.22.19:046][  0]LogMemory: Physical Memory: 7293.82 MB used,  9039.32 MB free, 16333.15 MB total
+[2018.12.08-16.22.19:046][  0]LogMemory: Virtual Memory: 4640.08 MB used,  9039.32 MB free, 134217728.00 MB total
+[2018.12.08-16.22.19:234][  0]LogInit: Using OS detected language (en-US).
+[2018.12.08-16.22.19:234][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.08-16.22.19:235][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.08-16.22.19:851][  0]LogStreaming: Display: Took  0.617s to InitEngineTextLocalization.
+[2018.12.08-16.22.19:851][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.08-16.22.21:020][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.08-16.22.21:020][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.08-16.22.22:180][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.12.08-16.22.22:180][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.08-16.22.22:239][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.12.08-16.22.22:239][  0]LogD3D11RHI:       6061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.08-16.22.22:244][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.08-16.22.22:244][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.08-16.22.22:244][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.08-16.22.22:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.08-16.22.22:251][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.08-16.22.22:251][  0]LogWindows: EnumDisplayDevices:
+[2018.12.08-16.22.22:251][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.12.08-16.22.22:252][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.12.08-16.22.22:252][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.12.08-16.22.22:253][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.12.08-16.22.22:253][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.08-16.22.22:253][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.12.08-16.22.22:253][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.12.08-16.22.22:253][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.12.08-16.22.22:253][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.12.08-16.22.22:287][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.08-16.22.22:307][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.08-16.22.22:449][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Git/FightingGame/FightingGame/Intermediate/Shaders/WorkingDirectory/6496/).
+[2018.12.08-16.22.22:449][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/4AB5415948A8A4B34D6C809A32C4B3A1/'.
+[2018.12.08-16.22.23:647][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.08-16.22.23:703][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.08-16.22.23:725][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.08-16.22.23:781][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.08-16.22.23:843][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.08-16.22.23:868][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.08-16.22.23:917][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.08-16.22.23:940][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.08-16.22.23:958][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.08-16.22.24:130][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.08-16.22.24:272][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.08-16.22.24:272][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.08-16.22.24:370][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.08-16.22.24:370][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.08-16.22.24:392][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.08-16.22.24:414][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.08-16.22.24:437][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.08-16.22.24:475][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.08-16.22.24:510][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.08-16.22.24:510][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.08-16.22.24:892][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.08-16.22.24:892][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.08-16.22.24:892][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.08-16.22.24:892][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.08-16.22.27:169][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.08-16.22.27:940][  0]LogDerivedDataCache: Loaded boot cache 0.77s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.08-16.22.27:941][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.08-16.22.27:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.08-16.22.27:941][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.08-16.22.27:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.08-16.22.27:941][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.08-16.22.27:979][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.08-16.22.27:993][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.08-16.22.27:993][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.08-16.22.27:993][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.08-16.22.28:017][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.08-16.22.28:019][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.08-16.22.28:035][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.08-16.22.28:731][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.12.08-16.22.29:496][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.08-16.22.30:779][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.08-16.22.30:959][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.08-16.22.30:959][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.08-16.22.30:959][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.08-16.22.30:959][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.08-16.22.30:997][  0]LogNetVersion: FightingGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 156865789)
+[2018.12.08-16.22.32:382][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.134547 seconds
+[2018.12.08-16.22.32:391][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.08-16.22.32:392][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.08-16.22.32:392][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.08-16.22.45:715][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.08-16.22.45:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.08-16.22.46:290][  0]SourceControl: Source control is disabled
+[2018.12.08-16.22.46:290][  0]SourceControl: Source control is disabled
+[2018.12.08-16.22.46:312][  0]SourceControl: Source control is disabled
+[2018.12.08-16.22.46:322][  0]SourceControl: Source control is disabled
+[2018.12.08-16.22.47:140][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.08-16.22.47:357][  0]LogOcInput: OculusInput pre-init called
+[2018.12.08-16.22.47:623][  0]LogEngine: Initializing Engine...
+[2018.12.08-16.22.47:625][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.12.08-16.22.47:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.08-16.22.47:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.08-16.22.47:648][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.012 s
+[2018.12.08-16.22.47:648][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.08-16.22.48:060][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.08-16.22.48:150][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.08-16.22.48:198][  0]LogInit: XAudio2 using 'ASUS VC239 (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.08-16.22.48:229][  0]LogInit: FAudioDevice initialized.
+[2018.12.08-16.22.48:229][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.08-16.22.48:397][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.08-16.22.48:407][  0]LogInit: Texture streaming: Enabled
+[2018.12.08-16.22.49:153][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.08-16.22.49:270][  0]LogInit: Transaction tracking system initialized
+[2018.12.08-16.22.50:756][  0]BlueprintLog: New page: Editor Load
+[2018.12.08-16.22.51:369][  0]LocalizationService: Localization service is disabled
+[2018.12.08-16.22.52:924][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.08-16.22.52:924][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.08-16.22.52:924][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.08-16.22.52:924][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.08-16.22.52:924][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.08-16.22.52:924][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.08-16.22.52:924][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.08-16.22.52:960][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/' took 0.02s
+[2018.12.08-16.22.54:304][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2018.12.08-16.22.54:304][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2018.12.08-16.22.54:304][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
+[2018.12.08-16.22.55:686][  0]SourceControl: Source control is disabled
+[2018.12.08-16.22.55:687][  0]Cmd: MAP LOAD FILE="../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.08-16.22.55:699][  0]LightingResults: New page: Lighting Build
+[2018.12.08-16.22.55:758][  0]MapCheck: New page: Map Check
+[2018.12.08-16.22.55:758][  0]LightingResults: New page: Lighting Build
+[2018.12.08-16.22.56:876][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.08-16.22.56:904][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.08-16.22.56:936][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.08-16.22.57:087][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 149.812ms to complete.
+[2018.12.08-16.22.57:087][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.400
+[2018.12.08-16.22.57:288][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.08-16.22.57:296][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.08-16.22.57:304][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.08-16.22.57:314][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.08-16.22.57:436][  0]LogCollectionManager: Loaded 0 collections in 0.002105 seconds
+[2018.12.08-16.22.57:586][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Saved/Collections/' took 0.01s
+[2018.12.08-16.22.57:586][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Developers/John/Collections/' took 0.01s
+[2018.12.08-16.22.57:586][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Collections/' took 0.01s
+[2018.12.08-16.22.57:586][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.08-16.22.57:596][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2577 classes and 605 folders.
+[2018.12.08-16.22.57:630][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.08-16.22.59:902][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.08-16.22.59:925][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.12.08-16.22.59:953][  0]LogSlate: Took 0.006131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.08-16.22.59:979][  0]LogSlate: Took 0.024813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.08-16.23.00:009][  0]LogSlate: Took 0.010129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.08-16.23.00:163][  0]LogRenderer: Reallocating scene render targets to support 1208x720 Format 10 NumSamples 1 (Frame:1).
+[2018.12.08-16.23.00:257][  0]LogSlate: Took 0.008922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.08-16.23.00:383][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.12.08-16.23.00:383][  0]LogLoad: (Engine Initialization) Total time: 46.93 seconds
+[2018.12.08-16.23.00:383][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.08-16.23.00:420][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.08-16.23.00:540][  1]LogAssetRegistry: Asset discovery search completed in 31.8305 seconds
+[2018.12.08-16.23.00:542][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.08-16.23.00:542][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.12.08-16.23.01:867][  5]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.08-16.24.08:408][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.08-16.24.35:748][971]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/ybot.fbx)
+[2018.12.08-16.24.35:934][971]LogFbx: Loading FBX Scene from ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/ybot.fbx
+[2018.12.08-16.24.36:023][971]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.08-16.24.42:569][971]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.08-16.24.42:618][971]LogFbx: =================================================
+[2018.12.08-16.24.42:618][971]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.24.42:618][971]LogFbx: 	Total Deformer Count 253075248.
+[2018.12.08-16.24.42:618][971]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.24.42:618][971]LogFbx: =================================================
+[2018.12.08-16.24.42:618][971]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.24.42:618][971]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.24.42:618][971]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.24.42:618][971]LogFbx: =================================================
+[2018.12.08-16.24.42:618][971]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.24.42:618][971]LogFbx: 	Total Deformer Count 253075248.
+[2018.12.08-16.24.42:618][971]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.24.42:618][971]LogFbx: =================================================
+[2018.12.08-16.24.42:618][971]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.24.42:618][971]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.24.42:618][971]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.24.42:619][971]LogFbx: =================================================
+[2018.12.08-16.24.42:619][971]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.24.42:619][971]LogFbx: 	Total Deformer Count 253075248.
+[2018.12.08-16.24.42:619][971]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.24.42:619][971]LogFbx: =================================================
+[2018.12.08-16.24.42:619][971]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.24.42:619][971]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.24.42:619][971]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.24.42:620][971]LogFbx: =================================================
+[2018.12.08-16.24.42:620][971]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.24.42:620][971]LogFbx: 	Total Deformer Count 253075248.
+[2018.12.08-16.24.42:620][971]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.24.42:620][971]LogFbx: =================================================
+[2018.12.08-16.24.42:620][971]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.24.42:620][971]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.24.42:620][971]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.24.42:622][971]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.24.42:622][971]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.24.42:622][971]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.24.42:623][971]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.24.42:623][971]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.12.08-16.24.42:623][971]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Alpha_Surface
+[2018.12.08-16.24.42:624][971]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.12.08-16.24.42:766][971]LogMaterial: Warning: Material /Game/Y-Bot/Alpha_Body_MAT.Alpha_Body_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2018.12.08-16.24.42:768][971]LogMaterial: Display: Missing cached shader map for material Alpha_Body_MAT, compiling. 
+[2018.12.08-16.24.42:965][971]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.08-16.24.42:965][971]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.08-16.24.42:965][971]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.08-16.24.42:965][971]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.08-16.24.42:987][971]LogMaterial: Display: Missing cached shader map for material Alpha_Body_MAT, compiling. 
+[2018.12.08-16.24.43:012][971]LogFbx: Triangulating skeletal mesh Alpha_Surface
+[2018.12.08-16.24.44:561][971]LogMaterial: Warning: Material /Game/Y-Bot/Alpha_Joints_MAT.Alpha_Joints_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2018.12.08-16.24.44:564][971]LogMaterial: Display: Missing cached shader map for material Alpha_Joints_MAT, compiling. 
+[2018.12.08-16.24.44:614][971]LogMaterial: Display: Missing cached shader map for material Alpha_Joints_MAT, compiling. 
+[2018.12.08-16.24.44:660][971]LogFbx: Triangulating skeletal mesh Alpha_Joints
+[2018.12.08-16.24.45:852][971]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2018.12.08-16.24.47:285][971]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.12.08-16.24.47:501][971]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.12.08-16.24.47:585][971]LogSkeletalMesh: Section 0: 19267 vertices, 52 active bones
+[2018.12.08-16.24.47:587][971]LogSkeletalMesh: Section 1: 12473 vertices, 45 active bones
+[2018.12.08-16.24.47:592][971]LogSkeletalMesh: Section 0: Material=0, 34480 triangles
+[2018.12.08-16.24.47:592][971]LogSkeletalMesh: Section 1: Material=1, 20840 triangles
+[2018.12.08-16.24.47:614][971]LogSkeletalMesh: Building Skeletal Mesh ybot...
+[2018.12.08-16.24.47:743][971]LogSkeletalMesh: Built Skeletal Mesh [0.13s] /Game/Y-Bot/ybot.ybot
+[2018.12.08-16.24.47:798][971]LogLinker: Can't find file '/Game/Y-Bot/ybot_Skeleton'
+[2018.12.08-16.24.47:798][971]LogLinker: Can't find file '/Game/Y-Bot/ybot_Skeleton'
+[2018.12.08-16.24.47:805][971]LogLinker: Can't find file '/Game/Y-Bot/ybot_PhysicsAsset'
+[2018.12.08-16.24.47:806][971]LogLinker: Can't find file '/Game/Y-Bot/ybot_PhysicsAsset'
+[2018.12.08-16.24.47:953][971]LogSkeletalMesh: Building Skeletal Mesh ybot...
+[2018.12.08-16.24.48:066][971]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/Y-Bot/ybot.ybot
+[2018.12.08-16.24.48:112][971]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.12.08-16.24.48:112][971]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftEye  
+mixamorig:RightEye  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:RightToe_End  
+mixamorig:LeftToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.12.08-16.24.48:160][971]LogSkeletalMesh: Building Skeletal Mesh ybot...
+[2018.12.08-16.24.48:264][971]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.12.08-16.24.48:264][971]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.12.08-16.24.48:264][971]LogSkeletalMesh: Built Skeletal Mesh [0.10s] /Game/Y-Bot/ybot.ybot
+[2018.12.08-16.24.48:948][991]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.12.08-16.24.51:243][123]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.12.08-16.24.51:384][132]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.08-16.24.51:934][165]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.08-16.24.52:549][199]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.08-16.24.54:053][292]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.08-16.24.55:461][378]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.08-16.24.55:634][387]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.08-16.25.25:507][932]LogSlate: Window 'Message Log' being destroyed
+[2018.12.08-16.25.32:412][704]Cmd: TRANSACTION UNDO
+[2018.12.08-16.25.32:412][704]LogEditorTransaction: Undo Create Actors
+[2018.12.08-16.25.33:824][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.08-16.25.46:148][553]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Idle.fbx)
+[2018.12.08-16.25.46:167][553]LogFbx: Loading FBX Scene from ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Idle.fbx
+[2018.12.08-16.25.46:223][553]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.08-16.25.57:224][553]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.08-16.25.57:264][553]LogFbx: =================================================
+[2018.12.08-16.25.57:264][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.25.57:264][553]LogFbx: 	Total Deformer Count 775393808.
+[2018.12.08-16.25.57:264][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.25.57:264][553]LogFbx: =================================================
+[2018.12.08-16.25.57:264][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.25.57:264][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.25.57:264][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.25.57:264][553]LogFbx: =================================================
+[2018.12.08-16.25.57:264][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.25.57:264][553]LogFbx: 	Total Deformer Count 775393808.
+[2018.12.08-16.25.57:264][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.25.57:264][553]LogFbx: =================================================
+[2018.12.08-16.25.57:264][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.25.57:264][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.25.57:264][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.25.57:265][553]LogFbx: =================================================
+[2018.12.08-16.25.57:265][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.25.57:265][553]LogFbx: 	Total Deformer Count 775393808.
+[2018.12.08-16.25.57:265][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.25.57:265][553]LogFbx: =================================================
+[2018.12.08-16.25.57:265][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.25.57:265][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.25.57:265][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.25.57:265][553]LogFbx: =================================================
+[2018.12.08-16.25.57:265][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.25.57:265][553]LogFbx: 	Total Deformer Count 775393808.
+[2018.12.08-16.25.57:265][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.25.57:265][553]LogFbx: =================================================
+[2018.12.08-16.25.57:265][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.25.57:265][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.25.57:265][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.25.57:266][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.25.57:266][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.25.57:267][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.25.57:268][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.25.57:268][553]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.12.08-16.25.57:270][553]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Alpha_Surface
+[2018.12.08-16.25.57:270][553]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.12.08-16.25.57:274][553]LogMaterial: Warning: Material /Game/Y-Bot/Animations/Alpha_Body_MAT.Alpha_Body_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2018.12.08-16.25.57:276][553]LogMaterial: Display: Missing cached shader map for material Alpha_Body_MAT, compiling. 
+[2018.12.08-16.25.57:304][553]LogMaterial: Display: Missing cached shader map for material Alpha_Body_MAT, compiling. 
+[2018.12.08-16.25.57:329][553]LogFbx: Triangulating skeletal mesh Alpha_Surface
+[2018.12.08-16.25.58:981][553]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.08-16.25.58:981][553]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.08-16.25.58:981][553]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.08-16.25.58:981][553]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.08-16.25.58:981][553]LogMaterial: Warning: Material /Game/Y-Bot/Animations/Alpha_Joints_MAT.Alpha_Joints_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2018.12.08-16.25.58:983][553]LogMaterial: Display: Missing cached shader map for material Alpha_Joints_MAT, compiling. 
+[2018.12.08-16.25.59:023][553]LogMaterial: Display: Missing cached shader map for material Alpha_Joints_MAT, compiling. 
+[2018.12.08-16.25.59:056][553]LogFbx: Triangulating skeletal mesh Alpha_Joints
+[2018.12.08-16.26.00:114][553]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.12.08-16.26.00:114][553]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2018.12.08-16.26.01:398][553]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.12.08-16.26.01:398][553]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.08-16.26.01:398][553]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.08-16.26.01:678][553]LogSkeletalMesh: Section 0: 19267 vertices, 52 active bones
+[2018.12.08-16.26.01:682][553]LogSkeletalMesh: Section 1: 12473 vertices, 45 active bones
+[2018.12.08-16.26.01:689][553]LogSkeletalMesh: Section 0: Material=0, 34480 triangles
+[2018.12.08-16.26.01:689][553]LogSkeletalMesh: Section 1: Material=1, 20840 triangles
+[2018.12.08-16.26.01:690][553]LogSkeletalMesh: Building Skeletal Mesh Idle...
+[2018.12.08-16.26.01:812][553]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/Y-Bot/Animations/Idle.Idle
+[2018.12.08-16.26.01:835][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Idle_PhysicsAsset'
+[2018.12.08-16.26.01:836][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Idle_PhysicsAsset'
+[2018.12.08-16.26.01:873][553]LogFbx: =================================================
+[2018.12.08-16.26.01:873][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.01:873][553]LogFbx: 	Total Deformer Count 1455750928.
+[2018.12.08-16.26.01:873][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.01:873][553]LogFbx: =================================================
+[2018.12.08-16.26.01:873][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.01:873][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.01:873][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.01:873][553]LogFbx: =================================================
+[2018.12.08-16.26.01:873][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.01:873][553]LogFbx: 	Total Deformer Count 1455750928.
+[2018.12.08-16.26.01:873][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.01:873][553]LogFbx: =================================================
+[2018.12.08-16.26.01:873][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.01:873][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.01:873][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.01:876][553]LogFbx: =================================================
+[2018.12.08-16.26.01:876][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.01:876][553]LogFbx: 	Total Deformer Count 1455750928.
+[2018.12.08-16.26.01:876][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.01:876][553]LogFbx: =================================================
+[2018.12.08-16.26.01:876][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.01:876][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.01:876][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.01:876][553]LogFbx: =================================================
+[2018.12.08-16.26.01:876][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.01:876][553]LogFbx: 	Total Deformer Count 1455750928.
+[2018.12.08-16.26.01:876][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.01:876][553]LogFbx: =================================================
+[2018.12.08-16.26.01:876][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.01:876][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.01:876][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.01:878][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.01:879][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.01:880][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.01:881][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.01:896][553]LogFbx: Parsing AnimStack Take 001
+[2018.12.08-16.26.01:928][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Idle_Anim_Take_001'
+[2018.12.08-16.26.01:929][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Idle_Anim_Take_001'
+[2018.12.08-16.26.02:283][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Idle_Anim_Take_001.Idle_Anim_Take_001
+[2018.12.08-16.26.02:284][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Idle_Anim_Take_001) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.02:305][553]LogFbx: Parsing AnimStack mixamo.com
+[2018.12.08-16.26.02:319][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Idle_Anim_mixamo_com'
+[2018.12.08-16.26.02:320][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Idle_Anim_mixamo_com'
+[2018.12.08-16.26.02:579][553]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.08-16.26.03:150][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Idle_Anim_mixamo_com.Idle_Anim_mixamo_com
+[2018.12.08-16.26.03:151][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.03:159][553]LogSkeletalMesh: Building Skeletal Mesh Idle...
+[2018.12.08-16.26.03:270][553]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/Y-Bot/Animations/Idle.Idle
+[2018.12.08-16.26.03:296][553]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.12.08-16.26.03:296][553]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftEye  
+mixamorig:RightEye  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:RightToe_End  
+mixamorig:LeftToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.12.08-16.26.03:298][553]LogSkeletalMesh: Building Skeletal Mesh Idle...
+[2018.12.08-16.26.03:400][553]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.08-16.26.03:400][553]LogSkeletalMesh: Built Skeletal Mesh [0.10s] /Game/Y-Bot/Animations/Idle.Idle
+[2018.12.08-16.26.03:451][553]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Jump.fbx)
+[2018.12.08-16.26.03:480][553]LogFbx: Loading FBX Scene from ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Jump.fbx
+[2018.12.08-16.26.03:552][553]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.08-16.26.03:559][553]LogFbx: =================================================
+[2018.12.08-16.26.03:559][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.03:559][553]LogFbx: 	Total Deformer Count 1455740288.
+[2018.12.08-16.26.03:559][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.03:560][553]LogFbx: =================================================
+[2018.12.08-16.26.03:560][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.03:560][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.03:560][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.03:560][553]LogFbx: =================================================
+[2018.12.08-16.26.03:560][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.03:560][553]LogFbx: 	Total Deformer Count 1455740288.
+[2018.12.08-16.26.03:560][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.03:560][553]LogFbx: =================================================
+[2018.12.08-16.26.03:560][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.03:560][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.03:560][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.03:562][553]LogFbx: =================================================
+[2018.12.08-16.26.03:562][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.03:562][553]LogFbx: 	Total Deformer Count 1455740288.
+[2018.12.08-16.26.03:562][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.03:562][553]LogFbx: =================================================
+[2018.12.08-16.26.03:562][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.03:562][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.03:562][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.03:562][553]LogFbx: =================================================
+[2018.12.08-16.26.03:562][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.03:562][553]LogFbx: 	Total Deformer Count 1455740288.
+[2018.12.08-16.26.03:562][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.03:562][553]LogFbx: =================================================
+[2018.12.08-16.26.03:562][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.03:562][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.03:562][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.03:563][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.26.03:563][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.26.03:564][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.26.03:565][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.26.03:565][553]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.12.08-16.26.03:567][553]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Alpha_Surface
+[2018.12.08-16.26.03:567][553]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.12.08-16.26.03:574][553]LogFbx: Triangulating skeletal mesh Alpha_Surface
+[2018.12.08-16.26.05:340][553]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.08-16.26.05:341][553]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.08-16.26.05:341][553]LogFbx: Triangulating skeletal mesh Alpha_Joints
+[2018.12.08-16.26.06:339][553]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2018.12.08-16.26.07:563][553]LogSkeletalMesh: Section 0: 19267 vertices, 52 active bones
+[2018.12.08-16.26.07:565][553]LogSkeletalMesh: Section 1: 12473 vertices, 45 active bones
+[2018.12.08-16.26.07:568][553]LogSkeletalMesh: Section 0: Material=0, 34480 triangles
+[2018.12.08-16.26.07:568][553]LogSkeletalMesh: Section 1: Material=1, 20840 triangles
+[2018.12.08-16.26.07:572][553]LogSkeletalMesh: Building Skeletal Mesh Jump...
+[2018.12.08-16.26.07:640][553]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Y-Bot/Animations/Jump.Jump
+[2018.12.08-16.26.07:655][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Jump_PhysicsAsset'
+[2018.12.08-16.26.07:656][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Jump_PhysicsAsset'
+[2018.12.08-16.26.07:667][553]LogFbx: =================================================
+[2018.12.08-16.26.07:667][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.07:667][553]LogFbx: 	Total Deformer Count 1168327520.
+[2018.12.08-16.26.07:667][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.07:667][553]LogFbx: =================================================
+[2018.12.08-16.26.07:667][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.07:667][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.07:667][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.07:667][553]LogFbx: =================================================
+[2018.12.08-16.26.07:667][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.07:667][553]LogFbx: 	Total Deformer Count 1168327520.
+[2018.12.08-16.26.07:667][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.07:667][553]LogFbx: =================================================
+[2018.12.08-16.26.07:667][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.07:667][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.07:667][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.07:668][553]LogFbx: =================================================
+[2018.12.08-16.26.07:668][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.07:668][553]LogFbx: 	Total Deformer Count 1168327520.
+[2018.12.08-16.26.07:668][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.07:668][553]LogFbx: =================================================
+[2018.12.08-16.26.07:668][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.07:668][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.07:668][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.07:668][553]LogFbx: =================================================
+[2018.12.08-16.26.07:668][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.07:668][553]LogFbx: 	Total Deformer Count 1168327520.
+[2018.12.08-16.26.07:668][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.07:668][553]LogFbx: =================================================
+[2018.12.08-16.26.07:668][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.07:668][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.07:668][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.07:669][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.07:670][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.07:671][553]LogFbx: Parsing AnimStack Take 001
+[2018.12.08-16.26.07:671][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Jump_Anim_Take_001'
+[2018.12.08-16.26.07:672][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Jump_Anim_Take_001'
+[2018.12.08-16.26.11:972][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Jump_Anim_Take_001.Jump_Anim_Take_001
+[2018.12.08-16.26.11:972][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Jump_Anim_Take_001) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.12:016][553]LogFbx: Parsing AnimStack mixamo.com
+[2018.12.08-16.26.12:018][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Jump_Anim_mixamo_com'
+[2018.12.08-16.26.12:019][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Jump_Anim_mixamo_com'
+[2018.12.08-16.26.18:212][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Jump_Anim_mixamo_com.Jump_Anim_mixamo_com
+[2018.12.08-16.26.18:214][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Jump_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.18:254][553]LogSkeletalMesh: Building Skeletal Mesh Jump...
+[2018.12.08-16.26.18:322][553]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Y-Bot/Animations/Jump.Jump
+[2018.12.08-16.26.18:350][553]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.12.08-16.26.18:350][553]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftEye  
+mixamorig:RightEye  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:RightToe_End  
+mixamorig:LeftToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.12.08-16.26.18:352][553]LogSkeletalMesh: Building Skeletal Mesh Jump...
+[2018.12.08-16.26.18:415][553]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Y-Bot/Animations/Jump.Jump
+[2018.12.08-16.26.18:466][553]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Running.fbx)
+[2018.12.08-16.26.18:482][553]LogFbx: Loading FBX Scene from ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Running.fbx
+[2018.12.08-16.26.18:531][553]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.08-16.26.18:535][553]LogFbx: =================================================
+[2018.12.08-16.26.18:535][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.18:535][553]LogFbx: 	Total Deformer Count 1168328400.
+[2018.12.08-16.26.18:535][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.18:535][553]LogFbx: =================================================
+[2018.12.08-16.26.18:535][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.18:535][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.18:535][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.18:535][553]LogFbx: =================================================
+[2018.12.08-16.26.18:535][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.18:535][553]LogFbx: 	Total Deformer Count 1168328400.
+[2018.12.08-16.26.18:535][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.18:535][553]LogFbx: =================================================
+[2018.12.08-16.26.18:535][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.18:535][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.18:535][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.18:536][553]LogFbx: =================================================
+[2018.12.08-16.26.18:536][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.18:536][553]LogFbx: 	Total Deformer Count 1168328400.
+[2018.12.08-16.26.18:536][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.18:536][553]LogFbx: =================================================
+[2018.12.08-16.26.18:536][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.18:536][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.18:536][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.18:536][553]LogFbx: =================================================
+[2018.12.08-16.26.18:536][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.18:536][553]LogFbx: 	Total Deformer Count 1168328400.
+[2018.12.08-16.26.18:536][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.18:536][553]LogFbx: =================================================
+[2018.12.08-16.26.18:536][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.18:536][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.18:536][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.18:537][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.26.18:538][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.26.18:538][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.26.18:539][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.26.18:539][553]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.12.08-16.26.18:540][553]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Alpha_Surface
+[2018.12.08-16.26.18:540][553]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.12.08-16.26.18:544][553]LogFbx: Triangulating skeletal mesh Alpha_Surface
+[2018.12.08-16.26.19:742][553]LogFbx: Triangulating skeletal mesh Alpha_Joints
+[2018.12.08-16.26.20:466][553]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2018.12.08-16.26.21:410][553]LogSkeletalMesh: Section 0: 19267 vertices, 52 active bones
+[2018.12.08-16.26.21:411][553]LogSkeletalMesh: Section 1: 12473 vertices, 45 active bones
+[2018.12.08-16.26.21:414][553]LogSkeletalMesh: Section 0: Material=0, 34480 triangles
+[2018.12.08-16.26.21:415][553]LogSkeletalMesh: Section 1: Material=1, 20840 triangles
+[2018.12.08-16.26.21:416][553]LogSkeletalMesh: Building Skeletal Mesh Running...
+[2018.12.08-16.26.21:481][553]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Y-Bot/Animations/Running.Running
+[2018.12.08-16.26.21:496][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Running_PhysicsAsset'
+[2018.12.08-16.26.21:496][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Running_PhysicsAsset'
+[2018.12.08-16.26.21:505][553]LogFbx: =================================================
+[2018.12.08-16.26.21:505][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.21:505][553]LogFbx: 	Total Deformer Count -2133820752.
+[2018.12.08-16.26.21:505][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.21:505][553]LogFbx: =================================================
+[2018.12.08-16.26.21:505][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.21:505][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.21:505][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.21:505][553]LogFbx: =================================================
+[2018.12.08-16.26.21:505][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.21:505][553]LogFbx: 	Total Deformer Count -2133820752.
+[2018.12.08-16.26.21:505][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.21:505][553]LogFbx: =================================================
+[2018.12.08-16.26.21:505][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.21:505][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.21:505][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.21:506][553]LogFbx: =================================================
+[2018.12.08-16.26.21:506][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.21:506][553]LogFbx: 	Total Deformer Count -2133820752.
+[2018.12.08-16.26.21:506][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.21:506][553]LogFbx: =================================================
+[2018.12.08-16.26.21:506][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.21:506][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.21:506][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.21:506][553]LogFbx: =================================================
+[2018.12.08-16.26.21:506][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.21:506][553]LogFbx: 	Total Deformer Count -2133820752.
+[2018.12.08-16.26.21:506][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.21:506][553]LogFbx: =================================================
+[2018.12.08-16.26.21:506][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.21:506][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.21:506][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.21:506][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.21:507][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.21:508][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.21:509][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.21:509][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.21:509][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.21:509][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.21:509][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.21:509][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.21:509][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.21:509][553]LogFbx: Parsing AnimStack Take 001
+[2018.12.08-16.26.21:510][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Running_Anim_Take_001'
+[2018.12.08-16.26.21:510][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Running_Anim_Take_001'
+[2018.12.08-16.26.24:234][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Running_Anim_Take_001.Running_Anim_Take_001
+[2018.12.08-16.26.24:234][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Running_Anim_Take_001) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.24:260][553]LogFbx: Parsing AnimStack mixamo.com
+[2018.12.08-16.26.24:263][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Running_Anim_mixamo_com'
+[2018.12.08-16.26.24:264][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Running_Anim_mixamo_com'
+[2018.12.08-16.26.27:211][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Running_Anim_mixamo_com.Running_Anim_mixamo_com
+[2018.12.08-16.26.27:214][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Running_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.27:237][553]LogSkeletalMesh: Building Skeletal Mesh Running...
+[2018.12.08-16.26.27:301][553]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Y-Bot/Animations/Running.Running
+[2018.12.08-16.26.27:316][553]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.12.08-16.26.27:316][553]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftEye  
+mixamorig:RightEye  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:RightToe_End  
+mixamorig:LeftToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.12.08-16.26.27:317][553]LogSkeletalMesh: Building Skeletal Mesh Running...
+[2018.12.08-16.26.27:377][553]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Y-Bot/Animations/Running.Running
+[2018.12.08-16.26.27:410][553]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Walking.fbx)
+[2018.12.08-16.26.27:426][553]LogFbx: Loading FBX Scene from ../../../../../../Projects/TGP-Pairs/Y-Bot Raw/Walking.fbx
+[2018.12.08-16.26.27:475][553]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.08-16.26.27:478][553]LogFbx: =================================================
+[2018.12.08-16.26.27:479][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.27:479][553]LogFbx: 	Total Deformer Count -2133827632.
+[2018.12.08-16.26.27:479][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.27:479][553]LogFbx: =================================================
+[2018.12.08-16.26.27:479][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.27:479][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.27:479][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.27:479][553]LogFbx: =================================================
+[2018.12.08-16.26.27:479][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.27:479][553]LogFbx: 	Total Deformer Count -2133827632.
+[2018.12.08-16.26.27:479][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.27:479][553]LogFbx: =================================================
+[2018.12.08-16.26.27:479][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.27:479][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.27:479][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.27:480][553]LogFbx: =================================================
+[2018.12.08-16.26.27:480][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.27:480][553]LogFbx: 	Total Deformer Count -2133827632.
+[2018.12.08-16.26.27:480][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.27:480][553]LogFbx: =================================================
+[2018.12.08-16.26.27:480][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.27:480][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.27:480][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.27:481][553]LogFbx: =================================================
+[2018.12.08-16.26.27:481][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.27:481][553]LogFbx: 	Total Deformer Count -2133827632.
+[2018.12.08-16.26.27:481][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.27:481][553]LogFbx: =================================================
+[2018.12.08-16.26.27:481][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.27:481][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.27:481][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.27:482][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.26.27:482][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.26.27:483][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Surface : The relative matrices do not match
+[2018.12.08-16.26.27:483][553]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Alpha_Joints : The relative matrices do not match
+[2018.12.08-16.26.27:483][553]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.12.08-16.26.27:484][553]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Alpha_Surface
+[2018.12.08-16.26.27:484][553]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.12.08-16.26.27:488][553]LogFbx: Triangulating skeletal mesh Alpha_Surface
+[2018.12.08-16.26.28:677][553]LogFbx: Triangulating skeletal mesh Alpha_Joints
+[2018.12.08-16.26.29:400][553]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2018.12.08-16.26.30:333][553]LogSkeletalMesh: Section 0: 19267 vertices, 52 active bones
+[2018.12.08-16.26.30:334][553]LogSkeletalMesh: Section 1: 12473 vertices, 45 active bones
+[2018.12.08-16.26.30:337][553]LogSkeletalMesh: Section 0: Material=0, 34480 triangles
+[2018.12.08-16.26.30:337][553]LogSkeletalMesh: Section 1: Material=1, 20840 triangles
+[2018.12.08-16.26.30:339][553]LogSkeletalMesh: Building Skeletal Mesh Walking...
+[2018.12.08-16.26.30:401][553]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Y-Bot/Animations/Walking.Walking
+[2018.12.08-16.26.30:416][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Walking_PhysicsAsset'
+[2018.12.08-16.26.30:417][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Walking_PhysicsAsset'
+[2018.12.08-16.26.30:426][553]LogFbx: =================================================
+[2018.12.08-16.26.30:426][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.30:426][553]LogFbx: 	Total Deformer Count -1844938064.
+[2018.12.08-16.26.30:426][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.30:426][553]LogFbx: =================================================
+[2018.12.08-16.26.30:426][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.30:426][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.30:426][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.30:426][553]LogFbx: =================================================
+[2018.12.08-16.26.30:426][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.30:426][553]LogFbx: 	Total Deformer Count -1844938064.
+[2018.12.08-16.26.30:426][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.30:426][553]LogFbx: =================================================
+[2018.12.08-16.26.30:426][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.30:427][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.30:427][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.30:428][553]LogFbx: =================================================
+[2018.12.08-16.26.30:428][553]LogFbx: Dumping Node START [Alpha_Surface] 
+[2018.12.08-16.26.30:428][553]LogFbx: 	Total Deformer Count -1844938064.
+[2018.12.08-16.26.30:428][553]LogFbx: 		[Node 1] Skin Alpha_Surface (Type Skin).
+[2018.12.08-16.26.30:428][553]LogFbx: =================================================
+[2018.12.08-16.26.30:428][553]LogFbx: 	Attribute (Alpha_Surface) Type (4).
+[2018.12.08-16.26.30:428][553]LogFbx: 		[Node Attribute Child 1] Alpha_Surface (Type Mesh).
+[2018.12.08-16.26.30:428][553]LogFbx: Dumping Node END [Alpha_Surface]
+[2018.12.08-16.26.30:428][553]LogFbx: =================================================
+[2018.12.08-16.26.30:428][553]LogFbx: Dumping Node START [Alpha_Joints] 
+[2018.12.08-16.26.30:428][553]LogFbx: 	Total Deformer Count -1844938064.
+[2018.12.08-16.26.30:428][553]LogFbx: 		[Node 1] Skin Alpha_Joints (Type Skin).
+[2018.12.08-16.26.30:428][553]LogFbx: =================================================
+[2018.12.08-16.26.30:428][553]LogFbx: 	Attribute (Alpha_Joints) Type (4).
+[2018.12.08-16.26.30:428][553]LogFbx: 		[Node Attribute Child 1] Alpha_Joints (Type Mesh).
+[2018.12.08-16.26.30:428][553]LogFbx: Dumping Node END [Alpha_Joints]
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.30:428][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(0) Hips
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(1) Spine
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(2) Spine1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(3) Spine2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(4) Neck
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(5) Head
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(7) LeftEye
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(8) RightEye
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(9) LeftShoulder
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(10) LeftArm
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(11) LeftForeArm
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(12) LeftHand
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(25) LeftHandRing1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(26) LeftHandRing2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(27) LeftHandRing3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(28) LeftHandRing4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(33) RightShoulder
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(34) RightArm
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(35) RightForeArm
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(36) RightHand
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(41) RightHandThumb1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(42) RightHandThumb2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(43) RightHandThumb3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(44) RightHandThumb4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(45) RightHandIndex1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(46) RightHandIndex2
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(47) RightHandIndex3
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(48) RightHandIndex4
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(49) RightHandRing1
+[2018.12.08-16.26.30:429][553]LogFbx: SortedLinks :(50) RightHandRing2
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(51) RightHandRing3
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(52) RightHandRing4
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(53) RightHandPinky1
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(54) RightHandPinky2
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(55) RightHandPinky3
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(56) RightHandPinky4
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(57) RightUpLeg
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(58) RightLeg
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(59) RightFoot
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(60) RightToeBase
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(61) RightToe_End
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(62) LeftUpLeg
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(63) LeftLeg
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(64) LeftFoot
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(65) LeftToeBase
+[2018.12.08-16.26.30:430][553]LogFbx: SortedLinks :(66) LeftToe_End
+[2018.12.08-16.26.30:430][553]LogFbx: Parsing AnimStack Take 001
+[2018.12.08-16.26.30:431][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Walking_Anim_Take_001'
+[2018.12.08-16.26.30:431][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Walking_Anim_Take_001'
+[2018.12.08-16.26.30:615][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Walking_Anim_Take_001.Walking_Anim_Take_001
+[2018.12.08-16.26.30:615][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Walking_Anim_Take_001) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.30:620][553]LogFbx: Parsing AnimStack mixamo.com
+[2018.12.08-16.26.30:622][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Walking_Anim_mixamo_com'
+[2018.12.08-16.26.30:623][553]LogLinker: Can't find file '/Game/Y-Bot/Animations/Walking_Anim_mixamo_com'
+[2018.12.08-16.26.30:890][553]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Y-Bot/Animations/Walking_Anim_mixamo_com.Walking_Anim_mixamo_com
+[2018.12.08-16.26.30:890][553]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Walking_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.08-16.26.30:895][553]LogSkeletalMesh: Building Skeletal Mesh Walking...
+[2018.12.08-16.26.30:957][553]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Y-Bot/Animations/Walking.Walking
+[2018.12.08-16.26.30:970][553]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.12.08-16.26.30:970][553]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftEye  
+mixamorig:RightEye  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:RightToe_End  
+mixamorig:LeftToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.12.08-16.26.30:971][553]LogSkeletalMesh: Building Skeletal Mesh Walking...
+[2018.12.08-16.26.31:036][553]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Y-Bot/Animations/Walking.Walking
+[2018.12.08-16.28.23:449][528]LogSlate: Window 'Save Content' being destroyed
+[2018.12.08-16.28.23:540][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Alpha_Body_MAT" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Alpha_Body_MAT.uasset" SILENT=true
+[2018.12.08-16.28.23:606][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Alpha_Body_MAT0EDD0E9D4C498D5F0372BF8870F298F1.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Alpha_Body_MAT.uasset'
+[2018.12.08-16.28.23:634][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Alpha_Joints_MAT" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Alpha_Joints_MAT.uasset" SILENT=true
+[2018.12.08-16.28.23:647][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Alpha_Joints_MATF31C9DCE40B25470A510B580840BA446.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Alpha_Joints_MAT.uasset'
+[2018.12.08-16.28.23:664][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Alpha_Body_MAT" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Alpha_Body_MAT.uasset" SILENT=true
+[2018.12.08-16.28.23:676][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Alpha_Body_MAT569AF6A349E3E8F906E33F8F5691D060.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Alpha_Body_MAT.uasset'
+[2018.12.08-16.28.23:695][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Alpha_Joints_MAT" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Alpha_Joints_MAT.uasset" SILENT=true
+[2018.12.08-16.28.23:710][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Alpha_Joints_MATF727EEEB4F6E544D9807A0B82C78C09A.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Alpha_Joints_MAT.uasset'
+[2018.12.08-16.28.23:729][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Idle" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle.uasset" SILENT=true
+[2018.12.08-16.28.23:797][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/IdleADF442BC4285B55C93A6A781A8DFDED7.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle.uasset'
+[2018.12.08-16.28.23:817][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Idle_Anim_mixamo_com" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle_Anim_mixamo_com.uasset" SILENT=true
+[2018.12.08-16.28.23:835][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Idle_Anim_mixamo_com32B0A9E04A4AD37826FE99B48847CED2.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle_Anim_mixamo_com.uasset'
+[2018.12.08-16.28.23:854][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Idle_Anim_Take_001" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle_Anim_Take_001.uasset" SILENT=true
+[2018.12.08-16.28.23:868][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Idle_Anim_Take_001EC705B084C00D640CCDDACAD1374C60B.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle_Anim_Take_001.uasset'
+[2018.12.08-16.28.23:887][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Idle_PhysicsAsset" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle_PhysicsAsset.uasset" SILENT=true
+[2018.12.08-16.28.23:928][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Idle_PhysicsAsset4C4C50104D27624B2CC3B286AB4BACF2.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Idle_PhysicsAsset.uasset'
+[2018.12.08-16.28.23:945][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Jump" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump.uasset" SILENT=true
+[2018.12.08-16.28.24:002][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Jump1987761945C5DE1AF1F90691FA5AF1E8.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump.uasset'
+[2018.12.08-16.28.24:022][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Jump_Anim_mixamo_com" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump_Anim_mixamo_com.uasset" SILENT=true
+[2018.12.08-16.28.24:041][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Jump_Anim_mixamo_com18F364CC46D4F2C48C53D38CCEFF59C0.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump_Anim_mixamo_com.uasset'
+[2018.12.08-16.28.24:057][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Jump_Anim_Take_001" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump_Anim_Take_001.uasset" SILENT=true
+[2018.12.08-16.28.24:070][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Jump_Anim_Take_0013DC2396142B4CFB376D78287592B8113.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump_Anim_Take_001.uasset'
+[2018.12.08-16.28.24:087][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Jump_PhysicsAsset" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump_PhysicsAsset.uasset" SILENT=true
+[2018.12.08-16.28.24:106][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Jump_PhysicsAsset52B77C294B59745626C34C959FD8E81C.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Jump_PhysicsAsset.uasset'
+[2018.12.08-16.28.24:123][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Running" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running.uasset" SILENT=true
+[2018.12.08-16.28.24:181][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/RunningE84077B0473CF51CDB93289DB2AA30AE.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running.uasset'
+[2018.12.08-16.28.24:199][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Running_Anim_mixamo_com" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running_Anim_mixamo_com.uasset" SILENT=true
+[2018.12.08-16.28.24:218][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Running_Anim_mixamo_com84E78C7741D1E58BD4F9D49BA31E06DF.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running_Anim_mixamo_com.uasset'
+[2018.12.08-16.28.24:235][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Running_Anim_Take_001" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running_Anim_Take_001.uasset" SILENT=true
+[2018.12.08-16.28.24:249][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Running_Anim_Take_00187213755479F0A69578BFABCB13F9148.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running_Anim_Take_001.uasset'
+[2018.12.08-16.28.24:266][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Running_PhysicsAsset" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running_PhysicsAsset.uasset" SILENT=true
+[2018.12.08-16.28.24:286][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Running_PhysicsAsset0781D06F4C80DFEAE05E3A925984EC31.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Running_PhysicsAsset.uasset'
+[2018.12.08-16.28.24:303][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Walking" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking.uasset" SILENT=true
+[2018.12.08-16.28.24:371][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Walking1897EBAA4D8363CD90B29B8528AE3313.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking.uasset'
+[2018.12.08-16.28.24:391][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Walking_Anim_mixamo_com" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking_Anim_mixamo_com.uasset" SILENT=true
+[2018.12.08-16.28.24:405][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Walking_Anim_mixamo_com4C0B94164CE36012E4F8B88DF17FB4D5.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking_Anim_mixamo_com.uasset'
+[2018.12.08-16.28.24:423][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Walking_Anim_Take_001" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking_Anim_Take_001.uasset" SILENT=true
+[2018.12.08-16.28.24:437][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Walking_Anim_Take_001ABCA2554493CFD86060A799247B38243.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking_Anim_Take_001.uasset'
+[2018.12.08-16.28.24:454][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/Animations/Walking_PhysicsAsset" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking_PhysicsAsset.uasset" SILENT=true
+[2018.12.08-16.28.24:474][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Walking_PhysicsAssetAE5B2C2D4419D6EC288D1FAB602F18AD.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/Animations/Walking_PhysicsAsset.uasset'
+[2018.12.08-16.28.24:491][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/ybot" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/ybot.uasset" SILENT=true
+[2018.12.08-16.28.24:547][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/ybotFAEEC8B64E8F64D3347D758ACF86FA46.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/ybot.uasset'
+[2018.12.08-16.28.24:563][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/ybot_PhysicsAsset" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/ybot_PhysicsAsset.uasset" SILENT=true
+[2018.12.08-16.28.24:583][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/ybot_PhysicsAssetE1FAEEDB419077A0EBC8638A4F25735D.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/ybot_PhysicsAsset.uasset'
+[2018.12.08-16.28.24:590][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Y-Bot/ybot_Skeleton" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/ybot_Skeleton.uasset" SILENT=true
+[2018.12.08-16.28.24:596][528]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/ybot_SkeletonEF25302541DA6C589637DAB330AAA004.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Y-Bot/ybot_Skeleton.uasset'
+[2018.12.08-16.28.24:648][528]LogSlate: Window 'FightingGame - Unreal Editor' being destroyed
+[2018.12.08-16.28.24:649][528]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.08-16.28.24:840][529]Cmd: QUIT_EDITOR
+[2018.12.08-16.28.24:881][529]LogExit: Preparing to exit.
+[2018.12.08-16.28.24:972][529]LogExit: Editor shut down
+[2018.12.08-16.28.24:972][529]LogExit: Transaction tracking system shut down
+[2018.12.08-16.28.25:584][529]LogExit: Object subsystem successfully closed.
+[2018.12.08-16.28.25:596][529]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.08-16.28.25:599][529]LogD3D11RHI: Shutdown
+[2018.12.08-16.28.25:600][529]LogD3D11RHI: CleanupD3DDevice
+[2018.12.08-16.28.25:603][529]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.08-16.28.25:642][529]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.12.08-16.28.25:642][529]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.12.08-16.28.25:642][529]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.12.08-16.28.25:643][529]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.12.08-16.28.25:643][529]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.12.08-16.28.25:643][529]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.12.08-16.28.25:643][529]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.12.08-16.28.25:643][529]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.12.08-16.28.25:643][529]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.12.08-16.28.25:644][529]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.12.08-16.28.25:645][529]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.12.08-16.28.25:645][529]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.12.08-16.28.25:645][529]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.12.08-16.28.25:645][529]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.12.08-16.28.25:645][529]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.12.08-16.28.25:991][529]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.12.08-16.28.25:992][529]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.12.08-16.28.26:046][529]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.12.08-16.28.26:047][529]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.12.08-16.28.26:186][529]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.12.08-16.28.26:189][529]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module FightingGame (300)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.12.08-16.28.26:190][529]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.12.08-16.28.26:292][529]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.12.08-16.28.26:393][529]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.12.08-16.28.26:394][529]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.12.08-16.28.26:394][529]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.12.08-16.28.26:394][529]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.12.08-16.28.26:394][529]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.12.08-16.28.26:396][529]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.12.08-16.28.26:396][529]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.12.08-16.28.26:396][529]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.12.08-16.28.26:396][529]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.12.08-16.28.26:396][529]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.12.08-16.28.26:396][529]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.12.08-16.28.26:403][529]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.12.08-16.28.26:409][529]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.12.08-16.28.26:410][529]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.12.08-16.28.26:412][529]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.12.08-16.28.26:506][529]LogDerivedDataCache: Shutdown
+[2018.12.08-16.28.26:506][529]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.12.08-16.28.26:506][529]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.08-16.28.26:507][529]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.12.08-16.28.26:507][529]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.12.08-16.28.26:507][529]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.12.08-16.28.26:507][529]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.12.08-16.28.26:507][529]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.12.08-16.28.26:507][529]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.12.08-16.28.26:508][529]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.12.08-16.28.26:509][529]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.12.08-16.28.26:510][529]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.12.08-16.28.26:510][529]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.12.08-16.28.26:511][529]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.12.08-16.28.26:514][529]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.08-16.28.26:524][529]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.08-16.28.26:525][529]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.08-16.28.26:525][529]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.08-16.28.26:552][529]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.08-16.28.26:552][529]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.08-16.28.26:552][529]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFD38844F-4FFC-E6C5-414B-44857C56D023%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=48608af3472e76dd6e6c78a0ececfc48%7Ccba6384966244231ba87ca3ddfb5c9ba%7Cb7e3bec0-89c1-4482-97fa-d1c2afde1d3d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.08-16.28.26:561][529]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.08-16.28.26:563][529]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.08-16.28.26:564][529]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.08-16.28.26:564][529]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.08-16.28.26:565][529]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.08-16.28.26:570][529]LogExit: Exiting.
+[2018.12.08-16.28.26:581][529]Log file closed, 12/08/18 16:28:26

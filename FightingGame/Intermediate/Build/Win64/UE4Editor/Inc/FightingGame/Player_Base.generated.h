@@ -58,6 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayer_Base); \
 
 
 #define FightingGame_Source_FightingGame_Player_Base_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__AnimationHandler() { return STRUCT_OFFSET(APlayer_Base, AnimationHandler); } \
 	FORCEINLINE static uint32 __PPO__playerID() { return STRUCT_OFFSET(APlayer_Base, playerID); }
 
 
