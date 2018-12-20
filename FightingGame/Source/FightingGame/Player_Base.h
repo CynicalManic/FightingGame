@@ -23,7 +23,7 @@ protected:
 	UCharacterMovementComponent* CharacterMovementComponent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
-	UAnimation_Handler* AnimationHandler;
+	UAnimation_Handler* AnimationHandler = nullptr;
 
 	float movementInput;
 	float movementSpeed;

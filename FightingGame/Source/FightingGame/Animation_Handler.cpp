@@ -8,7 +8,7 @@ UAnimation_Handler::UAnimation_Handler()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	// ...wdwxDww
 }
 
 // Called when the game starts
@@ -24,7 +24,7 @@ void UAnimation_Handler::BeginPlay()
 void UAnimation_Handler::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
+	_movementSpeed;
 	// ...
 }
 
@@ -41,7 +41,7 @@ void UAnimation_Handler::UpdateHandler(bool groundedStatus, bool attackingStatus
 {
 	*_grounded = groundedStatus;
 	*_attacking = attackingStatus;
-	*_movementSpeed = movementSpeed;
+	*_movementSpeed = (movementSpeed * 100);
 	*_attackDirection = attackDirection;
 	*_attackType = attackType;
 }

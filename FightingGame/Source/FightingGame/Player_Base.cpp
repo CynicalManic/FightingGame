@@ -1,5 +1,4 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
 #include "Player_Base.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/World.h"
@@ -10,9 +9,11 @@
 // Sets default values
 APlayer_Base::APlayer_Base()
 {
+	AnimationHandler = this->CreateDefaultSubobject<UAnimation_Handler>(TEXT("Animation Handler Component"));
+	this->AddOwnedComponent(AnimationHandler);
+	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &movementInput, &(attackDirection.X), &attackingType);
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	AnimationHandler = CreateDefaultSubobject<UAnimation_Handler>(TEXT("Animation Handler Component"));
 }
 
 // Called when the game starts or when spawned
@@ -20,7 +21,6 @@ void APlayer_Base::BeginPlay()
 {
 	Super::BeginPlay();
 	CharacterMovementComponent = GetCharacterMovement();
-	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &movementInput, &(attackDirection.X), &attackingType);
 }
 
 // Called every frame
@@ -30,6 +30,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	UpdateMovement(DeltaTime);
 	movementSpeed = 100;
 	jumpMod = 9999999;
+	attacking = false;
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)
@@ -65,6 +66,8 @@ void APlayer_Base::JumpInput(float value)
 void APlayer_Base::LightAttackInput()
 {
 	APlayer_Base* hitActor = CheckAttackCollision();
+	attacking = true;
+	attackingType = 0;
 	if (hitActor != nullptr)
 	{
 		hitActor->Damage(lightAttackDamage, lightAttackKnockback, this->GetActorLocation());
@@ -73,7 +76,8 @@ void APlayer_Base::LightAttackInput()
 
 void APlayer_Base::HeavyAttackInput()
 {
-
+	attacking = true;
+	attackingType = 1;
 }
 
 void APlayer_Base::Damage(float damage, float knockback, FVector attackerPosition)
