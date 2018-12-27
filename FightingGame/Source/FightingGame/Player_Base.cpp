@@ -31,6 +31,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	movementSpeed = 100;
 	jumpMod = 9999999;
 	attacking = false;
+	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)

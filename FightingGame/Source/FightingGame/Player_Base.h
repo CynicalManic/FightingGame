@@ -31,7 +31,11 @@ protected:
 	float jumpMod;
 	bool grounded;
 	bool attacking;
+	UPROPERTY(BlueprintReadOnly)
 	float knockbackMod;
+
+	UPROPERTY(BlueprintReadOnly)
+	FString knockbackModString;
 
 	int attackingType;
 
