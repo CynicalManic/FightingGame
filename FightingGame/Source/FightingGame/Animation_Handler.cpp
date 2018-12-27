@@ -38,7 +38,7 @@ void UAnimation_Handler::UpdateHandler(bool groundedStatus, bool attackingStatus
 {
 	*_grounded = groundedStatus;
 	*_attacking = attackingStatus;
-	*_movementSpeed = (movementSpeed * 100);
+	*_movementSpeed = movementSpeed;
 	*_attackDirection = attackDirection;
 	*_attackType = attackType;
 }

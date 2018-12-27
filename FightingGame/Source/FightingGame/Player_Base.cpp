@@ -11,7 +11,7 @@ APlayer_Base::APlayer_Base()
 {
 	AnimationHandler = this->CreateDefaultSubobject<UAnimation_Handler>(TEXT("Animation Handler Component"));
 	this->AddOwnedComponent(AnimationHandler);
-	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &movementInput, &(attackDirection.X), &attackingType);
+	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 }
@@ -31,6 +31,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	movementSpeed = 100;
 	jumpMod = 9999999;
 	attacking = false;
+	animationMovementSpeed = FMath::Abs(movementInput * 100);
 	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');
 }
 

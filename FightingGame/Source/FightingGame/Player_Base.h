@@ -25,6 +25,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
 	UAnimation_Handler* AnimationHandler = nullptr;
 
+	UPROPERTY(BlueprintReadOnly)
 	float movementInput;
 	float movementSpeed;
 	float jumpForce;
@@ -39,14 +40,17 @@ protected:
 
 	int attackingType;
 
+	UPROPERTY(BlueprintReadOnly)
 	FVector attackDirection;
 	float attackRange = 2000;
 
 	float lightAttackDamage = 100;
 	float lightAttackKnockback = 1000;
 
+	float animationMovementSpeed;
+
 	UPROPERTY(BlueprintReadOnly)
-	int playerID = 10;
+	int playerID = 1;
 
 //Public Functions
 public:

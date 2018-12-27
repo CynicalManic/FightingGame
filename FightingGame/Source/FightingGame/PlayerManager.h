@@ -10,6 +10,10 @@ UCLASS()
 class FIGHTINGGAME_API APlayerManager : public AActor
 {
 	GENERATED_BODY()
+
+private:
+	
+	//TArray<APlayer_Base*> allPlayers;
 	
 public:	
 	// Sets default values for this actor's properties

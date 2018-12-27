@@ -31,5 +31,6 @@ void APlayerManager::SetPlayers(TArray<APlayer_Base*> Players)
 	{
 		Players[i]->SetPlayerID(i);
 	}
+	//allPlayers = Players;
 }
 

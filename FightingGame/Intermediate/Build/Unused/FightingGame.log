@@ -1,19 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FightingGameEditor (ini files are newer than UBTMakefile)
-  Using Visual Studio 2017 14.14.26428 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for FightingGameEditor
     Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FightingGameEditor in 8.938081 seconds
-  Building 8 actions with 8 processes...
-    [1/8] FightingGame.init.gen.cpp
-    [2/8] PlayerManager.cpp
-    [3/8] Animation_Handler.cpp
-    [4/8] Player_Base.gen.cpp
-    [5/8] PlayerManager.gen.cpp
-    [6/8] Player_Base.cpp
-    [7/8] UE4Editor-FightingGame.lib
+  Reflection code generated for FightingGameEditor in 8.5925181 seconds
+  Building 7 actions with 8 processes...
+    [1/7] FightingGame.init.gen.cpp
+    [2/7] PlayerManager.gen.cpp
+    [3/7] PlayerManager.cpp
+    [4/7] Player_Base.gen.cpp
+    [5/7] Player_Base.cpp
+    [6/7] UE4Editor-FightingGame.lib
        Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.exp
-    [8/8] UE4Editor-FightingGame.dll
+    [7/7] UE4Editor-FightingGame.dll
        Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.exp
   Deploying FightingGameEditor Win64 Development...
-  Total build time: 39.45 seconds (Parallel executor: 7.35 seconds)
+  Total build time: 18.11 seconds (Parallel executor: 5.78 seconds)
