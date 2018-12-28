@@ -13,7 +13,7 @@ class FIGHTINGGAME_API APlayerManager : public AActor
 
 private:
 	
-	//TArray<APlayer_Base*> allPlayers;
+	TArray<APlayer_Base*> allPlayers;
 	
 public:	
 	// Sets default values for this actor's properties

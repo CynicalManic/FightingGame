@@ -42,10 +42,19 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly)
 	FVector attackDirection;
-	float attackRange = 2000;
+	float attackRange = 100;
 
-	float lightAttackDamage = 100;
-	float lightAttackKnockback = 1000;
+	float attackOneDamage = 10;
+	float attackOneKnockback = 1000;
+
+	float attackTwoDamage = 30;
+	float attackTwoKnockback = 1000;
+
+	float attackThreeDamage = 0;
+	float attackThreeKnockback = 2500;
+
+	float attackFourDamage = 15;
+	float attackFourKnockback = 1000;
 
 	float animationMovementSpeed;
 
@@ -71,8 +80,10 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void MovementInput(float value);
 	virtual void JumpInput(float value);
-	virtual void LightAttackInput();
-	virtual void HeavyAttackInput();
+	virtual void AttackOneInput();
+	virtual void AttackTwoInput();
+	virtual void AttackThreeInput();
+	virtual void AttackFourInput();
 
 	APlayer_Base* CheckAttackCollision();
 };

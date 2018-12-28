@@ -29,7 +29,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	UpdateMovement(DeltaTime);
 	movementSpeed = 100;
-	jumpMod = 9999999;
+	jumpMod = 999999;
 	attacking = false;
 	animationMovementSpeed = FMath::Abs(movementInput * 100);
 	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');
@@ -50,8 +50,10 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("HorizontalMove", this, &APlayer_Base::MovementInput);
 	PlayerInputComponent->BindAxis("Jump", this, &APlayer_Base::JumpInput);
-	PlayerInputComponent->BindAction("LightAttack", IE_Pressed, this, &APlayer_Base::LightAttackInput);
-	PlayerInputComponent->BindAction("HeavyAttack", IE_Pressed, this, &APlayer_Base::HeavyAttackInput);
+	PlayerInputComponent->BindAction("Attack1", IE_Pressed, this, &APlayer_Base::AttackOneInput);
+	PlayerInputComponent->BindAction("Attack2", IE_Pressed, this, &APlayer_Base::AttackTwoInput);
+	PlayerInputComponent->BindAction("Attack3", IE_Pressed, this, &APlayer_Base::AttackThreeInput);
+	PlayerInputComponent->BindAction("Attack4", IE_Pressed, this, &APlayer_Base::AttackFourInput);
 }
 
 void APlayer_Base::MovementInput(float value)
@@ -65,21 +67,48 @@ void APlayer_Base::JumpInput(float value)
 	jumpForce = value;
 }
 
-void APlayer_Base::LightAttackInput()
+void APlayer_Base::AttackOneInput()
 {
 	APlayer_Base* hitActor = CheckAttackCollision();
 	attacking = true;
 	attackingType = 0;
 	if (hitActor != nullptr)
 	{
-		hitActor->Damage(lightAttackDamage, lightAttackKnockback, this->GetActorLocation());
+		hitActor->Damage(attackOneDamage, attackOneKnockback, this->GetActorLocation());
 	}
 }
 
-void APlayer_Base::HeavyAttackInput()
+void APlayer_Base::AttackTwoInput()
 {
 	attacking = true;
 	attackingType = 1;
+	APlayer_Base* hitActor = CheckAttackCollision();
+	if (hitActor != nullptr)
+	{
+		hitActor->Damage(attackTwoDamage, attackTwoKnockback, this->GetActorLocation());
+	}
+}
+
+void APlayer_Base::AttackThreeInput()
+{
+	attacking = true;
+	attackingType = 2;
+	APlayer_Base* hitActor = CheckAttackCollision();
+	if (hitActor != nullptr)
+	{
+		hitActor->Damage(attackThreeDamage, attackThreeKnockback, this->GetActorLocation());
+	}
+}
+
+void APlayer_Base::AttackFourInput()
+{
+	attacking = true;
+	attackingType = 3;
+	APlayer_Base* hitActor = CheckAttackCollision();
+	if (hitActor != nullptr)
+	{
+		hitActor->Damage(attackFourDamage, attackFourKnockback, this->GetActorLocation());
+	}
 }
 
 void APlayer_Base::Damage(float damage, float knockback, FVector attackerPosition)
