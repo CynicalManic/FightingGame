@@ -16,6 +16,22 @@ class AActor;
 
 #define FightingGame_Source_FightingGame_Camera_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetCameraMode) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCameraMode(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetCameraTarget) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCameraTarget(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetCamera) \
 	{ \
 		P_FINISH; \
@@ -35,6 +51,22 @@ class AActor;
 
 
 #define FightingGame_Source_FightingGame_Camera_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetCameraMode) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCameraMode(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetCameraTarget) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCameraTarget(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetCamera) \
 	{ \

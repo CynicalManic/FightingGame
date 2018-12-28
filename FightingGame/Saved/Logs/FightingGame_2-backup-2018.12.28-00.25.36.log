@@ -1,0 +1,777 @@
+﻿Log file open, 12/27/18 23:10:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FightingGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.345439
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.208s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8320 Eight-Core Processor           , GPU: AMD Radeon HD 7800 Series
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.27-23.10.29:932][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.27-23.10.29:932][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.27-23.10.29:948][  0]LogHAL: Display: Platform has ~ 16 GB [17160523776 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.27-23.10.29:948][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.27-23.10.29:949][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.27-23.10.29:949][  0]LogInit: Computer: DESKTOP-OK86UV6
+[2018.12.27-23.10.29:949][  0]LogInit: User: cynic
+[2018.12.27-23.10.29:949][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.27-23.10.29:949][  0]LogInit: High frequency timer resolution =3.433156 MHz
+[2018.12.27-23.10.29:950][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.12.27-23.10.29:950][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.27-23.10.29:950][  0]LogMemory: Process Physical Memory: 100.62 MB used, 100.62 MB peak
+[2018.12.27-23.10.29:950][  0]LogMemory: Process Virtual Memory: 89.37 MB used, 89.37 MB peak
+[2018.12.27-23.10.29:950][  0]LogMemory: Physical Memory: 9032.16 MB used,  7333.39 MB free, 16365.55 MB total
+[2018.12.27-23.10.29:950][  0]LogMemory: Virtual Memory: 4624.50 MB used,  7333.39 MB free, 134217728.00 MB total
+[2018.12.27-23.10.29:975][  0]LogInit: Using OS detected language (en-GB).
+[2018.12.27-23.10.29:975][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.27-23.10.29:977][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.12.27-23.10.30:501][  0]LogStreaming: Display: Took  0.526s to InitEngineTextLocalization.
+[2018.12.27-23.10.30:501][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.27-23.10.30:546][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.27-23.10.30:546][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.27-23.10.30:914][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.12.27-23.10.30:914][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.27-23.10.30:938][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7800 Series' (Feature Level 11_0)
+[2018.12.27-23.10.30:938][  0]LogD3D11RHI:       2028/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.12.27-23.10.30:941][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.27-23.10.30:941][  0]LogD3D11RHI:       0/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.27-23.10.30:941][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.27-23.10.30:951][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.27-23.10.30:951][  0]LogD3D11RHI:     GPU DeviceId: 0x6818 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.27-23.10.30:951][  0]LogWindows: EnumDisplayDevices:
+[2018.12.27-23.10.30:952][  0]LogWindows:    0. 'AMD Radeon HD 7800 Series' (P:1 D:1)
+[2018.12.27-23.10.30:952][  0]LogWindows:    1. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:953][  0]LogWindows:    2. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:954][  0]LogWindows:    3. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:955][  0]LogWindows:    4. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:955][  0]LogWindows:    5. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:956][  0]LogWindows:    6. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:956][  0]LogWindows:    7. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:957][  0]LogWindows:    8. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:958][  0]LogWindows:    9. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:958][  0]LogWindows:    10. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:959][  0]LogWindows:    11. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:959][  0]LogWindows:    12. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:960][  0]LogWindows:    13. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:961][  0]LogWindows:    14. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:961][  0]LogWindows:    15. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2018.12.27-23.10.30:962][  0]LogWindows: DebugString: FoundDriverCount:16 
+[2018.12.27-23.10.30:962][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7800 Series
+[2018.12.27-23.10.30:962][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.5.1 (internal:24.20.11016.4, unified:24.20.11016.4)
+[2018.12.27-23.10.30:962][  0]LogD3D11RHI:      Driver Date: 5-16-2018
+[2018.12.27-23.10.30:962][  0]LogRHI: Texture pool is 1419 MB (70% of 2028 MB)
+[2018.12.27-23.10.31:051][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.27-23.10.31:064][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.12.27-23.10.31:066][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (E:/Github Work/FightingGame/FightingGame/Intermediate/Shaders/WorkingDirectory/14328/).
+[2018.12.27-23.10.31:067][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cynic/AppData/Local/Temp/UnrealShaderWorkingDir/D61F7009430910804D87848C73CFBBC6/'.
+[2018.12.27-23.10.31:553][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.27-23.10.31:579][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.27-23.10.31:606][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.27-23.10.31:632][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.27-23.10.31:660][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.27-23.10.31:686][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.27-23.10.31:713][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.27-23.10.31:740][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.27-23.10.31:752][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.27-23.10.31:895][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.27-23.10.31:981][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.27-23.10.31:981][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.27-23.10.32:026][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.27-23.10.32:026][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.27-23.10.32:049][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.27-23.10.32:071][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.27-23.10.32:096][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.27-23.10.32:120][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.27-23.10.32:136][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.27-23.10.32:137][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.27-23.10.32:256][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.27-23.10.32:256][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.27-23.10.32:256][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.27-23.10.33:673][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.27-23.10.33:773][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/cynic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.27-23.10.33:774][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/cynic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.27-23.10.33:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github Work/FightingGame/FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.27-23.10.33:774][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.27-23.10.33:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github Work/FightingGame/FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.27-23.10.33:774][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.27-23.10.33:793][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.27-23.10.33:806][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cynic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.27-23.10.33:806][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.27-23.10.33:806][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.27-23.10.33:839][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.27-23.10.33:841][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.27-23.10.33:842][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.27-23.10.33:966][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2018.12.27-23.10.34:605][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.27-23.10.34:816][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.27-23.10.34:823][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.27-23.10.34:824][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.27-23.10.34:824][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.27-23.10.34:824][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.27-23.10.34:855][  0]LogNetVersion: FightingGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 156865789)
+[2018.12.27-23.10.35:642][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.180880 seconds
+[2018.12.27-23.10.35:651][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.27-23.10.35:651][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.27-23.10.35:651][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.27-23.10.37:090][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.27-23.10.37:104][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.27-23.10.37:303][  0]SourceControl: Source control is disabled
+[2018.12.27-23.10.37:303][  0]SourceControl: Source control is disabled
+[2018.12.27-23.10.37:306][  0]SourceControl: Source control is disabled
+[2018.12.27-23.10.37:307][  0]SourceControl: Source control is disabled
+[2018.12.27-23.10.37:532][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.27-23.10.37:657][  0]LogOcInput: OculusInput pre-init called
+[2018.12.27-23.10.37:748][  0]LogEngine: Initializing Engine...
+[2018.12.27-23.10.37:754][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.12.27-23.10.37:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.27-23.10.37:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.27-23.10.37:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.27-23.10.37:757][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.27-23.10.38:067][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.27-23.10.38:093][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.27-23.10.38:135][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.27-23.10.38:164][  0]LogInit: FAudioDevice initialized.
+[2018.12.27-23.10.38:164][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.27-23.10.38:322][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/cynic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.27-23.10.38:335][  0]LogInit: Texture streaming: Enabled
+[2018.12.27-23.10.38:372][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.27-23.10.38:397][  0]LogInit: Transaction tracking system initialized
+[2018.12.27-23.10.38:447][  0]BlueprintLog: New page: Editor Load
+[2018.12.27-23.10.38:594][  0]LocalizationService: Localization service is disabled
+[2018.12.27-23.10.38:677][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2018.12.27-23.10.38:678][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2018.12.27-23.10.38:678][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2018.12.27-23.10.38:989][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.27-23.10.38:989][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.27-23.10.38:989][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.27-23.10.38:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.27-23.10.38:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.27-23.10.38:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.27-23.10.38:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.27-23.10.39:010][  0]LogFileCache: Scanning file cache for directory 'E:/Github Work/FightingGame/FightingGame/Content/' took 0.02s
+[2018.12.27-23.10.39:212][  0]SourceControl: Source control is disabled
+[2018.12.27-23.10.39:212][  0]Cmd: MAP LOAD FILE="E:/Github Work/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.27-23.10.39:213][  0]LightingResults: New page: Lighting Build
+[2018.12.27-23.10.39:219][  0]MapCheck: New page: Map Check
+[2018.12.27-23.10.39:219][  0]LightingResults: New page: Lighting Build
+[2018.12.27-23.10.39:862][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.27-23.10.39:874][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.27-23.10.39:983][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.27-23.10.40:131][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 147.849ms to complete.
+[2018.12.27-23.10.40:131][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.919
+[2018.12.27-23.10.40:279][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.10.40:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.10.40:303][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.10.40:315][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.10.40:328][  0]LogCollectionManager: Loaded 0 collections in 0.003809 seconds
+[2018.12.27-23.10.40:384][  0]LogFileCache: Scanning file cache for directory 'E:/Github Work/FightingGame/FightingGame/Saved/Collections/' took 0.01s
+[2018.12.27-23.10.40:384][  0]LogFileCache: Scanning file cache for directory 'E:/Github Work/FightingGame/FightingGame/Content/Developers/cynic/Collections/' took 0.01s
+[2018.12.27-23.10.40:384][  0]LogFileCache: Scanning file cache for directory 'E:/Github Work/FightingGame/FightingGame/Content/Collections/' took 0.01s
+[2018.12.27-23.10.40:384][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.27-23.10.40:406][  0]LogContentBrowser: Native class hierarchy populated in 0.0221 seconds. Added 2577 classes and 605 folders.
+[2018.12.27-23.10.40:419][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.27-23.10.40:550][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.12.27-23.10.40:559][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.12.27-23.10.40:583][  0]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.27-23.10.40:586][  0]LogSlate: Took 0.000453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.27-23.10.40:594][  0]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.27-23.10.40:722][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.12.27-23.10.40:796][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.27-23.10.40:927][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.27-23.10.40:927][  0]LogLoad: (Engine Initialization) Total time: 14.31 seconds
+[2018.12.27-23.10.40:927][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.27-23.10.40:967][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.27-23.10.41:079][  2]LogAssetRegistry: Asset discovery search completed in 7.1353 seconds
+[2018.12.27-23.10.41:082][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.27-23.10.41:082][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2018.12.27-23.10.49:437][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-23.10.56:489][424]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.27-23.10.57:350][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-23.10.57:732][537]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.27-23.10.57:753][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.27-23.10.57:753][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.27-23.10.57:776][537]PIE: New page: PIE session: Minimal_Default (27 Dec 2018 23:10:57)
+[2018.12.27-23.10.57:776][537]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.12.27-23.10.57:782][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006009s)
+[2018.12.27-23.10.57:783][537]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.27-23.10.57:783][537]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2018.12.27-23.10.57:783][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.007199s)
+[2018.12.27-23.10.57:936][537]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.27-23.10.57:955][537]LogInit: FAudioDevice initialized.
+[2018.12.27-23.10.58:299][537]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.27-23.10.58:302][537]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.27-23.10.58
+[2018.12.27-23.10.58:302][537]LogWorld: Bringing up level for play took: 0.001175
+[2018.12.27-23.10.58:325][537]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.12.27-23.10.58:329][537]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.27-23.10.58:329][537]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.12.27-23.10.58:329][537]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.27-23.10.58:330][537]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.12.27-23.10.58:330][537]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.12.27-23.10.58:332][537]LogInit: WinSock: I am DESKTOP-OK86UV6 (192.168.0.10:0)
+[2018.12.27-23.10.58:332][537]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.27-23.10.58:332][537]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.12.27-23.10.58:334][537]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default 1.251
+[2018.12.27-23.10.58:344][537]PIE: New page: PIE session: Minimal_Default (27 Dec 2018 23:10:58)
+[2018.12.27-23.10.58:358][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.27-23.10.58:367][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.10.58:435][537]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.12.27-23.10.58:435][537]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.27-23.10.58:436][537]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.12.27-23.10.58:436][537]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.12.27-23.10.58:436][537]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.12.27-23.10.58:436][537]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.27-23.10.58:437][537]LogNet: Game client on port 17777, rate 10000
+[2018.12.27-23.10.58:440][537]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 1.357
+[2018.12.27-23.10.58:456][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.27-23.10.58:456][537]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64457
+[2018.12.27-23.10.58:456][537]LogHandshake: SendConnectChallenge. Timestamp: 0.009550, Cookie: 240026039140079080041101009100244047038048248141163246132029
+[2018.12.27-23.10.58:465][537]LogHandshake: SendChallengeResponse. Timestamp: 0.009550, Cookie: 240026039140079080041101009100244047038048248141163246132029
+[2018.12.27-23.10.58:554][538]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64457
+[2018.12.27-23.10.58:554][538]LogHandshake: SendChallengeAck. InCookie: 240026039140079080041101009100244047038048248141163246132029
+[2018.12.27-23.10.58:555][538]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64457
+[2018.12.27-23.10.58:555][538]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.27-23.10.58:555][538]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 12/27/18 23:10:58, [UNetConnection] RemoteAddr: 127.0.0.1:64457, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.27-23.10.58:555][538]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64457, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.27-23.10.58:556][538]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075477 > MaxSimulationTimeStep (0.050) for 'TestPlayer_C_0', movement 'Walking'
+[2018.12.27-23.10.58:557][538]LogNetVersion: FightingGame 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4124689447)
+[2018.12.27-23.10.58:557][538]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.27-23.10.58:575][539]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.12.27-23.10.58:575][539]LogNet: Remote platform little endian=1
+[2018.12.27-23.10.58:575][539]LogNet: This platform little endian=1
+[2018.12.27-23.10.58:595][540]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF userId: DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF
+[2018.12.27-23.10.58:596][540]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.12.27-23.10.58:599][540]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.12.27-23.10.58:725][540]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.27-23.10.58:725][540]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.27-23.10.58:727][540]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.27-23.10.58
+[2018.12.27-23.10.58:727][540]LogWorld: Bringing up level for play took: 0.000921
+[2018.12.27-23.10.58:728][540]LogLoad: Took 0.128274 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.12.27-23.10.58:744][541]LogNet: Client netspeed is 10000
+[2018.12.27-23.10.58:744][541]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF?SplitscreenCount=1
+[2018.12.27-23.10.58:744][541]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.12.27-23.10.58:747][541]LogNet: Join succeeded: DESKTOP-OK86UV6-0DC6
+[2018.12.27-23.10.58:760][542]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.12.27-23.10.58:788][542]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.12.27-23.10.58:789][542]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.12.27-23.11.00:689][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-23.11.00:772][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.27-23.11.00:773][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.11.00:792][678]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.27-23.11.00:827][678]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.12.27-23.11.00:827][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.11.00:860][678]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.27-23.11.00:861][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.27-23.11.00:973][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.27-23.11.00:974][678]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF
+[2018.12.27-23.11.00:974][678]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF, Channels: 1, Time: 2018.12.27-23.11.00
+[2018.12.27-23.11.00:974][678]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF
+[2018.12.27-23.11.00:974][678]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64457, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF
+[2018.12.27-23.11.00:974][678]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64457, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF, Channels: 1, Time: 2018.12.27-23.11.00
+[2018.12.27-23.11.00:974][678]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64457, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-0DC64D5540AFB0F6BCC03CAE7BB1B9FF
+[2018.12.27-23.11.00:976][678]LogExit: GameNetDriver None shut down
+[2018.12.27-23.11.00:976][678]LogExit: GameNetDriver None shut down
+[2018.12.27-23.11.01:005][679]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.12.27-23.11.01:005][679]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.12.27-23.11.04:206][ 15]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.27-23.11.04:216][ 15]LogAssetEditorManager: Opening Asset editor for Class /Script/FightingGame.Camera
+[2018.12.27-23.12.12:386][555]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.27-23.12.14:131][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-23.12.14:271][696]Candidate modules for hot reload:
+[2018.12.27-23.12.14:271][696]  FightingGame
+[2018.12.27-23.12.14:271][696]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,8528 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.27-23.12.14:280][696]Warning: Starting HotReload took  0.1s.
+[2018.12.27-23.12.39:266][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.27-23.12.41:235][572]CompilerResultsLog: New page: Compilation - 27 Dec 2018 23:12:41
+[2018.12.27-23.12.41:235][572]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-23.12.41:235][572]CompilerResultsLog: Creating makefile for hot reloading FightingGameEditor (modules to compile have changed)
+[2018.12.27-23.12.41:235][572]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-23.12.41:235][572]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.27-23.12.41:236][572]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.12.27-23.12.41:236][572]CompilerResultsLog:   [1/3] Camera.cpp
+[2018.12.27-23.12.41:236][572]CompilerResultsLog:    E:\Github Work\FightingGame\FightingGame\Source\FightingGame\Camera.cpp(46) : error C2039: 'GetAngleX': is not a member of 'ACamera'
+[2018.12.27-23.12.41:236][572]CompilerResultsLog:   e:\github work\fightinggame\fightinggame\source\fightinggame\Camera.h(13): note: see declaration of 'ACamera'
+[2018.12.27-23.12.41:236][572]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Github Work\FightingGame\FightingGame\Binaries\Win64\UE4Editor-FightingGame-8528.dll
+[2018.12.27-23.12.41:236][572]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.12.27-23.12.41:236][572]CompilerResultsLog: Total build time: 26.42 seconds (Parallel executor: 0.00 seconds)
+[2018.12.27-23.12.41:236][572]LogMainFrame: MainFrame: Module compiling took 26.984 seconds
+[2018.12.27-23.12.41:236][572]Warning: HotReload failed, recompile failed
+[2018.12.27-23.12.49:147][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-23.13.41:991][273]LogSlate: Window 'Message Log' being destroyed
+[2018.12.27-23.13.41:998][273]LogSlate: Window 'Message Log' being destroyed
+[2018.12.27-23.13.44:101][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.27-23.13.44:201][473]Candidate modules for hot reload:
+[2018.12.27-23.13.44:201][473]  FightingGame
+[2018.12.27-23.13.44:201][473]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,9347 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.27-23.13.44:208][473]Warning: Starting HotReload took  0.0s.
+[2018.12.27-23.14.27:743][973]CompilerResultsLog: New page: Compilation - 27 Dec 2018 23:14:27
+[2018.12.27-23.14.27:743][973]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-23.14.27:743][973]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-23.14.27:743][973]CompilerResultsLog: Parsing headers for FightingGameEditor
+[2018.12.27-23.14.27:743][973]CompilerResultsLog:   Running UnrealHeaderTool "E:\Github Work\FightingGame\FightingGame\FightingGame.uproject" "E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.27-23.14.27:743][973]CompilerResultsLog: Reflection code generated for FightingGameEditor in 18.77394 seconds
+[2018.12.27-23.14.27:743][973]CompilerResultsLog: Building 4 actions with 8 processes...
+[2018.12.27-23.14.27:743][973]CompilerResultsLog:   [1/4] Camera.gen.cpp
+[2018.12.27-23.14.27:743][973]CompilerResultsLog:   [2/4] Camera.cpp
+[2018.12.27-23.14.27:743][973]CompilerResultsLog:   [3/4] UE4Editor-FightingGame-9347.lib
+[2018.12.27-23.14.27:743][973]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9347.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9347.exp
+[2018.12.27-23.14.27:743][973]CompilerResultsLog:   [4/4] UE4Editor-FightingGame-9347.dll
+[2018.12.27-23.14.27:743][973]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9347.suppressed.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9347.suppressed.exp
+[2018.12.27-23.14.27:743][973]CompilerResultsLog: Total build time: 43.09 seconds (Parallel executor: 19.73 seconds)
+[2018.12.27-23.14.27:744][973]LogMainFrame: MainFrame: Module compiling took 43.556 seconds
+[2018.12.27-23.14.27:896][973]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0011 seconds. Added 5 classes and 2 folders.
+[2018.12.27-23.14.27:900][973]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2018.12.27-23.14.28:191][973]LogContentBrowser: Native class hierarchy populated in 0.0259 seconds. Added 2578 classes and 607 folders.
+[2018.12.27-23.14.28:204][973]Display: HotReload took 44.0s.
+[2018.12.27-23.36.17:435][ 19]Candidate modules for hot reload:
+[2018.12.27-23.36.17:435][ 19]  FightingGame
+[2018.12.27-23.36.17:435][ 19]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,5543 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.27-23.36.17:443][ 19]Warning: Starting HotReload took  0.0s.
+[2018.12.27-23.36.37:557][714]CompilerResultsLog: New page: Compilation - 27 Dec 2018 23:36:37
+[2018.12.27-23.36.37:557][714]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-23.36.37:557][714]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-23.36.37:557][714]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.12.27-23.36.37:557][714]CompilerResultsLog:   [1/3] Camera.cpp
+[2018.12.27-23.36.37:557][714]CompilerResultsLog:   [2/3] UE4Editor-FightingGame-5543.lib
+[2018.12.27-23.36.37:557][714]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5543.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5543.exp
+[2018.12.27-23.36.37:557][714]CompilerResultsLog:   [3/3] UE4Editor-FightingGame-5543.dll
+[2018.12.27-23.36.37:558][714]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5543.suppressed.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5543.suppressed.exp
+[2018.12.27-23.36.37:558][714]CompilerResultsLog: Total build time: 19.69 seconds (Parallel executor: 15.94 seconds)
+[2018.12.27-23.36.37:558][714]LogMainFrame: MainFrame: Module compiling took 20.140 seconds
+[2018.12.27-23.36.37:701][714]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0009 seconds. Added 5 classes and 2 folders.
+[2018.12.27-23.36.37:705][714]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2018.12.27-23.36.37:900][714]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2578 classes and 607 folders.
+[2018.12.27-23.36.37:900][714]Display: HotReload took 20.5s.
+[2018.12.27-23.38.06:908][926]Candidate modules for hot reload:
+[2018.12.27-23.38.06:908][926]  FightingGame
+[2018.12.27-23.38.06:908][926]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,6949 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.27-23.38.06:915][926]Warning: Starting HotReload took  0.0s.
+[2018.12.27-23.38.11:039][267]CompilerResultsLog: New page: Compilation - 27 Dec 2018 23:38:11
+[2018.12.27-23.38.11:039][267]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-23.38.11:039][267]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-23.38.11:039][267]CompilerResultsLog: Target is up to date
+[2018.12.27-23.38.11:039][267]CompilerResultsLog: Total build time: 3.72 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.27-23.38.11:039][267]LogMainFrame: MainFrame: Module compiling took 4.145 seconds
+[2018.12.27-23.38.11:183][267]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2578 classes and 607 folders.
+[2018.12.27-23.38.11:183][267]Display: HotReload took  4.3s.
+[2018.12.27-23.48.22:363][383]Candidate modules for hot reload:
+[2018.12.27-23.48.22:363][383]  FightingGame
+[2018.12.27-23.48.22:363][383]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,3420 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.27-23.48.22:371][383]Warning: Starting HotReload took  0.0s.
+[2018.12.27-23.49.02:840][744]CompilerResultsLog: New page: Compilation - 27 Dec 2018 23:49:02
+[2018.12.27-23.49.02:840][744]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-23.49.02:840][744]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-23.49.02:840][744]CompilerResultsLog: Parsing headers for FightingGameEditor
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:   Running UnrealHeaderTool "E:\Github Work\FightingGame\FightingGame\FightingGame.uproject" "E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.27-23.49.02:840][744]CompilerResultsLog: Reflection code generated for FightingGameEditor in 16.6128809 seconds
+[2018.12.27-23.49.02:840][744]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:   [1/5] FightingGame.init.gen.cpp
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:   [2/5] Camera.cpp
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:   [3/5] Camera.gen.cpp
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:   [4/5] UE4Editor-FightingGame-3420.lib
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3420.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3420.exp
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:   [5/5] UE4Editor-FightingGame-3420.dll
+[2018.12.27-23.49.02:840][744]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3420.suppressed.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3420.suppressed.exp
+[2018.12.27-23.49.02:840][744]CompilerResultsLog: Total build time: 40.07 seconds (Parallel executor: 19.23 seconds)
+[2018.12.27-23.49.02:840][744]LogMainFrame: MainFrame: Module compiling took 40.494 seconds
+[2018.12.27-23.49.02:968][744]LogClass: Could not find existing class Camera in package /Script/FightingGame for HotReload, assuming new class
+[2018.12.27-23.49.02:969][744]LogClass: Function GetCamera is new.
+[2018.12.27-23.49.02:969][744]LogClass: Function SetCameraMode is new.
+[2018.12.27-23.49.02:969][744]LogClass: Function SetCameraTarget is new.
+[2018.12.27-23.49.02:969][744]LogClass: Function SetPlayerArray is new.
+[2018.12.27-23.49.02:982][744]LogHotReload: Re-instancing Camera after hot-reload.
+[2018.12.27-23.49.03:204][744]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0009 seconds. Added 5 classes and 2 folders.
+[2018.12.27-23.49.03:208][744]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2018.12.27-23.49.03:396][744]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2578 classes and 607 folders.
+[2018.12.27-23.49.03:396][744]Display: HotReload took 41.1s.
+[2018.12.27-23.52.36:578][ 15]Candidate modules for hot reload:
+[2018.12.27-23.52.36:578][ 15]  FightingGame
+[2018.12.27-23.52.36:578][ 15]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,9702 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.27-23.52.36:585][ 15]Warning: Starting HotReload took  0.0s.
+[2018.12.27-23.52.56:479][423]CompilerResultsLog: New page: Compilation - 27 Dec 2018 23:52:56
+[2018.12.27-23.52.56:479][423]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.27-23.52.56:479][423]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.27-23.52.56:479][423]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.12.27-23.52.56:479][423]CompilerResultsLog:   [1/3] Camera.cpp
+[2018.12.27-23.52.56:479][423]CompilerResultsLog:   [2/3] UE4Editor-FightingGame-9702.lib
+[2018.12.27-23.52.56:479][423]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9702.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9702.exp
+[2018.12.27-23.52.56:479][423]CompilerResultsLog:   [3/3] UE4Editor-FightingGame-9702.dll
+[2018.12.27-23.52.56:479][423]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9702.suppressed.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9702.suppressed.exp
+[2018.12.27-23.52.56:479][423]CompilerResultsLog: Total build time: 19.43 seconds (Parallel executor: 15.80 seconds)
+[2018.12.27-23.52.56:479][423]LogMainFrame: MainFrame: Module compiling took 19.916 seconds
+[2018.12.27-23.52.56:613][423]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0010 seconds. Added 5 classes and 2 folders.
+[2018.12.27-23.52.56:616][423]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2018.12.27-23.52.56:811][423]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2578 classes and 607 folders.
+[2018.12.27-23.52.56:811][423]Display: HotReload took 20.3s.
+[2018.12.28-00.04.30:106][592]Candidate modules for hot reload:
+[2018.12.28-00.04.30:106][592]  FightingGame
+[2018.12.28-00.04.30:107][592]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,4105 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.28-00.04.30:113][592]Warning: Starting HotReload took  0.0s.
+[2018.12.28-00.04.34:148][927]CompilerResultsLog: New page: Compilation - 28 Dec 2018 00:04:34
+[2018.12.28-00.04.34:148][927]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.28-00.04.34:148][927]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.28-00.04.34:148][927]CompilerResultsLog: Target is up to date
+[2018.12.28-00.04.34:148][927]CompilerResultsLog: Total build time: 3.63 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.28-00.04.34:149][927]LogMainFrame: MainFrame: Module compiling took 4.058 seconds
+[2018.12.28-00.04.34:294][927]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2578 classes and 607 folders.
+[2018.12.28-00.04.34:295][927]Display: HotReload took  4.2s.
+[2018.12.28-00.09.38:648][247]Candidate modules for hot reload:
+[2018.12.28-00.09.38:648][247]  FightingGame
+[2018.12.28-00.09.38:648][247]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,8839 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.28-00.09.38:655][247]Warning: Starting HotReload took  0.0s.
+[2018.12.28-00.09.43:025][470]CompilerResultsLog: New page: Compilation - 28 Dec 2018 00:09:43
+[2018.12.28-00.09.43:025][470]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.28-00.09.43:025][470]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.28-00.09.43:025][470]CompilerResultsLog: Target is up to date
+[2018.12.28-00.09.43:025][470]CompilerResultsLog: Total build time: 3.76 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.28-00.09.43:025][470]LogMainFrame: MainFrame: Module compiling took 4.391 seconds
+[2018.12.28-00.09.43:170][470]LogContentBrowser: Native class hierarchy populated in 0.0262 seconds. Added 2578 classes and 607 folders.
+[2018.12.28-00.09.43:170][470]Display: HotReload took  4.5s.
+[2018.12.28-00.19.28:638][408]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.28-00.19.28:674][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.28-00.19.28:674][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.28-00.19.28:688][408]PIE: New page: PIE session: Minimal_Default (28 Dec 2018 00:19:28)
+[2018.12.28-00.19.28:688][408]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.12.28-00.19.28:701][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012243s)
+[2018.12.28-00.19.28:703][408]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.28-00.19.28:704][408]LogPlayLevel: PIE: World Init took: (0.002540s)
+[2018.12.28-00.19.28:704][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.015326s)
+[2018.12.28-00.19.28:860][408]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.28-00.19.28:879][408]LogInit: FAudioDevice initialized.
+[2018.12.28-00.19.28:917][408]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.28-00.19.28:919][408]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.28-00.19.28
+[2018.12.28-00.19.28:920][408]LogWorld: Bringing up level for play took: 0.001538
+[2018.12.28-00.19.28:935][408]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.28-00.19.28:936][408]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.12.28-00.19.28:936][408]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.28-00.19.28:936][408]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.12.28-00.19.28:936][408]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.12.28-00.19.28:936][408]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.28-00.19.28:936][408]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2018.12.28-00.19.28:939][408]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default -0.145
+[2018.12.28-00.19.28:951][408]PIE: New page: PIE session: Minimal_Default (28 Dec 2018 00:19:28)
+[2018.12.28-00.19.28:970][408]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.28-00.19.28:977][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-00.19.29:040][408]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.12.28-00.19.29:040][408]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.28-00.19.29:040][408]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.12.28-00.19.29:040][408]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.12.28-00.19.29:041][408]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.12.28-00.19.29:042][408]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.28-00.19.29:042][408]LogNet: Game client on port 17777, rate 10000
+[2018.12.28-00.19.29:046][408]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default -0.038
+[2018.12.28-00.19.29:064][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.28-00.19.29:064][408]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63163
+[2018.12.28-00.19.29:064][408]LogHandshake: SendConnectChallenge. Timestamp: 0.009149, Cookie: 024111213225154210160131085087157018102098099075201110031170
+[2018.12.28-00.19.29:066][408]LogHandshake: SendChallengeResponse. Timestamp: 0.009149, Cookie: 024111213225154210160131085087157018102098099075201110031170
+[2018.12.28-00.19.29:148][409]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63163
+[2018.12.28-00.19.29:148][409]LogHandshake: SendChallengeAck. InCookie: 024111213225154210160131085087157018102098099075201110031170
+[2018.12.28-00.19.29:148][409]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63163
+[2018.12.28-00.19.29:150][409]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.28-00.19.29:150][409]LogNet: NotifyAcceptedConnection: Name: Minimal_Default, TimeStamp: 12/28/18 00:19:29, [UNetConnection] RemoteAddr: 127.0.0.1:63163, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.28-00.19.29:150][409]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63163, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.28-00.19.29:150][409]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075076 > MaxSimulationTimeStep (0.050) for 'TestPlayer_C_0', movement 'Walking'
+[2018.12.28-00.19.29:151][409]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.28-00.19.29:170][410]LogNet: NotifyAcceptingChannel Control 0 server World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default: Accepted
+[2018.12.28-00.19.29:170][410]LogNet: Remote platform little endian=1
+[2018.12.28-00.19.29:170][410]LogNet: This platform little endian=1
+[2018.12.28-00.19.29:193][411]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default?Name=DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95 userId: DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95
+[2018.12.28-00.19.29:194][411]LogNet: Welcomed by server (Level: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default, Game: /Game/FightingGameMode.FightingGameMode_C)
+[2018.12.28-00.19.29:196][411]LogLoad: LoadMap: 127.0.0.1:17777//Game/StarterContent/Maps/UEDPIE_1_Minimal_Default?game=/Game/FightingGameMode.FightingGameMode_C
+[2018.12.28-00.19.29:327][411]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.28-00.19.29:327][411]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.28-00.19.29:329][411]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_2_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.28-00.19.29
+[2018.12.28-00.19.29:329][411]LogWorld: Bringing up level for play took: 0.001138
+[2018.12.28-00.19.29:329][411]LogLoad: Took 0.132980 seconds to LoadMap(/Game/StarterContent/Maps/UEDPIE_1_Minimal_Default)
+[2018.12.28-00.19.29:355][412]LogNet: Client netspeed is 10000
+[2018.12.28-00.19.29:355][412]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?Name=DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95?SplitscreenCount=1
+[2018.12.28-00.19.29:356][412]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.12.28-00.19.29:358][412]LogNet: Join succeeded: DESKTOP-OK86UV6-FAAE
+[2018.12.28-00.19.29:379][413]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.12.28-00.19.29:380][413]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.12.28-00.19.30:805][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-00.19.30:900][520]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.28-00.19.30:900][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-00.19.30:920][520]LogSlate: Window 'FightingGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.28-00.19.30:950][520]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.12.28-00.19.30:950][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-00.19.30:984][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.28-00.19.30:984][520]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.28-00.19.31:050][520]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63163, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95
+[2018.12.28-00.19.31:050][520]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63163, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95, Channels: 2, Time: 2018.12.28-00.19.31
+[2018.12.28-00.19.31:050][520]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63163, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95
+[2018.12.28-00.19.31:050][520]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95
+[2018.12.28-00.19.31:050][520]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95, Channels: 2, Time: 2018.12.28-00.19.31
+[2018.12.28-00.19.31:050][520]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-OK86UV6-FAAE88A44486C8F453075C917F542F95
+[2018.12.28-00.19.31:053][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-00.19.31:054][520]LogExit: GameNetDriver None shut down
+[2018.12.28-00.19.31:054][520]LogExit: GameNetDriver None shut down
+[2018.12.28-00.19.31:072][521]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.12.28-00.19.31:073][521]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.12.28-00.19.31:878][605]Candidate modules for hot reload:
+[2018.12.28-00.19.31:878][605]  FightingGame
+[2018.12.28-00.19.31:878][605]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,247 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.28-00.19.31:885][605]Warning: Starting HotReload took  0.0s.
+[2018.12.28-00.19.35:857][986]CompilerResultsLog: New page: Compilation - 28 Dec 2018 00:19:35
+[2018.12.28-00.19.35:857][986]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.28-00.19.35:857][986]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.28-00.19.35:857][986]CompilerResultsLog: Target is up to date
+[2018.12.28-00.19.35:857][986]CompilerResultsLog: Total build time: 3.55 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.28-00.19.35:857][986]LogMainFrame: MainFrame: Module compiling took 3.993 seconds
+[2018.12.28-00.19.35:996][986]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2578 classes and 607 folders.
+[2018.12.28-00.19.35:996][986]Display: HotReload took  4.1s.
+[2018.12.28-00.22.05:698][712]Candidate modules for hot reload:
+[2018.12.28-00.22.05:698][712]  FightingGame
+[2018.12.28-00.22.05:698][712]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,9985 Win64 Development -TargetType=Editor -Project="E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "E:/Github Work/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.28-00.22.05:705][712]Warning: Starting HotReload took  0.0s.
+[2018.12.28-00.22.25:055][721]CompilerResultsLog: New page: Compilation - 28 Dec 2018 00:22:25
+[2018.12.28-00.22.25:055][721]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.28-00.22.25:055][721]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.28-00.22.25:055][721]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.12.28-00.22.25:055][721]CompilerResultsLog:   [1/3] Camera.cpp
+[2018.12.28-00.22.25:055][721]CompilerResultsLog:   [2/3] UE4Editor-FightingGame-9985.lib
+[2018.12.28-00.22.25:055][721]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9985.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9985.exp
+[2018.12.28-00.22.25:055][721]CompilerResultsLog:   [3/3] UE4Editor-FightingGame-9985.dll
+[2018.12.28-00.22.25:055][721]CompilerResultsLog:      Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9985.suppressed.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-9985.suppressed.exp
+[2018.12.28-00.22.25:055][721]CompilerResultsLog: Total build time: 18.93 seconds (Parallel executor: 15.26 seconds)
+[2018.12.28-00.22.25:055][721]LogMainFrame: MainFrame: Module compiling took 19.372 seconds
+[2018.12.28-00.22.25:191][721]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0009 seconds. Added 5 classes and 2 folders.
+[2018.12.28-00.22.25:194][721]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2018.12.28-00.22.25:394][721]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2578 classes and 607 folders.
+[2018.12.28-00.22.25:394][721]Display: HotReload took 19.7s.
+[2018.12.28-00.22.26:914][845]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
+[2018.12.28-00.22.28:246][938]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.12.28-00.22.30:104][ 92]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
+[2018.12.28-00.22.31:175][179]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.12.28-00.22.33:824][419]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.28-00.22.33:888][426]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.28-00.22.33:909][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.28-00.22.33:909][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.28-00.22.33:919][426]PIE: New page: PIE session: Minimal_Default (28 Dec 2018 00:22:33)
+[2018.12.28-00.22.33:919][426]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2018.12.28-00.22.33:927][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007809s)
+[2018.12.28-00.22.33:928][426]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.28-00.22.33:928][426]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2018.12.28-00.22.33:928][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (0.009102s)
+[2018.12.28-00.22.34:063][426]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.28-00.22.34:079][426]LogInit: FAudioDevice initialized.
+[2018.12.28-00.22.34:114][426]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.28-00.22.34:115][426]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.28-00.22.34
+[2018.12.28-00.22.34:115][426]LogWorld: Bringing up level for play took: 0.000980
+[2018.12.28-00.22.34:130][426]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.28-00.22.34:130][426]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.12.28-00.22.34:130][426]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.28-00.22.34:130][426]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.12.28-00.22.34:130][426]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.12.28-00.22.34:131][426]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.28-00.22.34:131][426]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.12.28-00.22.34:132][426]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default 1.048
+[2018.12.28-00.22.34:142][426]PIE: New page: PIE session: Minimal_Default (28 Dec 2018 00:22:34)
+[2018.12.28-00.22.34:158][426]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.28-00.22.34:164][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.28-00.22.34:216][426]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.12.28-00.22.34:216][426]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.28-00.22.34:216][426]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.12.28-00.22.34:216][426]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.12.28-00.22.34:216][426]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.12.28-00.22.34:217][426]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.28-00.22.34:217][426]LogNet: Game client on port 17777, rate 10000
+[2018.12.28-00.22.34:221][426]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default 1.138
+[2018.12.28-00.22.34:237][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.28-00.22.34:238][426]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59907
+[2018.12.28-00.22.34:238][426]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 041029219096053216218222074141215103168109036115237067221094
+[2018.12.28-00.22.34:239][426]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.12.28-00.22.36:510][426]LogWindows: Error: === Critical error: ===
+[2018.12.28-00.22.36:510][426]LogWindows: Error: 
+[2018.12.28-00.22.36:510][426]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 611] 
+[2018.12.28-00.22.36:510][426]LogWindows: Error: Array index out of bounds: 1 from an array of size 1
+[2018.12.28-00.22.36:510][426]LogWindows: Error: 
+[2018.12.28-00.22.36:510][426]LogWindows: Error: 
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffcf1cea388 KERNELBASE.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffcccae6850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc89e162fc UE4Editor-Core.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc89da51db UE4Editor-Core.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffce0e8305c UE4Editor-FightingGame-9985.dll!ACamera::Tick() [e:\github work\fightinggame\fightinggame\source\fightinggame\camera.cpp:93]
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc86ac730c UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc86a85630 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc87c816bd UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc89c31f92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc89c32456 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc89c46d25 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc87cd5b04 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc87ce4d92 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.28-00.22.36:510][426]LogWindows: Error: [Callstack] 0x00007ffc873e87e4 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ffc873f4003 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ffc850a7335 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ffc8599f666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ff775fa5cbd UE4Editor.exe!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ff775fb5b3c UE4Editor.exe!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ff775fb5bba UE4Editor.exe!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ff775fc3dac UE4Editor.exe!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ff775fc5aaa UE4Editor.exe!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ffcf2133034 KERNEL32.DLL!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: [Callstack] 0x00007ffcf4c13691 ntdll.dll!UnknownFunction []
+[2018.12.28-00.22.36:511][426]LogWindows: Error: 
+[2018.12.28-00.22.36:541][426]LogExit: Executing StaticShutdownAfterError
+[2018.12.28-00.22.36:581][426]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.12.28-00.22.36:586][426]Log file closed, 12/28/18 00:22:36
