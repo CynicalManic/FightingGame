@@ -33,6 +33,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	attacking = false;
 	animationMovementSpeed = FMath::Abs(movementInput * 100);
 	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');
+	this->SetActorLocation(FVector(200.0, GetActorLocation().Y, GetActorLocation().Z));
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)

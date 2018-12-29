@@ -13,7 +13,6 @@ class FIGHTINGGAME_API APlayerManager : public AActor
 
 private:
 	
-	TArray<APlayer_Base*> allPlayers;
 	
 public:	
 	// Sets default values for this actor's properties
@@ -31,4 +30,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Player Management")
 		void GetAllPlayers();
+
+	UPROPERTY(BlueprintReadWrite)
+		TArray<APlayer_Base*> allPlayers;
 };

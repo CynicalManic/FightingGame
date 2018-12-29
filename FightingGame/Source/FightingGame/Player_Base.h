@@ -42,7 +42,7 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly)
 	FVector attackDirection;
-	float attackRange = 100;
+	float attackRange = 130;
 
 	float attackOneDamage = 10;
 	float attackOneKnockback = 1000;

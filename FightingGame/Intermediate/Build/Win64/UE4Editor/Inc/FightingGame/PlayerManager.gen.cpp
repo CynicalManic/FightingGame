@@ -104,6 +104,12 @@ void EmptyLinkFunctionForGeneratedCodePlayerManager() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_allPlayers_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_allPlayers;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_allPlayers_Inner;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -121,6 +127,18 @@ void EmptyLinkFunctionForGeneratedCodePlayerManager() {}
 		{ "ModuleRelativePath", "PlayerManager.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerManager_Statics::NewProp_allPlayers_MetaData[] = {
+		{ "Category", "PlayerManager" },
+		{ "ModuleRelativePath", "PlayerManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerManager_Statics::NewProp_allPlayers = { UE4CodeGen_Private::EPropertyClass::Array, "allPlayers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, STRUCT_OFFSET(APlayerManager, allPlayers), METADATA_PARAMS(Z_Construct_UClass_APlayerManager_Statics::NewProp_allPlayers_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerManager_Statics::NewProp_allPlayers_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerManager_Statics::NewProp_allPlayers_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "allPlayers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_APlayer_Base_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerManager_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerManager_Statics::NewProp_allPlayers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerManager_Statics::NewProp_allPlayers_Inner,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerManager_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayerManager>::IsAbstract,
 	};
@@ -129,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerManager() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		FuncInfo, ARRAY_COUNT(FuncInfo),
-		nullptr, 0,
+		Z_Construct_UClass_APlayerManager_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_APlayerManager_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -144,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerManager, 3236394746);
+	IMPLEMENT_CLASS(APlayerManager, 2952835493);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerManager(Z_Construct_UClass_APlayerManager, &APlayerManager::StaticClass, TEXT("/Script/FightingGame"), TEXT("APlayerManager"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerManager);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

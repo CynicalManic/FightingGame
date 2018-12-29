@@ -2,6 +2,7 @@
 
 #include "PlayerManager.h"
 #include "Player_Base.h"
+#include "Engine/GameEngine.h"
 
 // Sets default values
 APlayerManager::APlayerManager()
@@ -30,7 +31,8 @@ void APlayerManager::SetPlayers(TArray<APlayer_Base*> Players)
 	for (int i = 0; i < Players.Num(); i++)
 	{
 		Players[i]->SetPlayerID(i);
+		FString num = FString::SanitizeFloat(i);
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, num);
 	}
-	allPlayers = Players;
 }
 
