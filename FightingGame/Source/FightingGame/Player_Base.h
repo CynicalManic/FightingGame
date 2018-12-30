@@ -5,6 +5,7 @@
 #include "GameFramework/Character.h"
 #include "Player_Base.generated.h"
 
+
 class UCharacterMovementComponent;
 class UAnimation_Handler;
 
@@ -17,6 +18,12 @@ class FIGHTINGGAME_API APlayer_Base : public ACharacter
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int playerNum;
+
+	UFUNCTION()
+		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<AActor*> _respawnPoints;
 
 //Protected Variables
 protected:
@@ -61,6 +68,18 @@ protected:
 	UPROPERTY(BlueprintReadOnly)
 	int playerID = 1;
 
+	enum PlayerState
+	{
+		Alive,
+		Respawning,
+		Dead,
+		Inactive
+	};
+
+	PlayerState currentState = Alive;
+
+	int remainingLives = 10;
+
 //Public Functions
 public:
 	APlayer_Base();
@@ -72,6 +91,17 @@ public:
 	virtual void Damage(float damage, float knockback, FVector attackerPosition);
 	int GetPlayerID() { return playerID; }
 	void SetPlayerID(int ID) { playerID = ID; }
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "GetFunction")
+		FString CollisionType(AActor* OtherActor);
+
+	UFUNCTION(BlueprintCallable)
+		void SetRespawnArray(TArray<AActor*> respawns);
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "GetFunction")
+		void GetRespawnArray();
+
+	bool CheckIfActive();
 
 //Protected Functions
 protected:

@@ -5,10 +5,14 @@
 #include "Engine/GameEngine.h"
 #include "DrawDebugHelpers.h"
 #include "Animation_Handler.h"
+#include "Components/CapsuleComponent.h"
+//#include "Blueprint'/Game/MapObjects/OutOfBounds.OutOfBounds"
 
 // Sets default values
 APlayer_Base::APlayer_Base()
 {
+	UCapsuleComponent* objectCollider = GetCapsuleComponent();
+	objectCollider->OnComponentBeginOverlap.AddDynamic(this, &APlayer_Base::OnOverlapBegin);
 	AnimationHandler = this->CreateDefaultSubobject<UAnimation_Handler>(TEXT("Animation Handler Component"));
 	this->AddOwnedComponent(AnimationHandler);
 	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
@@ -16,6 +20,17 @@ APlayer_Base::APlayer_Base()
 	PrimaryActorTick.bCanEverTick = true;
 }
 
+bool APlayer_Base::CheckIfActive()
+{
+	if (currentState == Alive)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
 // Called when the game starts or when spawned
 void APlayer_Base::BeginPlay()
 {
@@ -127,7 +142,7 @@ APlayer_Base* APlayer_Base::CheckAttackCollision()
 	FCollisionQueryParams paramaters;
 	paramaters.AddIgnoredActor(this);
 	GetWorld()->LineTraceSingleByChannel(RV_Hit, this->GetActorLocation(), this->GetActorLocation() + (attackDirection * attackRange), ECollisionChannel::ECC_Pawn, paramaters);
-	DrawDebugLine(GetWorld(),this->GetActorLocation(), RV_Hit.Location,FColor(255, 0, 0),false, -1, 0,12.333);
+	DrawDebugLine(GetWorld(), this->GetActorLocation(), RV_Hit.Location, FColor(255, 0, 0), false, -1, 0, 12.333);
 	if (RV_Hit.Actor != nullptr)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I Hit Something"));
@@ -144,3 +159,35 @@ APlayer_Base* APlayer_Base::CheckAttackCollision()
 		return nullptr;
 	}
 }
+
+void APlayer_Base::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+
+	FString type = CollisionType(OtherActor);
+
+	if (remainingLives > 0)
+	{
+		currentState = Respawning;
+		remainingLives =- -1;
+		GetRespawnArray();
+
+		if (_respawnPoints.Num() != 0)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am Respawning"));
+			int randomNumber = FMath::RandRange(0, _respawnPoints.Num() - 1);
+			FVector location = _respawnPoints[randomNumber]->GetActorLocation();
+			this->SetActorLocation(location);
+			FVector zeroVelocity = { 0,0,0 };
+			this->GetRootComponent()->ComponentVelocity = zeroVelocity;
+		}
+	}
+}
+
+void APlayer_Base::SetRespawnArray(TArray<AActor*> respawns)
+{
+	_respawnPoints = respawns;
+}
+
+
+
+

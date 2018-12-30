@@ -49,8 +49,11 @@ void ACamera::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	GetPlayerArray();
 
+
+
 	if (_players.Num() != 0 && _cameraMode == Chase)
 	{
+
 		SetActorMidpoint();
 
 		FVector cameraLocation = CameraOne->GetActorLocation();

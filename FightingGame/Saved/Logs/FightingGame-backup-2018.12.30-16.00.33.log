@@ -1,0 +1,1102 @@
+﻿Log file open, 12/29/18 16:44:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FightingGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.390564
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.284s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.29-16.44.39:270][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.29-16.44.39:270][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.29-16.44.39:284][  0]LogHAL: Display: Platform has ~ 16 GB [17126547456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.29-16.44.39:284][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.29-16.44.39:284][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.29-16.44.39:285][  0]LogInit: Computer: EDWARD
+[2018.12.29-16.44.39:285][  0]LogInit: User: John
+[2018.12.29-16.44.39:285][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.29-16.44.39:285][  0]LogInit: High frequency timer resolution =3.914061 MHz
+[2018.12.29-16.44.39:285][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.12.29-16.44.39:285][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.29-16.44.39:285][  0]LogMemory: Process Physical Memory: 101.81 MB used, 101.81 MB peak
+[2018.12.29-16.44.39:285][  0]LogMemory: Process Virtual Memory: 90.01 MB used, 90.01 MB peak
+[2018.12.29-16.44.39:285][  0]LogMemory: Physical Memory: 7063.28 MB used,  9269.87 MB free, 16333.15 MB total
+[2018.12.29-16.44.39:285][  0]LogMemory: Virtual Memory: 4638.83 MB used,  9269.87 MB free, 134217728.00 MB total
+[2018.12.29-16.44.39:401][  0]LogInit: Using OS detected language (en-US).
+[2018.12.29-16.44.39:401][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.29-16.44.39:402][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.29-16.44.39:710][  0]LogStreaming: Display: Took  0.310s to InitEngineTextLocalization.
+[2018.12.29-16.44.39:710][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.29-16.44.39:766][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.29-16.44.39:766][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.29-16.44.40:065][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.12.29-16.44.40:065][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.29-16.44.40:134][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.12.29-16.44.40:134][  0]LogD3D11RHI:       6061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.12.29-16.44.40:140][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.29-16.44.40:141][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.29-16.44.40:141][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.29-16.44.40:148][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.29-16.44.40:148][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.29-16.44.40:148][  0]LogWindows: EnumDisplayDevices:
+[2018.12.29-16.44.40:149][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.12.29-16.44.40:149][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.12.29-16.44.40:150][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.12.29-16.44.40:150][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.12.29-16.44.40:150][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.29-16.44.40:150][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.12.29-16.44.40:150][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.12.29-16.44.40:151][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.12.29-16.44.40:151][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.12.29-16.44.40:187][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.29-16.44.40:202][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.29-16.44.40:301][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Git/FightingGame/FightingGame/Intermediate/Shaders/WorkingDirectory/4660/).
+[2018.12.29-16.44.40:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/5A9738DE48C60B7FC8A6609355D6D257/'.
+[2018.12.29-16.44.40:579][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.29-16.44.40:598][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.29-16.44.40:618][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.29-16.44.40:637][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.29-16.44.40:657][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.29-16.44.40:676][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.29-16.44.40:697][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.29-16.44.40:718][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.29-16.44.40:732][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:809][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:809][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:809][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:809][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:809][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:809][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.29-16.44.40:814][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.29-16.44.40:890][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.29-16.44.40:890][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.29-16.44.40:917][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.29-16.44.40:917][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.29-16.44.40:968][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.29-16.44.40:991][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.29-16.44.41:007][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.29-16.44.41:025][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.29-16.44.41:037][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.29-16.44.41:037][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.29-16.44.41:244][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.29-16.44.41:245][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.29-16.44.41:245][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.29-16.44.41:245][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.29-16.44.41:996][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.29-16.44.42:044][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.29-16.44.42:045][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.29-16.44.42:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.29-16.44.42:045][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.29-16.44.42:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.29-16.44.42:045][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.29-16.44.42:056][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.29-16.44.42:070][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.29-16.44.42:070][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.29-16.44.42:070][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.29-16.44.42:086][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.29-16.44.42:087][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.29-16.44.42:088][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.29-16.44.42:164][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2018.12.29-16.44.42:479][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.29-16.44.42:652][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.29-16.44.42:672][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.29-16.44.42:672][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.29-16.44.42:672][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.29-16.44.42:672][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.29-16.44.42:697][  0]LogNetVersion: FightingGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 156865789)
+[2018.12.29-16.44.43:348][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.206373 seconds
+[2018.12.29-16.44.43:354][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.29-16.44.43:354][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.29-16.44.43:354][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.29-16.44.44:548][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.29-16.44.44:567][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.29-16.44.44:825][  0]SourceControl: Source control is disabled
+[2018.12.29-16.44.44:825][  0]SourceControl: Source control is disabled
+[2018.12.29-16.44.44:838][  0]SourceControl: Source control is disabled
+[2018.12.29-16.44.44:845][  0]SourceControl: Source control is disabled
+[2018.12.29-16.44.45:292][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.29-16.44.45:494][  0]LogOcInput: OculusInput pre-init called
+[2018.12.29-16.44.45:579][  0]LogEngine: Initializing Engine...
+[2018.12.29-16.44.45:581][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2018.12.29-16.44.45:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.29-16.44.45:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.29-16.44.45:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.29-16.44.45:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.29-16.44.45:764][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.29-16.44.45:787][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.29-16.44.45:894][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-16.44.45:974][  0]LogInit: FAudioDevice initialized.
+[2018.12.29-16.44.45:974][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.29-16.44.46:114][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.29-16.44.46:123][  0]LogInit: Texture streaming: Enabled
+[2018.12.29-16.44.46:166][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.29-16.44.46:182][  0]LogInit: Transaction tracking system initialized
+[2018.12.29-16.44.46:245][  0]BlueprintLog: New page: Editor Load
+[2018.12.29-16.44.46:534][  0]LocalizationService: Localization service is disabled
+[2018.12.29-16.44.46:903][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.29-16.44.46:904][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.29-16.44.46:904][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.29-16.44.46:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.29-16.44.46:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.29-16.44.46:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.29-16.44.46:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.29-16.44.47:056][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/' took 0.02s
+[2018.12.29-16.44.47:057][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2018.12.29-16.44.47:057][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2018.12.29-16.44.47:057][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
+[2018.12.29-16.44.47:209][  0]SourceControl: Source control is disabled
+[2018.12.29-16.44.47:209][  0]Cmd: MAP LOAD FILE="../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.29-16.44.47:210][  0]LightingResults: New page: Lighting Build
+[2018.12.29-16.44.47:215][  0]MapCheck: New page: Map Check
+[2018.12.29-16.44.47:215][  0]LightingResults: New page: Lighting Build
+[2018.12.29-16.44.47:535][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-16.44.47:545][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.29-16.44.47:565][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.29-16.44.47:700][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 134.995ms to complete.
+[2018.12.29-16.44.47:701][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.492
+[2018.12.29-16.44.47:832][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.44.47:840][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.44.47:847][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.44.47:855][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.44.47:867][  0]LogCollectionManager: Loaded 0 collections in 0.002293 seconds
+[2018.12.29-16.44.47:925][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Saved/Collections/' took 0.01s
+[2018.12.29-16.44.47:925][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Developers/John/Collections/' took 0.01s
+[2018.12.29-16.44.47:925][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Collections/' took 0.01s
+[2018.12.29-16.44.47:925][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.29-16.44.47:935][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2577 classes and 605 folders.
+[2018.12.29-16.44.47:946][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.29-16.44.48:007][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.29-16.44.48:021][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.12.29-16.44.48:075][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.29-16.44.48:077][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.29-16.44.48:083][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.29-16.44.48:153][  0]LogRenderer: Reallocating scene render targets to support 1208x680 Format 10 NumSamples 1 (Frame:1).
+[2018.12.29-16.44.48:197][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.29-16.44.48:314][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.29-16.44.48:314][  0]LogLoad: (Engine Initialization) Total time: 11.54 seconds
+[2018.12.29-16.44.48:315][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.29-16.44.48:350][  0]LogAssetRegistry: Asset discovery search completed in 6.2102 seconds
+[2018.12.29-16.44.48:351][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.29-16.44.48:351][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000246 seconds (updated 0 objects)
+[2018.12.29-16.44.48:352][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.29-16.44.53:299][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-16.44.56:388][580]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.29-16.45.01:414][580]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.12.29-16.45.05:805][ 70]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Test.Test
+[2018.12.29-16.45.06:729][ 70]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.12.29-16.45.09:894][218]LogRenderer: Reallocating scene render targets to support 1208x744 Format 10 NumSamples 1 (Frame:142).
+[2018.12.29-16.45.10:060][237]LogSlate: Window 'Test*' being destroyed
+[2018.12.29-16.45.11:304][374]LogSlate: Took 0.017812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.29-16.47.36:948][376]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PlayerManager_BP.PlayerManager_BP
+[2018.12.29-16.47.37:204][377]LogSlate: Took 0.007856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.29-16.48.33:281][643]BlueprintLog: New page: Compile PlayerManager_BP
+[2018.12.29-16.48.57:960][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-16.48.57:992][813]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BP430393FF4469F8369525D9AC6EB2014E.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-16.49.03:234][381]Candidate modules for hot reload:
+[2018.12.29-16.49.03:234][381]  FightingGame
+[2018.12.29-16.49.03:235][381]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,9681 Win64 Development -TargetType=Editor -Project="../../../../../../Git/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "D:/Git/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.29-16.49.03:236][381]Warning: Starting HotReload took  0.1s.
+[2018.12.29-16.49.18:538][698]CompilerResultsLog: New page: Compilation - Dec 29, 2018, 4:49:18 PM
+[2018.12.29-16.49.18:539][698]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.29-16.49.18:539][698]CompilerResultsLog: Creating makefile for hot reloading FightingGameEditor (game project files are newer)
+[2018.12.29-16.49.18:539][698]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.29-16.49.18:539][698]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.29-16.49.18:539][698]CompilerResultsLog: Parsing headers for FightingGameEditor
+[2018.12.29-16.49.18:539][698]CompilerResultsLog:   Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.29-16.49.18:539][698]CompilerResultsLog: Error: D:/Git/FightingGame/FightingGame/Source/FightingGame/PlayerManager.h(15)  : LogCompile: Error: BlueprintReadWrite should not be used on private members
+[2018.12.29-16.49.18:539][698]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'FightingGameEditor' (platform: Win64, module info: D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.12.29-16.49.18:539][698]LogMainFrame: MainFrame: Module compiling took 15.318 seconds
+[2018.12.29-16.49.18:540][698]Warning: HotReload failed, recompile failed
+[2018.12.29-16.49.33:037][445]Candidate modules for hot reload:
+[2018.12.29-16.49.33:037][445]  FightingGame
+[2018.12.29-16.49.33:037][445]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,6523 Win64 Development -TargetType=Editor -Project="../../../../../../Git/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "D:/Git/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.29-16.49.33:039][445]Warning: Starting HotReload took  0.0s.
+[2018.12.29-16.49.56:841][165]CompilerResultsLog: New page: Compilation - Dec 29, 2018, 4:49:56 PM
+[2018.12.29-16.49.56:841][165]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.29-16.49.56:842][165]CompilerResultsLog: Creating makefile for hot reloading FightingGameEditor (game project files are newer)
+[2018.12.29-16.49.56:842][165]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.29-16.49.56:842][165]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.29-16.49.56:842][165]CompilerResultsLog: Parsing headers for FightingGameEditor
+[2018.12.29-16.49.56:842][165]CompilerResultsLog:   Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.29-16.49.56:842][165]CompilerResultsLog: Reflection code generated for FightingGameEditor in 10.2487191 seconds
+[2018.12.29-16.49.56:842][165]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.29-16.49.56:842][165]CompilerResultsLog:   [1/5] FightingGame.init.gen.cpp
+[2018.12.29-16.49.56:842][165]CompilerResultsLog:   [2/5] PlayerManager.gen.cpp
+[2018.12.29-16.49.56:842][165]CompilerResultsLog:   [3/5] PlayerManager.cpp
+[2018.12.29-16.49.56:842][165]CompilerResultsLog:   [4/5] UE4Editor-FightingGame-6523.lib
+[2018.12.29-16.49.56:843][165]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-6523.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-6523.exp
+[2018.12.29-16.49.56:843][165]CompilerResultsLog:   [5/5] UE4Editor-FightingGame-6523.dll
+[2018.12.29-16.49.56:843][165]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-6523.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-6523.suppressed.exp
+[2018.12.29-16.49.56:843][165]CompilerResultsLog: Total build time: 23.40 seconds (Parallel executor: 5.62 seconds)
+[2018.12.29-16.49.56:843][165]LogMainFrame: MainFrame: Module compiling took 23.820 seconds
+[2018.12.29-16.49.56:881][165]LogClass: Could not find existing class PlayerManager in package /Script/FightingGame for HotReload, assuming new class
+[2018.12.29-16.49.56:881][165]LogClass: Function SetPlayers is new.
+[2018.12.29-16.49.56:890][165]LogHotReload: Re-instancing PlayerManager after hot-reload.
+[2018.12.29-16.49.57:063][165]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2018.12.29-16.49.57:067][165]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2018.12.29-16.49.57:437][165]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2578 classes and 607 folders.
+[2018.12.29-16.49.57:445][165]Display: HotReload took 24.4s.
+[2018.12.29-16.51.41:992][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-16.51.42:026][524]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BP31DD69734AADFF8AB8F0CEB2A579AA89.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-16.51.49:562][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-16.51.49:592][373]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BP9199BBB744A82A8BEB5C2A9E4BD0AB09.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-16.51.51:505][586]BlueprintLog: New page: Compile PlayerManager_BP
+[2018.12.29-16.51.51:512][586]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2018.12.29-16.51.51:513][586]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2018.12.29-16.51.51:674][586]LogBlueprint: Warning: [Compiler PlayerManager_BP] [0434.90] Compile of PlayerManager_BP successful, but with 2 Warning(s) [in 169 ms] (/Game/PlayerManager_BP.PlayerManager_BP)
+[2018.12.29-16.52.10:915][722]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-16.52.10:937][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.52.10:937][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-16.52.10:951][722]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 4:52:10 PM)
+[2018.12.29-16.52.10:952][722]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-16.52.10:956][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004781s)
+[2018.12.29-16.52.10:957][722]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-16.52.10:958][722]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2018.12.29-16.52.10:958][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006242s)
+[2018.12.29-16.52.11:034][722]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-16.52.11:094][722]LogInit: FAudioDevice initialized.
+[2018.12.29-16.52.11:313][722]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-16.52.11:315][722]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-16.52.11
+[2018.12.29-16.52.11:316][722]LogWorld: Bringing up level for play took: 0.000927
+[2018.12.29-16.52.11:364][722]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.12.29-16.52.11:373][722]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2018.12.29-16.52.11:373][722]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2018.12.29-16.52.11:376][722]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.924
+[2018.12.29-16.52.11:377][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.52.11:430][723]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074260 > MaxSimulationTimeStep (0.050) for 'TestPlayer_C_0', movement 'Walking'
+[2018.12.29-16.52.11:431][723]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074260 > MaxSimulationTimeStep (0.050) for 'TestPlayer_C_1', movement 'Walking'
+[2018.12.29-16.53.00:797][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.53.00:798][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.53.00:842][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-16.53.00:842][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.53.00:871][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.53.00:909][990]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.12.29-16.54.15:905][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-16.54.16:214][277]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-16.54.16:228][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.54.16:229][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-16.54.16:229][277]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 4:54:16 PM)
+[2018.12.29-16.54.16:229][277]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-16.54.16:232][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002821s)
+[2018.12.29-16.54.16:233][277]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-16.54.16:233][277]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.12.29-16.54.16:233][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004094s)
+[2018.12.29-16.54.16:314][277]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-16.54.16:372][277]LogInit: FAudioDevice initialized.
+[2018.12.29-16.54.16:407][277]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-16.54.16:409][277]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-16.54.16
+[2018.12.29-16.54.16:409][277]LogWorld: Bringing up level for play took: 0.001100
+[2018.12.29-16.54.16:428][277]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.024
+[2018.12.29-16.54.16:428][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.54.24:152][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-16.54.35:466][207]LogEditorViewport: Clicking on Actor (LMB): TestPlayer_C (TestPlayer)
+[2018.12.29-16.54.36:815][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-16.54.40:898][766]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-16.54.41:377][813]LogEditorViewport: Clicking on Actor (LMB): TestPlayer_C (TestPlayer1)
+[2018.12.29-16.54.42:198][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-16.55.21:059][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.55.21:059][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.55.21:103][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-16.55.21:103][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-16.55.21:133][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-16.55.21:162][286]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.12.29-16.55.23:836][577]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-16.55.24:077][577]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default62A35DE4488CBC52868CC1B07705531E.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-16.55.24:158][577]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData96660D7E4952697A7B4A389851621785.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.01.55:490][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.01.57:855][442]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.01.57:868][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.01.57:869][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.01.57:869][442]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:01:57 PM)
+[2018.12.29-17.01.57:869][442]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.01.57:872][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003192s)
+[2018.12.29-17.01.57:873][442]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.01.57:874][442]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2018.12.29-17.01.57:874][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004744s)
+[2018.12.29-17.01.57:948][442]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.01.58:003][442]LogInit: FAudioDevice initialized.
+[2018.12.29-17.01.58:038][442]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.01.58:039][442]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.01.58
+[2018.12.29-17.01.58:040][442]LogWorld: Bringing up level for play took: 0.001012
+[2018.12.29-17.01.58:058][442]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.394
+[2018.12.29-17.01.58:058][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.02.13:742][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.02.14:055][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.02.14:056][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.02.14:098][214]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.02.14:098][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.02.14:142][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.02.14:187][215]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.29-17.02.17:548][578]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.02.38:825][331]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
+[2018.12.29-17.02.39:570][417]LogEditorViewport: Clicking on Actor (CTRL LMB): PlayerStart (Player Start)
+[2018.12.29-17.02.40:527][522]Cmd: DELETE
+[2018.12.29-17.02.40:528][522]Cmd: ACTOR DELETE
+[2018.12.29-17.02.40:530][522]LogEditorActor: Deleted Actor: PlayerStart
+[2018.12.29-17.02.40:532][522]LogEditorActor: Deleted Actor: PlayerStart
+[2018.12.29-17.02.40:556][522]LogEditorActor: Deleted 2 Actors (0.028 secs)
+[2018.12.29-17.02.41:278][597]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.02.41:482][597]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default89BF859340418F8BF5DDBDAE078D61D7.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.02.41:553][597]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltDataC142673A465CCA882A335EA3B4493CC8.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.02.41:886][636]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.02.41:945][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.02.41:945][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.02.41:945][636]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:02:41 PM)
+[2018.12.29-17.02.41:946][636]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.02.41:948][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002348s)
+[2018.12.29-17.02.41:949][636]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.02.41:949][636]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2018.12.29-17.02.41:950][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003569s)
+[2018.12.29-17.02.42:031][636]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.02.42:086][636]LogInit: FAudioDevice initialized.
+[2018.12.29-17.02.42:123][636]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.02.42:124][636]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.02.42
+[2018.12.29-17.02.42:125][636]LogWorld: Bringing up level for play took: 0.000987
+[2018.12.29-17.02.42:142][636]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.309
+[2018.12.29-17.02.42:142][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.02.45:383][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.02.45:383][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.02.45:423][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.02.45:423][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.02.45:449][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.02.45:486][  5]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.12.29-17.02.58:595][466]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.02.58:839][488]Cmd: TRANSACTION UNDO
+[2018.12.29-17.02.58:839][488]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.29-17.03.09:439][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.03.19:171][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.03.20:917][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.03.22:733][112]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.03.22:746][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.22:746][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.03.22:746][112]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:03:22 PM)
+[2018.12.29-17.03.22:747][112]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.03.22:749][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002747s)
+[2018.12.29-17.03.22:750][112]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.03.22:751][112]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2018.12.29-17.03.22:751][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004141s)
+[2018.12.29-17.03.22:835][112]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.03.22:892][112]LogInit: FAudioDevice initialized.
+[2018.12.29-17.03.22:931][112]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.03.22:932][112]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.03.22
+[2018.12.29-17.03.22:933][112]LogWorld: Bringing up level for play took: 0.000912
+[2018.12.29-17.03.22:950][112]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.497
+[2018.12.29-17.03.22:950][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.29:077][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.29:078][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.03.29:118][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.03.29:118][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.29:146][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.03.29:183][806]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.12.29-17.03.31:235][ 25]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.29-17.03.34:693][406]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.29-17.03.35:124][456]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.03.35:785][525]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2018.12.29-17.03.38:365][817]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.29-17.03.38:744][853]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.03.39:035][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.03.39:256][883]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_DefaultF39D92E44A7AC8448333ECAC53161F76.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.03.39:312][883]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData0480B15E40C45D734AD65DA8AEEF2B55.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.03.39:664][917]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.03.39:675][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.39:675][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.03.39:676][917]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:03:39 PM)
+[2018.12.29-17.03.39:676][917]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.03.39:678][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002609s)
+[2018.12.29-17.03.39:679][917]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.03.39:679][917]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.12.29-17.03.39:679][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003703s)
+[2018.12.29-17.03.39:749][917]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.03.39:802][917]LogInit: FAudioDevice initialized.
+[2018.12.29-17.03.39:842][917]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.03.39:844][917]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.03.39
+[2018.12.29-17.03.39:844][917]LogWorld: Bringing up level for play took: 0.000680
+[2018.12.29-17.03.39:861][917]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.592
+[2018.12.29-17.03.39:861][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.44:946][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.44:946][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.03.44:990][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.03.44:990][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.03.45:017][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.03.45:045][492]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.29-17.03.50:120][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.04.17:422][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-17.04.17:453][807]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BP62C7B2D04D0A1929DC8FF7BFCA46727F.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-17.04.19:167][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-17.04.19:192][994]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BP6C24F3DF4D7B0A620CD86BB143BCAC6B.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-17.04.57:605][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-17.04.57:636][311]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BP357C8E73405FCE796394D0AA7B77343E.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-17.05.00:339][619]BlueprintLog: New page: Compile PlayerManager_BP
+[2018.12.29-17.05.00:345][619]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2018.12.29-17.05.00:346][619]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2018.12.29-17.05.00:490][619]LogBlueprint: Warning: [Compiler PlayerManager_BP] [1223.72] Compile of PlayerManager_BP successful, but with 2 Warning(s) [in 151 ms] (/Game/PlayerManager_BP.PlayerManager_BP)
+[2018.12.29-17.05.01:839][764]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.05.01:856][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.01:857][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.05.01:857][764]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:05:01 PM)
+[2018.12.29-17.05.01:857][764]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.05.01:862][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004679s)
+[2018.12.29-17.05.01:863][764]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.05.01:863][764]LogPlayLevel: PIE: World Init took: (0.001422s)
+[2018.12.29-17.05.01:864][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006514s)
+[2018.12.29-17.05.01:951][764]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.05.02:007][764]LogInit: FAudioDevice initialized.
+[2018.12.29-17.05.02:041][764]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.05.02:043][764]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.05.02
+[2018.12.29-17.05.02:043][764]LogWorld: Bringing up level for play took: 0.001073
+[2018.12.29-17.05.02:062][764]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.39
+[2018.12.29-17.05.02:062][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.07:321][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.07:321][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.05.07:369][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.05.07:369][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.07:397][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.05.07:425][360]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.12.29-17.05.08:700][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.05.09:633][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-17.05.09:665][598]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BPB015342A4616778314E733AFD0E5E375.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-17.05.14:753][ 13]Candidate modules for hot reload:
+[2018.12.29-17.05.14:754][ 13]  FightingGame
+[2018.12.29-17.05.14:754][ 13]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,3956 Win64 Development -TargetType=Editor -Project="../../../../../../Git/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "D:/Git/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.29-17.05.14:755][ 13]Warning: Starting HotReload took  0.0s.
+[2018.12.29-17.05.30:874][825]CompilerResultsLog: New page: Compilation - Dec 29, 2018, 5:05:30 PM
+[2018.12.29-17.05.30:875][825]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.29-17.05.30:875][825]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.29-17.05.30:875][825]CompilerResultsLog: Parsing headers for FightingGameEditor
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:   Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.29-17.05.30:875][825]CompilerResultsLog: Reflection code generated for FightingGameEditor in 10.4850701 seconds
+[2018.12.29-17.05.30:875][825]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:   [1/5] PlayerManager.gen.cpp
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:   [2/5] Animation_Handler.cpp
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:   [3/5] PlayerManager.cpp
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:   [4/5] UE4Editor-FightingGame-3956.lib
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3956.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3956.exp
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:   [5/5] UE4Editor-FightingGame-3956.dll
+[2018.12.29-17.05.30:875][825]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3956.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-3956.suppressed.exp
+[2018.12.29-17.05.30:876][825]CompilerResultsLog: Total build time: 15.83 seconds (Parallel executor: 2.06 seconds)
+[2018.12.29-17.05.30:876][825]LogMainFrame: MainFrame: Module compiling took 16.137 seconds
+[2018.12.29-17.05.30:925][825]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2018.12.29-17.05.30:930][825]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2018.12.29-17.05.31:227][825]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2578 classes and 607 folders.
+[2018.12.29-17.05.31:227][825]Display: HotReload took 16.5s.
+[2018.12.29-17.05.32:340][941]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/CharacterUI.CharacterUI
+[2018.12.29-17.05.35:853][181]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.05.35:868][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.35:868][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.05.35:868][181]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:05:35 PM)
+[2018.12.29-17.05.35:869][181]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.05.35:871][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002854s)
+[2018.12.29-17.05.35:872][181]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.05.35:873][181]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2018.12.29-17.05.35:873][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004360s)
+[2018.12.29-17.05.35:996][181]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.05.36:057][181]LogInit: FAudioDevice initialized.
+[2018.12.29-17.05.36:093][181]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.05.36:094][181]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.05.36
+[2018.12.29-17.05.36:095][181]LogWorld: Bringing up level for play took: 0.000808
+[2018.12.29-17.05.36:112][181]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.34
+[2018.12.29-17.05.36:113][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.47:488][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.47:489][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.05.47:530][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.05.47:530][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.05.47:559][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.05.47:594][474]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.12.29-17.06.49:021][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.06.49:923][748]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.06.49:939][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.06.49:939][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.06.49:939][748]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:06:49 PM)
+[2018.12.29-17.06.49:939][748]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.06.49:942][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002867s)
+[2018.12.29-17.06.49:943][748]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.06.49:944][748]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2018.12.29-17.06.49:944][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004227s)
+[2018.12.29-17.06.50:026][748]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.06.50:083][748]LogInit: FAudioDevice initialized.
+[2018.12.29-17.06.50:116][748]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.06.50:118][748]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.06.50
+[2018.12.29-17.06.50:118][748]LogWorld: Bringing up level for play took: 0.000787
+[2018.12.29-17.06.50:135][748]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.317
+[2018.12.29-17.06.50:135][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.06.51:521][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.06.51:522][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.06.51:564][905]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.06.51:564][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.06.51:591][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.06.51:622][908]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.12.29-17.06.53:176][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.06.53:388][ 72]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default25A52FFF4C44CB4BBAEFDFA67B91EA30.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.06.53:441][ 72]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData803A5E9D4734BD8BD1659B915CC0F320.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.07.31:728][220]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.12.29-17.07.32:804][341]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.07.32:822][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.07.32:822][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.07.32:822][341]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:07:32 PM)
+[2018.12.29-17.07.32:822][341]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.07.32:826][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002937s)
+[2018.12.29-17.07.32:826][341]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.07.32:827][341]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2018.12.29-17.07.32:827][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004298s)
+[2018.12.29-17.07.32:906][341]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.07.32:961][341]LogInit: FAudioDevice initialized.
+[2018.12.29-17.07.32:996][341]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.07.32:997][341]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.07.32
+[2018.12.29-17.07.32:998][341]LogWorld: Bringing up level for play took: 0.001152
+[2018.12.29-17.07.33:016][341]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.564
+[2018.12.29-17.07.33:016][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.07.33:668][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.07.33:668][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.07.33:710][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.07.33:710][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.07.33:739][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.07.33:769][412]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.12.29-17.08.03:842][730]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TestPlayer.TestPlayer
+[2018.12.29-17.08.10:653][461]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.08.10:667][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestPlayer" FILE="../../../../../../Git/FightingGame/FightingGame/Content/TestPlayer.uasset" SILENT=true
+[2018.12.29-17.08.10:707][461]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/TestPlayerE04DF49341F6DF2F9F81F4B891B46B61.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/TestPlayer.uasset'
+[2018.12.29-17.09.18:647][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.09.26:099][169]LogSlate: Window 'Save Content' being destroyed
+[2018.12.29-17.09.26:129][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test" FILE="../../../../../../Git/FightingGame/FightingGame/Content/Test.uasset" SILENT=true
+[2018.12.29-17.09.26:139][169]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/TestB51352E64D0D2185AA4B01A30E050121.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Test.uasset'
+[2018.12.29-17.09.27:068][268]LogTemp: Repeating last play command: Standalone Game
+[2018.12.29-17.09.45:747][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.09.45:747][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.09.45:748][431]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:09:45 PM)
+[2018.12.29-17.09.45:748][431]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.09.45:751][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002986s)
+[2018.12.29-17.09.45:752][431]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.09.45:752][431]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2018.12.29-17.09.45:752][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004476s)
+[2018.12.29-17.09.45:838][431]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.09.45:892][431]LogInit: FAudioDevice initialized.
+[2018.12.29-17.09.45:931][431]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.09.45:933][431]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.09.45
+[2018.12.29-17.09.45:933][431]LogWorld: Bringing up level for play took: 0.000878
+[2018.12.29-17.09.45:950][431]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.501
+[2018.12.29-17.09.45:951][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.10.18:549][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.10.18:607][244]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.10.18:607][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.10.18:646][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.10.18:646][244]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.10.18:681][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.10.18:711][247]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.12.29-17.11.59:911][ 30]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.12.29-17.12.00:000][ 31]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FightingGame
+[2018.12.29-17.12.00:001][ 31]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.29-17.12.00:001][ 31]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.20
+[2018.12.29-17.12.00:001][ 31]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.29-17.12.00:002][ 31]LogTemp: BranchPath = EDWARD/D/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = EDWARD/D/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.12.29-17.12.00:002][ 31]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\John\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.12.29-17.12.05:529][650]LogSlate: Window 'Project Settings' being destroyed
+[2018.12.29-17.12.07:880][930]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.12.07:898][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.12.07:899][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.12.07:899][930]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:12:07 PM)
+[2018.12.29-17.12.07:899][930]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.12.07:903][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004057s)
+[2018.12.29-17.12.07:904][930]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.12.07:904][930]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2018.12.29-17.12.07:904][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005412s)
+[2018.12.29-17.12.08:001][930]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.12.08:061][930]LogInit: FAudioDevice initialized.
+[2018.12.29-17.12.08:099][930]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.12.08:100][930]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.12.08
+[2018.12.29-17.12.08:101][930]LogWorld: Bringing up level for play took: 0.001057
+[2018.12.29-17.12.08:117][930]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.335
+[2018.12.29-17.12.08:118][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.12.57:461][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.12.57:461][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.12.57:508][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.12.57:508][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.12.57:538][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.12.57:560][302]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.12.29-17.12.59:031][477]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.12.59:333][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.12.59:549][509]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_DefaultDAC366F54C1D96B093B6018E8BB04F78.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.12.59:610][509]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData4936028E443AB85A16A15BBF9921C876.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.13.00:382][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.29-17.13.02:813][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.29-17.13.03:381][928]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.29-17.13.04:628][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.13.55:488][678]Candidate modules for hot reload:
+[2018.12.29-17.13.55:489][678]  FightingGame
+[2018.12.29-17.13.55:489][678]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,8065 Win64 Development -TargetType=Editor -Project="../../../../../../Git/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "D:/Git/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.29-17.13.55:490][678]Warning: Starting HotReload took  0.0s.
+[2018.12.29-17.14.10:191][410]CompilerResultsLog: New page: Compilation - Dec 29, 2018, 5:14:10 PM
+[2018.12.29-17.14.10:191][410]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.29-17.14.10:191][410]CompilerResultsLog: Creating makefile for hot reloading FightingGameEditor (ini files are newer than UBTMakefile)
+[2018.12.29-17.14.10:192][410]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.29-17.14.10:192][410]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.29-17.14.10:192][410]CompilerResultsLog: Building 4 actions with 8 processes...
+[2018.12.29-17.14.10:192][410]CompilerResultsLog:   [1/4] PlayerManager.cpp
+[2018.12.29-17.14.10:192][410]CompilerResultsLog:   [2/4] Player_Base.cpp
+[2018.12.29-17.14.10:192][410]CompilerResultsLog:   [3/4] UE4Editor-FightingGame-8065.lib
+[2018.12.29-17.14.10:192][410]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-8065.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-8065.exp
+[2018.12.29-17.14.10:192][410]CompilerResultsLog:   [4/4] UE4Editor-FightingGame-8065.dll
+[2018.12.29-17.14.10:192][410]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-8065.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-8065.suppressed.exp
+[2018.12.29-17.14.10:192][410]CompilerResultsLog: Total build time: 14.41 seconds (Parallel executor: 6.71 seconds)
+[2018.12.29-17.14.10:192][410]LogMainFrame: MainFrame: Module compiling took 14.717 seconds
+[2018.12.29-17.14.10:258][410]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2018.12.29-17.14.10:263][410]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2018.12.29-17.14.10:555][410]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2578 classes and 607 folders.
+[2018.12.29-17.14.10:555][410]Display: HotReload took 15.1s.
+[2018.12.29-17.14.22:370][823]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.14.22:392][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.14.22:392][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.14.22:392][823]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:14:22 PM)
+[2018.12.29-17.14.22:392][823]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.14.22:395][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002841s)
+[2018.12.29-17.14.22:396][823]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.14.22:397][823]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2018.12.29-17.14.22:397][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004304s)
+[2018.12.29-17.14.22:501][823]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.14.22:562][823]LogInit: FAudioDevice initialized.
+[2018.12.29-17.14.22:597][823]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.14.22:598][823]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.14.22
+[2018.12.29-17.14.22:599][823]LogWorld: Bringing up level for play took: 0.001039
+[2018.12.29-17.14.22:616][823]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.164
+[2018.12.29-17.14.22:616][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.15.03:013][668]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.15.03:014][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.15.03:053][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.15.03:054][668]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.15.03:090][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.15.03:130][670]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.12.29-17.15.05:266][923]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.15.05:510][923]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_DefaultDC0923974592DC91EEE13180F1B0EEF0.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.15.05:567][923]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData4C5A901C4E6D459EFCCCC28D1633FB8B.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.15.14:920][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.29-17.15.24:719][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.15.24:756][709]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI2E2BD02E419B7B7BC9A560BAFD17547B.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.15.25:838][835]BlueprintLog: New page: Compile CharacterUI
+[2018.12.29-17.15.27:266][993]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.15.27:283][993]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.15.27:283][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.15.27:284][993]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:15:27 PM)
+[2018.12.29-17.15.27:284][993]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.15.27:286][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002348s)
+[2018.12.29-17.15.27:287][993]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.15.27:287][993]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.12.29-17.15.27:287][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003503s)
+[2018.12.29-17.15.27:383][993]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.15.27:437][993]LogInit: FAudioDevice initialized.
+[2018.12.29-17.15.27:469][993]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.15.27:471][993]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.15.27
+[2018.12.29-17.15.27:471][993]LogWorld: Bringing up level for play took: 0.000955
+[2018.12.29-17.15.27:488][993]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.036
+[2018.12.29-17.15.27:488][993]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.15.45:839][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.15.45:840][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.15.45:880][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.15.45:880][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.15.45:907][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.15.45:942][192]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.12.29-17.15.50:125][690]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.15.50:324][690]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default351BC70D498F4CF00B54F5AB66EE6AF2.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.15.50:379][690]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData483B44F7472FED1E16C825873CA632B8.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.17.47:033][272]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.29-17.17.47:033][272]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.29-17.17.47:196][272]Candidate modules for hot reload:
+[2018.12.29-17.17.47:196][272]  FightingGame
+[2018.12.29-17.17.47:196][272]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,2973 Win64 Development -TargetType=Editor -Project="../../../../../../Git/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "D:/Git/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.29-17.17.47:198][272]Warning: Starting HotReload took  0.0s.
+[2018.12.29-17.18.04:949][354]CompilerResultsLog: New page: Compilation - Dec 29, 2018, 5:18:04 PM
+[2018.12.29-17.18.04:949][354]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.29-17.18.04:949][354]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.29-17.18.04:949][354]CompilerResultsLog: Parsing headers for FightingGameEditor
+[2018.12.29-17.18.04:949][354]CompilerResultsLog:   Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.29-17.18.04:949][354]CompilerResultsLog: Reflection code generated for FightingGameEditor in 10.2352574 seconds
+[2018.12.29-17.18.04:949][354]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.29-17.18.04:949][354]CompilerResultsLog:   [1/5] PlayerManager.gen.cpp
+[2018.12.29-17.18.04:949][354]CompilerResultsLog:   [2/5] Player_Base.cpp
+[2018.12.29-17.18.04:949][354]CompilerResultsLog:   [3/5] PlayerManager.cpp
+[2018.12.29-17.18.04:950][354]CompilerResultsLog:   [4/5] UE4Editor-FightingGame-2973.lib
+[2018.12.29-17.18.04:950][354]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-2973.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-2973.exp
+[2018.12.29-17.18.04:950][354]CompilerResultsLog:   [5/5] UE4Editor-FightingGame-2973.dll
+[2018.12.29-17.18.04:950][354]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-2973.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-2973.suppressed.exp
+[2018.12.29-17.18.04:950][354]CompilerResultsLog: Total build time: 17.13 seconds (Parallel executor: 3.72 seconds)
+[2018.12.29-17.18.04:950][354]LogMainFrame: MainFrame: Module compiling took 17.770 seconds
+[2018.12.29-17.18.05:002][354]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2018.12.29-17.18.05:006][354]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2018.12.29-17.18.05:331][354]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2578 classes and 607 folders.
+[2018.12.29-17.18.05:331][354]Display: HotReload took 18.2s.
+[2018.12.29-17.18.08:670][364]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.18.08:686][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.18.08:687][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.18.08:687][364]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:18:08 PM)
+[2018.12.29-17.18.08:687][364]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.18.08:690][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002840s)
+[2018.12.29-17.18.08:691][364]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.18.08:691][364]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2018.12.29-17.18.08:691][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004356s)
+[2018.12.29-17.18.08:804][364]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.18.08:860][364]LogInit: FAudioDevice initialized.
+[2018.12.29-17.18.08:896][364]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.18.08:897][364]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.18.08
+[2018.12.29-17.18.08:898][364]LogWorld: Bringing up level for play took: 0.000865
+[2018.12.29-17.18.08:917][364]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.465
+[2018.12.29-17.18.08:918][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.18.14:121][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.18.14:122][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.18.14:162][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.18.14:162][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.18.14:191][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.18.14:222][987]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.12.29-17.18.16:131][198]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.18.16:606][242]LogEditorViewport: Clicking on Actor (LMB): CameraController_C (CameraController)
+[2018.12.29-17.18.21:573][780]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.18.22:618][901]LogEditorViewport: Clicking on Actor (LMB): PlayerManager_BP_C (PlayerManager_BP)
+[2018.12.29-17.18.27:673][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.18.38:076][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.18.38:124][265]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI2AF8A16A4C6BFA55AC1668BCEB2E51EC.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.18.44:913][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.18.44:949][ 68]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI0FD1E61F4258B541BE13838AAF950531.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.18.56:515][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.18.56:551][441]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI5FC9CE32484EE8D7A00541B8A9FFBC8C.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.19.12:281][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.19.12:322][312]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI4E31A31B4DBCE5D04AEAE1A266E66EC4.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.20.43:849][795]LogSlate: Window 'Tutorials' being destroyed
+[2018.12.29-17.21.23:707][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.21.23:747][969]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUIFCB267E34BE92FF9B8FB5E80033255B4.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.21.26:509][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.21.26:548][296]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI9E0A2C9B4C8172E79AA7C4B1992638D4.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.21.33:800][130]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default6A9D7CA04DCF900301349A9D7307FA73.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.21.33:859][130]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData9D2776654D7F90202D38E5959A9DD78B.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.22.54:772][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.22.54:962][570]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_DefaultFECCB50D4B8DF56F276A09A8374BD773.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.22.55:020][570]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltDataD5124B324D884F36B0499EAA147AC335.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.23.42:607][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.23.48:473][397]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.29-17.24.06:781][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.24.06:819][566]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUIFE9DE42841018FE6130C1188825B8A4A.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.24.17:133][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.24.17:167][774]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI34BB356C44D433F405271B835220A68E.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.24.18:251][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2018.12.29-17.24.18:282][900]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUIFC4C0E3C4C3187F90D4DBFAB8E9EFC8A.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2018.12.29-17.24.19:210][  9]BlueprintLog: New page: Compile CharacterUI
+[2018.12.29-17.24.20:516][158]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.24.20:533][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.24.20:533][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.24.20:533][158]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:24:20 PM)
+[2018.12.29-17.24.20:534][158]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.24.20:536][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002689s)
+[2018.12.29-17.24.20:537][158]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.24.20:537][158]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2018.12.29-17.24.20:537][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003874s)
+[2018.12.29-17.24.20:610][158]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.24.20:663][158]LogInit: FAudioDevice initialized.
+[2018.12.29-17.24.20:702][158]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.24.20:703][158]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.24.20
+[2018.12.29-17.24.20:704][158]LogWorld: Bringing up level for play took: 0.000815
+[2018.12.29-17.24.20:720][158]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.269
+[2018.12.29-17.24.20:721][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.25.49:710][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.25.52:255][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.25.52:256][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.25.52:295][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.25.52:296][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.25.52:329][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.25.52:369][951]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.12.29-17.25.52:981][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.25.53:064][ 31]Candidate modules for hot reload:
+[2018.12.29-17.25.53:064][ 31]  FightingGame
+[2018.12.29-17.25.53:064][ 31]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,5005 Win64 Development -TargetType=Editor -Project="../../../../../../Git/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "D:/Git/FightingGame/FightingGame/FightingGame.uproject" ]
+[2018.12.29-17.25.53:066][ 31]Warning: Starting HotReload took  0.0s.
+[2018.12.29-17.26.07:591][203]CompilerResultsLog: New page: Compilation - Dec 29, 2018, 5:26:07 PM
+[2018.12.29-17.26.07:591][203]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.29-17.26.07:592][203]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.29-17.26.07:592][203]CompilerResultsLog: Parsing headers for FightingGameEditor
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:   Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.29-17.26.07:592][203]CompilerResultsLog: Reflection code generated for FightingGameEditor in 8.6638174 seconds
+[2018.12.29-17.26.07:592][203]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:   [1/5] Player_Base.gen.cpp
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:   [2/5] PlayerManager.cpp
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:   [3/5] Player_Base.cpp
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:   [4/5] UE4Editor-FightingGame-5005.lib
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5005.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5005.exp
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:   [5/5] UE4Editor-FightingGame-5005.dll
+[2018.12.29-17.26.07:592][203]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5005.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5005.suppressed.exp
+[2018.12.29-17.26.07:593][203]CompilerResultsLog: Total build time: 13.90 seconds (Parallel executor: 2.11 seconds)
+[2018.12.29-17.26.07:593][203]LogMainFrame: MainFrame: Module compiling took 14.545 seconds
+[2018.12.29-17.26.07:653][203]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2018.12.29-17.26.07:659][203]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2018.12.29-17.26.07:990][203]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2578 classes and 607 folders.
+[2018.12.29-17.26.07:990][203]Display: HotReload took 15.0s.
+[2018.12.29-17.26.10:343][210]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.29-17.26.10:362][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.26.10:362][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.29-17.26.10:362][210]PIE: New page: PIE session: Minimal_Default (Dec 29, 2018, 5:26:10 PM)
+[2018.12.29-17.26.10:363][210]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.12.29-17.26.10:366][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003303s)
+[2018.12.29-17.26.10:367][210]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.29-17.26.10:367][210]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2018.12.29-17.26.10:367][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004731s)
+[2018.12.29-17.26.10:490][210]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.29-17.26.10:554][210]LogInit: FAudioDevice initialized.
+[2018.12.29-17.26.10:588][210]LogLoad: Game class is 'FightingGameMode_C'
+[2018.12.29-17.26.10:589][210]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.29-17.26.10
+[2018.12.29-17.26.10:590][210]LogWorld: Bringing up level for play took: 0.001038
+[2018.12.29-17.26.10:607][210]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.155
+[2018.12.29-17.26.10:608][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.26.29:961][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.26.29:961][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.26.30:003][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.29-17.26.30:003][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.12.29-17.26.30:031][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.29-17.26.30:064][531]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.12.29-17.26.31:807][740]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2018.12.29-17.26.38:583][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.26.42:182][962]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.12.29-17.26.50:792][989]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.26.50:934][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.26.51:137][  0]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default2F868EE342DBA73FF99FF09F8117293C.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.26.51:199][  0]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltDataD1B2CB4E40F086C456FBF7860EE2CB5D.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.26.53:328][244]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.26.53:510][261]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.26.53:738][261]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default62E6D7B44528C6D50CAA5B9B98EEDF76.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.26.53:798][261]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData8B7C068A41537D5116CA5EB2A1AD0C62.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.27.20:584][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.27.23:208][111]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.29-17.27.23:426][111]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default4524D9CD45629F7FB6C814B205E99DAA.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.12.29-17.27.23:486][111]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData95C4277445EC8AE7F61A3F88111B8B6A.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.12.29-17.27.24:037][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.27.31:748][914]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Test.Test
+[2018.12.29-17.27.32:018][914]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.12.29-17.27.34:014][130]LogSlate: Window 'CompilerResults' being destroyed
+[2018.12.29-17.27.34:784][212]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PlayerManager_BP.PlayerManager_BP
+[2018.12.29-17.27.36:889][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerManager_BP" FILE="../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset" SILENT=true
+[2018.12.29-17.27.36:919][426]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/PlayerManager_BP53A1D0164F7D975BEF5ADAAAE38A9474.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/PlayerManager_BP.uasset'
+[2018.12.29-17.28.02:708][374]LogSlate: Window 'Test' being destroyed
+[2018.12.29-17.28.03:757][490]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Test.Test
+[2018.12.29-17.28.20:445][768]LogSlate: Window 'Test' being destroyed
+[2018.12.29-17.28.24:011][ 17]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.29-17.29.08:859][398]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/CharacterUI.CharacterUI
+[2018.12.29-17.29.57:047][ 30]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.29-17.30.49:056][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.29-17.30.49:382][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.29-17.30.49:447][426]LogSlate: Window 'FightingGame - Unreal Editor' being destroyed
+[2018.12.29-17.30.49:697][427]Cmd: QUIT_EDITOR
+[2018.12.29-17.30.50:403][427]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.29-17.30.50:418][427]LogExit: Preparing to exit.
+[2018.12.29-17.30.51:656][427]LogExit: Editor shut down
+[2018.12.29-17.30.51:657][427]LogExit: Transaction tracking system shut down
+[2018.12.29-17.30.52:198][427]LogExit: Object subsystem successfully closed.
+[2018.12.29-17.30.52:237][427]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.29-17.30.52:243][427]LogD3D11RHI: Shutdown
+[2018.12.29-17.30.52:243][427]LogD3D11RHI: CleanupD3DDevice
+[2018.12.29-17.30.52:246][427]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.29-17.30.52:289][427]LogModuleManager: Shutting down and abandoning module FightingGame (627)
+[2018.12.29-17.30.52:289][427]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (624)
+[2018.12.29-17.30.52:289][427]LogModuleManager: Shutting down and abandoning module SequencerWidgets (622)
+[2018.12.29-17.30.52:289][427]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (619)
+[2018.12.29-17.30.52:289][427]LogModuleManager: Shutting down and abandoning module Voice (617)
+[2018.12.29-17.30.52:289][427]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2018.12.29-17.30.52:290][427]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.12.29-17.30.52:290][427]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.12.29-17.30.52:290][427]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.12.29-17.30.52:292][427]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.12.29-17.30.52:292][427]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.12.29-17.30.52:292][427]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.12.29-17.30.52:293][427]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.12.29-17.30.52:293][427]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.12.29-17.30.52:293][427]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.12.29-17.30.52:293][427]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.12.29-17.30.52:293][427]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.12.29-17.30.52:293][427]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.12.29-17.30.52:293][427]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.12.29-17.30.52:294][427]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.12.29-17.30.52:295][427]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.12.29-17.30.52:296][427]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.12.29-17.30.52:297][427]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.12.29-17.30.52:297][427]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.12.29-17.30.52:297][427]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.12.29-17.30.52:297][427]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.12.29-17.30.52:297][427]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.12.29-17.30.52:297][427]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.12.29-17.30.52:297][427]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
