@@ -1,3 +1,3 @@
-E:\Github Work\FightingGame\FightingGame\Source\FightingGame\FightingGame.Build.cs
-E:\Github Work\FightingGame\FightingGame\Source\FightingGame.Target.cs
-E:\Github Work\FightingGame\FightingGame\Source\FightingGameEditor.Target.cs
+D:\Git\FightingGame\FightingGame\Source\FightingGame\FightingGame.Build.cs
+D:\Git\FightingGame\FightingGame\Source\FightingGame.Target.cs
+D:\Git\FightingGame\FightingGame\Source\FightingGameEditor.Target.cs

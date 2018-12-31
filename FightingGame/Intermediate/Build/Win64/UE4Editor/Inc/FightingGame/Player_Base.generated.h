@@ -18,6 +18,14 @@ struct FHitResult;
 
 #define FightingGame_Source_FightingGame_Player_Base_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execgetLives) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->getLives(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetRespawnArray) \
 	{ \
 		P_GET_TARRAY(AActor*,Z_Param_respawns); \
@@ -43,6 +51,14 @@ struct FHitResult;
 
 
 #define FightingGame_Source_FightingGame_Player_Base_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execgetLives) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->getLives(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetRespawnArray) \
 	{ \

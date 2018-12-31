@@ -18,6 +18,7 @@ APlayer_Base::APlayer_Base()
 	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	characterNum = 0;
 }
 
 bool APlayer_Base::CheckIfActive()
@@ -168,7 +169,8 @@ void APlayer_Base::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, cla
 	if (remainingLives > 0)
 	{
 		currentState = Respawning;
-		remainingLives =- -1;
+		remainingLives -= 1;
+		knockbackMod = 0;
 		GetRespawnArray();
 
 		if (_respawnPoints.Num() != 0)

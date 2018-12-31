@@ -101,7 +101,13 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "GetFunction")
 		void GetRespawnArray();
 
+	UFUNCTION(BlueprintCallable, Category = "UI")
+		int getLives() { return remainingLives; };
+
 	bool CheckIfActive();
+
+	UPROPERTY(BlueprintReadOnly)
+	int characterNum;
 
 //Protected Functions
 protected:

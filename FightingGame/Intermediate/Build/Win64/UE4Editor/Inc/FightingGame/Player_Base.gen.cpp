@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	UPackage* Z_Construct_UPackage__Script_FightingGame();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_APlayer_Base_CollisionType();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_APlayer_Base_getLives();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_APlayer_Base_GetRespawnArray();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_APlayer_Base_OnOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -44,6 +45,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	{
 		UClass* Class = APlayer_Base::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "getLives", &APlayer_Base::execgetLives },
 			{ "OnOverlapBegin", &APlayer_Base::execOnOverlapBegin },
 			{ "SetRespawnArray", &APlayer_Base::execSetRespawnArray },
 		};
@@ -78,6 +80,39 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_CollisionType_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayer_Base_getLives_Statics
+	{
+		struct Player_Base_eventgetLives_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayer_Base_getLives_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Int, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(Player_Base_eventgetLives_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayer_Base_getLives_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer_Base_getLives_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer_Base_getLives_Statics::Function_MetaDataParams[] = {
+		{ "Category", "UI" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer_Base_getLives_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer_Base, "getLives", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Player_Base_eventgetLives_Parms), Z_Construct_UFunction_APlayer_Base_getLives_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_getLives_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer_Base_getLives_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer_Base_getLives_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer_Base_getLives()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer_Base_getLives_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -232,6 +267,10 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_characterNum_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_characterNum;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerID_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_playerID;
@@ -274,6 +313,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayer_Base_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayer_Base_CollisionType, "CollisionType" }, // 459617717
+		{ &Z_Construct_UFunction_APlayer_Base_getLives, "getLives" }, // 3505363893
 		{ &Z_Construct_UFunction_APlayer_Base_GetRespawnArray, "GetRespawnArray" }, // 481671384
 		{ &Z_Construct_UFunction_APlayer_Base_OnOverlapBegin, "OnOverlapBegin" }, // 683131665
 		{ &Z_Construct_UFunction_APlayer_Base_SetRespawnArray, "SetRespawnArray" }, // 3048296257
@@ -285,6 +325,13 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		{ "ModuleRelativePath", "Player_Base.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData[] = {
+		{ "Category", "Player_Base" },
+		{ "ModuleRelativePath", "Player_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum = { UE4CodeGen_Private::EPropertyClass::Int, "characterNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(APlayer_Base, characterNum), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerID_MetaData[] = {
 		{ "Category", "Player_Base" },
@@ -344,6 +391,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerNum = { UE4CodeGen_Private::EPropertyClass::Int, "playerNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, playerNum), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerNum_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer_Base_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerID,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_attackDirection,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_knockbackModString,
@@ -377,7 +425,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 1662101072);
+	IMPLEMENT_CLASS(APlayer_Base, 2492412469);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/FightingGame"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
