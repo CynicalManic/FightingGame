@@ -13,6 +13,6 @@ UCLASS()
 class FIGHTINGGAME_API APlayer_Eve : public APlayer_Base
 {
 	GENERATED_BODY()
-protected:
-	void SetupPlayer() override;
+
+	virtual void SetupPlayer() override;
 };

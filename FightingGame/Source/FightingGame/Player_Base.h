@@ -51,15 +51,19 @@ protected:
 	FVector attackDirection;
 	float attackRange = 130;
 
+	float attackOneRange = 130;
 	float attackOneDamage = 10;
 	float attackOneKnockback = 1000;
 
+	float attackTwoRange = 130;
 	float attackTwoDamage = 30;
 	float attackTwoKnockback = 1000;
 
+	float attackThreeRange = 130;
 	float attackThreeDamage = 0;
 	float attackThreeKnockback = 2500;
 
+	float attackFourRange = 130;
 	float attackFourDamage = 15;
 	float attackFourKnockback = 1000;
 
@@ -106,7 +110,7 @@ public:
 
 	bool CheckIfActive();
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite, Category = "UI")
 	int characterNum;
 
 //Protected Functions

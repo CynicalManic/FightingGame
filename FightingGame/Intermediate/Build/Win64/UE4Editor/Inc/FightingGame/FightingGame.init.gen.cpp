@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeFightingGame_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FightingGame",
 				PKG_CompiledIn | 0x00000000,
-				0xF5271C1B,
+				0x74D9C371,
 				0xC3C9D088,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

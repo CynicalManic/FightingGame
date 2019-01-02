@@ -18,13 +18,11 @@ APlayer_Base::APlayer_Base()
 	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	characterNum = 100;
-	SetupPlayer();
 }
 
 void APlayer_Base::SetupPlayer()
 {
-
+	characterNum = 0;
 }
 
 bool APlayer_Base::CheckIfActive()
@@ -43,6 +41,7 @@ void APlayer_Base::BeginPlay()
 {
 	Super::BeginPlay();
 	CharacterMovementComponent = GetCharacterMovement();
+	SetupPlayer();
 }
 
 // Called every frame
@@ -95,6 +94,7 @@ void APlayer_Base::AttackOneInput()
 	APlayer_Base* hitActor = CheckAttackCollision();
 	attacking = true;
 	attackingType = 0;
+	attackRange = attackOneRange;
 	if (hitActor != nullptr)
 	{
 		hitActor->Damage(attackOneDamage, attackOneKnockback, this->GetActorLocation());
@@ -105,6 +105,7 @@ void APlayer_Base::AttackTwoInput()
 {
 	attacking = true;
 	attackingType = 1;
+	attackRange = attackTwoRange;
 	APlayer_Base* hitActor = CheckAttackCollision();
 	if (hitActor != nullptr)
 	{
@@ -116,6 +117,7 @@ void APlayer_Base::AttackThreeInput()
 {
 	attacking = true;
 	attackingType = 2;
+	attackRange = attackThreeRange;
 	APlayer_Base* hitActor = CheckAttackCollision();
 	if (hitActor != nullptr)
 	{
@@ -127,6 +129,7 @@ void APlayer_Base::AttackFourInput()
 {
 	attacking = true;
 	attackingType = 3;
+	attackRange = attackFourRange;
 	APlayer_Base* hitActor = CheckAttackCollision();
 	if (hitActor != nullptr)
 	{

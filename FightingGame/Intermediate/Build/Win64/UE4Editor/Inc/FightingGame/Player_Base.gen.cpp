@@ -327,11 +327,11 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData[] = {
-		{ "Category", "Player_Base" },
+		{ "Category", "UI" },
 		{ "ModuleRelativePath", "Player_Base.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum = { UE4CodeGen_Private::EPropertyClass::Int, "characterNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(APlayer_Base, characterNum), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum = { UE4CodeGen_Private::EPropertyClass::Int, "characterNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, STRUCT_OFFSET(APlayer_Base, characterNum), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerID_MetaData[] = {
 		{ "Category", "Player_Base" },
@@ -425,7 +425,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 2492412469);
+	IMPLEMENT_CLASS(APlayer_Base, 2858779604);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/FightingGame"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
