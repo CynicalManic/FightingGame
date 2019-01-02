@@ -120,6 +120,7 @@ protected:
 	virtual void AttackTwoInput();
 	virtual void AttackThreeInput();
 	virtual void AttackFourInput();
+	virtual void SetupPlayer();
 
 	APlayer_Base* CheckAttackCollision();
 };

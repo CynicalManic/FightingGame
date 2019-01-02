@@ -18,7 +18,13 @@ APlayer_Base::APlayer_Base()
 	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	characterNum = 0;
+	characterNum = 100;
+	SetupPlayer();
+}
+
+void APlayer_Base::SetupPlayer()
+{
+
 }
 
 bool APlayer_Base::CheckIfActive()
@@ -45,7 +51,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	UpdateMovement(DeltaTime);
 	movementSpeed = 100;
-	jumpMod = 999999;
+	jumpMod = 9999999;
 	attacking = false;
 	animationMovementSpeed = FMath::Abs(movementInput * 100);
 	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');

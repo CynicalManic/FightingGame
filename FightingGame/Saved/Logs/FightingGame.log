@@ -1,4 +1,4 @@
-﻿Log file open, 12/31/18 12:56:58
+﻿Log file open, 01/02/19 15:55:51
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FightingGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.398972
+LogStats: Stats thread started at 0.422419
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.231s to configure plugins.
+LogStreaming: Display: Took  0.237s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,289 +147,194 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.009s to delete old logs.
+LogStreaming: Display: Took  0.008s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.12.31-12.56.59:108][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.31-12.56.59:108][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.31-12.56.59:120][  0]LogHAL: Display: Platform has ~ 16 GB [17126547456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.12.31-12.56.59:120][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.12.31-12.56.59:121][  0]LogInit: Going up to parent DeviceProfile []
-[2018.12.31-12.56.59:121][  0]LogInit: Computer: EDWARD
-[2018.12.31-12.56.59:121][  0]LogInit: User: John
-[2018.12.31-12.56.59:121][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.12.31-12.56.59:121][  0]LogInit: High frequency timer resolution =3.914064 MHz
-[2018.12.31-12.56.59:122][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.12.31-12.56.59:122][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.31-12.56.59:122][  0]LogMemory: Process Physical Memory: 102.16 MB used, 102.16 MB peak
-[2018.12.31-12.56.59:122][  0]LogMemory: Process Virtual Memory: 92.71 MB used, 92.71 MB peak
-[2018.12.31-12.56.59:122][  0]LogMemory: Physical Memory: 7809.18 MB used,  8523.97 MB free, 16333.15 MB total
-[2018.12.31-12.56.59:122][  0]LogMemory: Virtual Memory: 4641.46 MB used,  8523.97 MB free, 134217728.00 MB total
-[2018.12.31-12.56.59:236][  0]LogInit: Using OS detected language (en-US).
-[2018.12.31-12.56.59:236][  0]LogInit: Using OS detected locale (en-US).
-[2018.12.31-12.56.59:237][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.12.31-12.56.59:549][  0]LogStreaming: Display: Took  0.313s to InitEngineTextLocalization.
-[2018.12.31-12.56.59:549][  0]LogInit: Setting process to per monitor DPI aware
-[2018.12.31-12.56.59:623][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.12.31-12.56.59:623][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.12.31-12.56.59:891][  0]LogHMD: Failed to initialize OpenVR with code 102
-[2018.12.31-12.56.59:891][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.31-12.56.59:954][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.12.31-12.56.59:954][  0]LogD3D11RHI:       6061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.12.31-12.56.59:960][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.12.31-12.56.59:960][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.12.31-12.56.59:960][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.31-12.56.59:969][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.31-12.56.59:969][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.12.31-12.56.59:969][  0]LogWindows: EnumDisplayDevices:
-[2018.12.31-12.56.59:970][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.12.31-12.56.59:970][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.12.31-12.56.59:971][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.12.31-12.56.59:971][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.12.31-12.56.59:972][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.12.31-12.56.59:972][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.12.31-12.56.59:972][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2018.12.31-12.56.59:972][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2018.12.31-12.56.59:972][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
-[2018.12.31-12.57.00:008][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.31-12.57.00:022][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.12.31-12.57.00:072][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Git/FightingGame/FightingGame/Intermediate/Shaders/WorkingDirectory/15496/).
-[2018.12.31-12.57.00:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/B9D4EA6F45D816AEC0C08B951157A00D/'.
-[2018.12.31-12.57.00:351][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.31-12.57.00:370][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.31-12.57.00:389][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.31-12.57.00:407][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.31-12.57.00:427][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.31-12.57.00:446][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.31-12.57.00:465][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.31-12.57.00:485][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.31-12.57.00:498][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.31-12.57.00:594][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.31-12.57.00:672][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.31-12.57.00:672][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.31-12.57.00:698][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.31-12.57.00:698][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.31-12.57.00:716][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.31-12.57.00:736][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.31-12.57.00:753][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.31-12.57.00:770][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.31-12.57.00:783][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.12.31-12.57.00:783][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.31-12.57.00:983][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.12.31-12.57.00:984][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.12.31-12.57.00:984][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.12.31-12.57.00:984][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.31-12.57.01:720][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.31-12.57.01:770][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.31-12.57.01:770][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.12.31-12.57.01:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.31-12.57.01:770][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.31-12.57.01:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.31-12.57.01:771][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.31-12.57.01:782][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.31-12.57.01:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.31-12.57.01:796][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.12.31-12.57.01:796][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.12.31-12.57.01:812][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.31-12.57.01:813][  0]LogSlate: Using FreeType 2.6.0
-[2018.12.31-12.57.01:814][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.31-12.57.01:892][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
-[2018.12.31-12.57.02:221][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.31-12.57.02:321][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.31-12.57.02:342][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.31-12.57.02:342][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.12.31-12.57.02:342][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.31-12.57.02:342][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.31-12.57.02:425][  0]LogNetVersion: FightingGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 156865789)
-[2018.12.31-12.57.03:003][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.182335 seconds
-[2018.12.31-12.57.03:010][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.12.31-12.57.03:010][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.12.31-12.57.03:010][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.31-12.57.04:170][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.31-12.57.04:189][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.31-12.57.04:470][  0]SourceControl: Source control is disabled
-[2018.12.31-12.57.04:470][  0]SourceControl: Source control is disabled
-[2018.12.31-12.57.04:483][  0]SourceControl: Source control is disabled
-[2018.12.31-12.57.04:490][  0]SourceControl: Source control is disabled
-[2018.12.31-12.57.04:898][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.31-12.57.05:073][  0]LogOcInput: OculusInput pre-init called
-[2018.12.31-12.57.05:160][  0]LogEngine: Initializing Engine...
-[2018.12.31-12.57.05:162][  0]LogHMD: Failed to initialize OpenVR with code 102
-[2018.12.31-12.57.05:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.31-12.57.05:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.31-12.57.05:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.31-12.57.05:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.31-12.57.05:347][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.12.31-12.57.05:369][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.31-12.57.05:411][  0]LogInit: XAudio2 using 'ASUS VC239 (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.31-12.57.05:442][  0]LogInit: FAudioDevice initialized.
-[2018.12.31-12.57.05:442][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.12.31-12.57.05:565][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.31-12.57.05:576][  0]LogInit: Texture streaming: Enabled
-[2018.12.31-12.57.05:616][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.31-12.57.05:633][  0]LogInit: Transaction tracking system initialized
-[2018.12.31-12.57.05:695][  0]BlueprintLog: New page: Editor Load
-[2018.12.31-12.57.05:924][  0]LocalizationService: Localization service is disabled
-[2018.12.31-12.57.06:304][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.31-12.57.06:305][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.31-12.57.06:305][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.31-12.57.06:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.31-12.57.06:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.31-12.57.06:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.31-12.57.06:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.31-12.57.06:459][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/' took 0.02s
-[2018.12.31-12.57.06:459][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
-[2018.12.31-12.57.06:460][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
-[2018.12.31-12.57.06:460][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
-[2018.12.31-12.57.06:606][  0]SourceControl: Source control is disabled
-[2018.12.31-12.57.06:607][  0]Cmd: MAP LOAD FILE="../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.31-12.57.06:607][  0]LightingResults: New page: Lighting Build
-[2018.12.31-12.57.06:611][  0]MapCheck: New page: Map Check
-[2018.12.31-12.57.06:612][  0]LightingResults: New page: Lighting Build
-[2018.12.31-12.57.06:729][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
-[2018.12.31-12.57.06:729][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
-[2018.12.31-12.57.06:730][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] [0010.00] Compile of PlayerManager_BP successful, but with 2 Warning(s) [in 2 ms] (/Game/PlayerManager_BP.PlayerManager_BP)
-[2018.12.31-12.57.06:897][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.12.31-12.57.06:909][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.31-12.57.06:928][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.31-12.57.07:059][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.785ms to complete.
-[2018.12.31-12.57.07:059][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.453
-[2018.12.31-12.57.07:188][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-12.57.07:195][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-12.57.07:202][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-12.57.07:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-12.57.07:221][  0]LogCollectionManager: Loaded 0 collections in 0.002228 seconds
-[2018.12.31-12.57.07:273][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Saved/Collections/' took 0.01s
-[2018.12.31-12.57.07:273][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Developers/John/Collections/' took 0.01s
-[2018.12.31-12.57.07:273][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Collections/' took 0.01s
-[2018.12.31-12.57.07:273][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.12.31-12.57.07:281][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2577 classes and 605 folders.
-[2018.12.31-12.57.07:289][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.31-12.57.07:344][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.12.31-12.57.07:356][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.12.31-12.57.07:406][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.31-12.57.07:409][  0]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.31-12.57.07:414][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.31-12.57.07:482][  0]LogRenderer: Reallocating scene render targets to support 1208x680 Format 10 NumSamples 1 (Frame:1).
-[2018.12.31-12.57.07:525][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.31-12.57.07:594][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.12.31-12.57.07:595][  0]LogLoad: (Engine Initialization) Total time: 10.87 seconds
-[2018.12.31-12.57.07:595][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.31-12.57.07:605][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.31-12.57.07:626][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.12.31-12.57.07:665][  1]LogAssetRegistry: Asset discovery search completed in 5.7989 seconds
-[2018.12.31-12.57.07:667][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.12.31-12.57.07:667][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
-[2018.12.31-12.57.10:007][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.31-12.57.10:404][320]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.31-12.57.10:420][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-12.57.10:421][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.31-12.57.10:434][320]PIE: New page: PIE session: Minimal_Default (Dec 31, 2018, 12:57:10 PM)
-[2018.12.31-12.57.10:435][320]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.12.31-12.57.10:438][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003207s)
-[2018.12.31-12.57.10:439][320]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.12.31-12.57.10:439][320]LogPlayLevel: PIE: World Init took: (0.000938s)
-[2018.12.31-12.57.10:439][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004490s)
-[2018.12.31-12.57.10:492][320]LogInit: XAudio2 using 'ASUS VC239 (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.31-12.57.10:506][320]LogInit: FAudioDevice initialized.
-[2018.12.31-12.57.10:624][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:627][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:627][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:631][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:633][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:633][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:633][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:633][320]LogLinker: Error: HOTRELOADED_Player_Base_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset)
-[2018.12.31-12.57.10:726][320]LogLoad: Game class is 'FightingGameMode_C'
-[2018.12.31-12.57.10:728][320]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.31-12.57.10
-[2018.12.31-12.57.10:729][320]LogWorld: Bringing up level for play took: 0.000972
-[2018.12.31-12.57.10:748][320]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2018.12.31-12.57.10:750][320]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
-[2018.12.31-12.57.10:750][320]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
-[2018.12.31-12.57.10:755][320]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.884
-[2018.12.31-12.57.10:755][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-12.58.05:272][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-12.58.05:272][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-12.58.05:308][851]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.31-12.58.05:308][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-12.58.05:328][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-12.58.05:375][854]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.12.31-12.58.06:254][955]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.31-12.58.06:272][955]LogSlate: Took 0.010478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.12.31-12.59.11:026][278]Candidate modules for hot reload:
-[2018.12.31-12.59.11:026][278]  FightingGame
-[2018.12.31-12.59.11:026][278]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FightingGame,5522 Win64 Development -TargetType=Editor -Project="../../../../../../Git/FightingGame/FightingGame/FightingGame.uproject" -canskiplink "D:/Git/FightingGame/FightingGame/FightingGame.uproject" ]
-[2018.12.31-12.59.11:028][278]Warning: Starting HotReload took  0.0s.
-[2018.12.31-12.59.16:232][898]CompilerResultsLog: New page: Compilation - Dec 31, 2018, 12:59:16 PM
-[2018.12.31-12.59.16:232][898]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.31-12.59.16:233][898]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.31-12.59.16:233][898]CompilerResultsLog: Building 3 actions with 8 processes...
-[2018.12.31-12.59.16:233][898]CompilerResultsLog:   [1/3] Player_Base.cpp
-[2018.12.31-12.59.16:233][898]CompilerResultsLog:   [2/3] UE4Editor-FightingGame-5522.lib
-[2018.12.31-12.59.16:233][898]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5522.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5522.exp
-[2018.12.31-12.59.16:233][898]CompilerResultsLog:   [3/3] UE4Editor-FightingGame-5522.dll
-[2018.12.31-12.59.16:233][898]CompilerResultsLog:      Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5522.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame-5522.suppressed.exp
-[2018.12.31-12.59.16:233][898]CompilerResultsLog: Total build time: 4.91 seconds (Parallel executor: 2.17 seconds)
-[2018.12.31-12.59.16:233][898]LogMainFrame: MainFrame: Module compiling took 5.215 seconds
-[2018.12.31-12.59.16:269][898]LogContentBrowser: Native class hierarchy updated for 'FightingGame' in 0.0004 seconds. Added 5 classes and 2 folders.
-[2018.12.31-12.59.16:271][898]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
-[2018.12.31-12.59.16:393][898]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2578 classes and 607 folders.
-[2018.12.31-12.59.16:394][898]Display: HotReload took  5.4s.
-[2018.12.31-12.59.18:234][118]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.31-12.59.18:248][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-12.59.18:248][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.31-12.59.18:248][118]PIE: New page: PIE session: Minimal_Default (Dec 31, 2018, 12:59:18 PM)
-[2018.12.31-12.59.18:248][118]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.12.31-12.59.18:251][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
-[2018.12.31-12.59.18:252][118]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.12.31-12.59.18:252][118]LogPlayLevel: PIE: World Init took: (0.000869s)
-[2018.12.31-12.59.18:252][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004004s)
-[2018.12.31-12.59.18:308][118]LogInit: XAudio2 using 'ASUS VC239 (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.31-12.59.18:325][118]LogInit: FAudioDevice initialized.
-[2018.12.31-12.59.18:365][118]LogLoad: Game class is 'FightingGameMode_C'
-[2018.12.31-12.59.18:366][118]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.12.31-12.59.18
-[2018.12.31-12.59.18:367][118]LogWorld: Bringing up level for play took: 0.001135
-[2018.12.31-12.59.18:385][118]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.514
-[2018.12.31-12.59.18:385][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-13.00.01:477][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-13.00.01:477][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-13.00.01:514][281]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.31-13.00.01:514][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.12.31-13.00.01:534][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.31-13.00.01:580][285]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2018.12.31-13.00.08:105][ 64]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.31-13.00.08:110][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.31-13.00.08:284][ 64]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_DefaultF48981234EB418DB7B49D1BB0C60B3C3.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.12.31-13.00.12:310][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.31-13.00.14:471][783]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/CharacterUI.CharacterUI
-[2018.12.31-13.00.14:867][783]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.12.31-13.00.15:500][783]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.12.31-13.00.17:588][ 13]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.12.31-13.02.26:593][395]LogEditorTransaction: Undo Move Nodes
-[2018.12.31-13.02.52:266][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
-[2018.12.31-13.02.52:335][390]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUIC1E11D9F4A43B77FCDA4D4B86C4F79DF.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
-[2018.12.31-13.02.56:407][867]BlueprintLog: New page: Compile CharacterUI
-[2018.12.31-13.02.58:680][101]LogSlate: Window 'FightingGame - Unreal Editor' being destroyed
-[2018.12.31-13.02.58:680][101]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.31-13.02.58:889][102]Cmd: QUIT_EDITOR
-[2018.12.31-13.02.59:140][102]LogExit: Preparing to exit.
-[2018.12.31-13.02.59:393][102]LogExit: Editor shut down
-[2018.12.31-13.02.59:393][102]LogExit: Transaction tracking system shut down
+[2019.01.02-15.55.52:029][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.02-15.55.52:029][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.02-15.55.52:040][  0]LogHAL: Display: Platform has ~ 16 GB [17126547456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.02-15.55.52:040][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.02-15.55.52:040][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.02-15.55.52:041][  0]LogInit: Computer: EDWARD
+[2019.01.02-15.55.52:041][  0]LogInit: User: John
+[2019.01.02-15.55.52:041][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.02-15.55.52:041][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2019.01.02-15.55.52:041][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.01.02-15.55.52:041][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.02-15.55.52:041][  0]LogMemory: Process Physical Memory: 101.88 MB used, 101.88 MB peak
+[2019.01.02-15.55.52:041][  0]LogMemory: Process Virtual Memory: 92.65 MB used, 92.65 MB peak
+[2019.01.02-15.55.52:041][  0]LogMemory: Physical Memory: 7891.40 MB used,  8441.75 MB free, 16333.15 MB total
+[2019.01.02-15.55.52:042][  0]LogMemory: Virtual Memory: 4641.46 MB used,  8441.75 MB free, 134217728.00 MB total
+[2019.01.02-15.55.52:158][  0]LogInit: Using OS detected language (en-US).
+[2019.01.02-15.55.52:158][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.02-15.55.52:159][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.02-15.55.52:492][  0]LogStreaming: Display: Took  0.334s to InitEngineTextLocalization.
+[2019.01.02-15.55.52:492][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.02-15.55.52:559][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.02-15.55.52:559][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.02-15.55.52:869][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2019.01.02-15.55.52:869][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.02-15.55.52:939][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.01.02-15.55.52:939][  0]LogD3D11RHI:       6061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.01.02-15.55.52:945][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.02-15.55.52:945][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.02-15.55.52:945][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.02-15.55.52:955][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.02-15.55.52:955][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.02-15.55.52:955][  0]LogWindows: EnumDisplayDevices:
+[2019.01.02-15.55.52:955][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.01.02-15.55.52:956][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.01.02-15.55.52:956][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.01.02-15.55.52:957][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.01.02-15.55.52:957][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.02-15.55.52:957][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.01.02-15.55.52:957][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.01.02-15.55.52:957][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.01.02-15.55.52:957][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2019.01.02-15.55.52:999][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.02-15.55.53:014][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.01.02-15.55.53:113][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Git/FightingGame/FightingGame/Intermediate/Shaders/WorkingDirectory/20932/).
+[2019.01.02-15.55.53:114][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/6583C1A849D1FC7C29AEC49BC3B9CF98/'.
+[2019.01.02-15.55.53:421][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.02-15.55.53:440][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.02-15.55.53:461][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.02-15.55.53:486][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.02-15.55.53:512][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.02-15.55.53:538][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.02-15.55.53:566][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.02-15.55.53:594][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.02-15.55.53:610][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:709][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-15.55.53:715][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.02-15.55.53:790][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.02-15.55.53:790][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.02-15.55.53:819][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.02-15.55.53:819][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.02-15.55.53:845][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.02-15.55.53:863][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.02-15.55.53:880][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.02-15.55.53:899][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.02-15.55.53:912][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.02-15.55.53:913][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.02-15.55.54:119][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.02-15.55.54:119][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.02-15.55.54:120][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.02-15.55.54:120][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.02-15.55.54:905][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.02-15.55.54:954][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.02-15.55.54:954][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.02-15.55.54:954][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.02-15.55.54:955][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.02-15.55.54:955][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.02-15.55.54:955][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.02-15.55.54:966][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.02-15.55.54:980][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.02-15.55.54:980][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.02-15.55.54:980][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.02-15.55.54:996][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.02-15.55.54:998][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.02-15.55.54:999][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.02-15.55.55:111][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2019.01.02-15.55.55:467][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.02-15.55.55:659][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.02-15.55.55:681][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.02-15.55.55:681][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.02-15.55.55:681][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.02-15.55.55:681][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.02-15.55.55:712][  0]LogNetVersion: FightingGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 156865789)
+[2019.01.02-15.55.56:379][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.186552 seconds
+[2019.01.02-15.55.56:387][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.02-15.55.56:387][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.02-15.55.56:387][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.02-15.55.57:831][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.02-15.55.57:850][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.02-15.55.58:137][  0]SourceControl: Source control is disabled
+[2019.01.02-15.55.58:137][  0]SourceControl: Source control is disabled
+[2019.01.02-15.55.58:158][  0]SourceControl: Source control is disabled
+[2019.01.02-15.55.58:166][  0]SourceControl: Source control is disabled
+[2019.01.02-15.55.58:750][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.02-15.55.58:991][  0]LogOcInput: OculusInput pre-init called
+[2019.01.02-15.55.59:077][  0]LogEngine: Initializing Engine...
+[2019.01.02-15.55.59:079][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2019.01.02-15.55.59:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.02-15.55.59:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.02-15.55.59:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.02-15.55.59:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.02-15.55.59:272][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.02-15.55.59:294][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.02-15.55.59:400][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.02-15.55.59:492][  0]LogInit: FAudioDevice initialized.
+[2019.01.02-15.55.59:492][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.02-15.55.59:624][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.02-15.55.59:634][  0]LogInit: Texture streaming: Enabled
+[2019.01.02-15.55.59:680][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.02-15.55.59:689][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={2FE3667A-4575-070D-995A-46A54E38ED8F}
+[2019.01.02-15.55.59:707][  0]LogInit: Transaction tracking system initialized
+[2019.01.02-15.55.59:774][  0]BlueprintLog: New page: Editor Load
+[2019.01.02-15.56.00:023][  0]LocalizationService: Localization service is disabled
+[2019.01.02-15.56.00:401][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.02-15.56.00:402][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.02-15.56.00:402][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.02-15.56.00:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.02-15.56.00:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.02-15.56.00:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.02-15.56.00:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.02-15.56.00:587][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/' took 0.02s
+[2019.01.02-15.56.00:587][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2019.01.02-15.56.00:587][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2019.01.02-15.56.00:588][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
+[2019.01.02-15.56.00:742][  0]SourceControl: Source control is disabled
+[2019.01.02-15.56.00:742][  0]Cmd: MAP LOAD FILE="../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.02-15.56.00:743][  0]LightingResults: New page: Lighting Build
+[2019.01.02-15.56.00:747][  0]MapCheck: New page: Map Check
+[2019.01.02-15.56.00:747][  0]LightingResults: New page: Lighting Build
+[2019.01.02-15.56.00:884][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2019.01.02-15.56.00:884][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2019.01.02-15.56.00:885][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] [0011.30] Compile of PlayerManager_BP successful, but with 2 Warning(s) [in 2 ms] (/Game/PlayerManager_BP.PlayerManager_BP)
+[2019.01.02-15.56.01:055][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.02-15.56.01:070][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.02-15.56.01:093][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.02-15.56.01:248][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 155.291ms to complete.
+[2019.01.02-15.56.01:248][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.506
+[2019.01.02-15.56.01:398][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-15.56.01:405][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-15.56.01:412][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-15.56.01:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-15.56.01:434][  0]LogCollectionManager: Loaded 0 collections in 0.002322 seconds
+[2019.01.02-15.56.01:496][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Saved/Collections/' took 0.01s
+[2019.01.02-15.56.01:496][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Developers/John/Collections/' took 0.01s
+[2019.01.02-15.56.01:496][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Collections/' took 0.01s
+[2019.01.02-15.56.01:496][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.02-15.56.01:506][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2578 classes and 605 folders.
+[2019.01.02-15.56.01:514][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.02-15.56.01:630][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.02-15.56.01:646][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.02-15.56.01:729][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.02-15.56.01:732][  0]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.02-15.56.01:736][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.02-15.56.01:853][  0]LogRenderer: Reallocating scene render targets to support 1208x680 Format 10 NumSamples 1 (Frame:1).
+[2019.01.02-15.56.01:910][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.02-15.56.02:020][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.02-15.56.02:020][  0]LogLoad: (Engine Initialization) Total time: 12.44 seconds
+[2019.01.02-15.56.02:021][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.02-15.56.02:061][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.02-15.56.02:102][  1]LogAssetRegistry: Asset discovery search completed in 7.0146 seconds
+[2019.01.02-15.56.02:104][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.02-15.56.02:104][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000161 seconds (updated 0 objects)

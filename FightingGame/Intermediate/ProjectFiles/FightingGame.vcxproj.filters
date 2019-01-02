@@ -1,73 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\FightingGame.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{0A9DDA44-4A42-4642-A8CE-980B47AED3F9}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FightingGame.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\FightingGameEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{D2602E0E-0F29-44D5-9827-4598479EE58C}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\FightingGame">
-			<UniqueIdentifier>{8A9A64DB-385E-4872-A569-437D6F87639F}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\FightingGame\Animation_Handler.cpp">
-			<Filter>Source\FightingGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FightingGame\Animation_Handler.h">
-			<Filter>Source\FightingGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FightingGame\Camera.cpp">
-			<Filter>Source\FightingGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FightingGame\Camera.h">
-			<Filter>Source\FightingGame</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\FightingGame\FightingGame.Build.cs">
-			<Filter>Source\FightingGame</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\FightingGame\FightingGame.cpp">
-			<Filter>Source\FightingGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FightingGame\FightingGame.h">
-			<Filter>Source\FightingGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FightingGame\FightingGameGameModeBase.cpp">
-			<Filter>Source\FightingGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FightingGame\FightingGameGameModeBase.h">
-			<Filter>Source\FightingGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FightingGame\PlayerManager.cpp">
-			<Filter>Source\FightingGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FightingGame\PlayerManager.h">
-			<Filter>Source\FightingGame</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FightingGame\Player_Base.cpp">
-			<Filter>Source\FightingGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FightingGame\Player_Base.h">
-			<Filter>Source\FightingGame</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\FightingGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1DE18D47-60D2-413E-82C1-C2705093FC15}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FightingGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FightingGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5936C6CA-29DF-4200-B1F1-400E5478F828}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FightingGame">
+      <UniqueIdentifier>{F276BA97-2DD1-4EFF-BB39-EC3AD5E82FC0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FightingGame\Animation_Handler.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FightingGame\Animation_Handler.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FightingGame\Camera.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FightingGame\Camera.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FightingGame\FightingGame.Build.cs">
+      <Filter>Source\FightingGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FightingGame\FightingGame.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FightingGame\FightingGame.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FightingGame\FightingGameGameModeBase.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FightingGame\FightingGameGameModeBase.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FightingGame\PlayerManager.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FightingGame\PlayerManager.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FightingGame\Player_Base.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FightingGame\Player_Base.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FightingGame\Player_Eve.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FightingGame\Player_Eve.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
