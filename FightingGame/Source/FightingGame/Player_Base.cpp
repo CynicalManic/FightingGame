@@ -15,7 +15,7 @@ APlayer_Base::APlayer_Base()
 	objectCollider->OnComponentBeginOverlap.AddDynamic(this, &APlayer_Base::OnOverlapBegin);
 	AnimationHandler = this->CreateDefaultSubobject<UAnimation_Handler>(TEXT("Animation Handler Component"));
 	this->AddOwnedComponent(AnimationHandler);
-	AnimationHandler->SetupHandlerRefs(&grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
+	AnimationHandler->SetupHandlerRefs(this, &grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 }
@@ -23,6 +23,29 @@ APlayer_Base::APlayer_Base()
 void APlayer_Base::SetupPlayer()
 {
 	characterNum = 0;
+	attackOneRange = 250;
+	attackOneDamage = 10;
+	attackOneKnockback = 1000;
+	attackOneDamageTime = 0.549f;
+	attackOneAttackCD = 0.701f;
+
+	attackTwoRange = 280;
+	attackTwoDamage = 30;
+	attackTwoKnockback = 1000;
+	attackTwoDamageTime = 0.71f;
+	attackTwoAttackCD = 1.457;
+
+	attackThreeRange = 250;
+	attackThreeDamage = 0;
+	attackThreeKnockback = 5000;
+	attackThreeDamageTime = 2.338f;
+	attackThreeAttackCD = 1.529;
+
+	attackFourRange = 200;
+	attackFourDamage = 15;
+	attackFourKnockback = 1000;
+	attackFourDamageTime = 0.639f;
+	attackFourAttackCD = 1.444;
 }
 
 bool APlayer_Base::CheckIfActive()
@@ -42,6 +65,9 @@ void APlayer_Base::BeginPlay()
 	Super::BeginPlay();
 	CharacterMovementComponent = GetCharacterMovement();
 	SetupPlayer();
+	attacking = false;
+	cooldown = false;
+	attackingFrames = false;
 }
 
 // Called every frame
@@ -51,10 +77,110 @@ void APlayer_Base::Tick(float DeltaTime)
 	UpdateMovement(DeltaTime);
 	movementSpeed = 100;
 	jumpMod = 9999999;
-	attacking = false;
+	CheckFrames(DeltaTime);
 	animationMovementSpeed = FMath::Abs(movementInput * 100);
 	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');
 	this->SetActorLocation(FVector(200.0, GetActorLocation().Y, GetActorLocation().Z));
+}
+
+void APlayer_Base::CheckFrames(float deltaTime)
+{
+	if (attackingFrames)
+	{
+		attackingFrameTime += deltaTime;
+		switch (attackingType)
+		{
+			case 0:
+				if (attackingFrameTime >= attackOneDamageTime)
+				{
+					APlayer_Base* hitActor = CheckAttackCollision();
+					if (hitActor != nullptr)
+					{
+						hitActor->Damage(attackOneDamage, attackOneKnockback, this->GetActorLocation());
+					}
+					cooldown = true;
+					attackingFrames = false;
+				}
+				break;
+			case 1:
+				if (attackingFrameTime >= attackTwoDamageTime)
+				{
+					APlayer_Base* hitActor = CheckAttackCollision();
+					if (hitActor != nullptr)
+					{
+						hitActor->Damage(attackTwoDamage, attackTwoKnockback, this->GetActorLocation());
+					}
+					cooldown = true;
+					attackingFrames = false;
+				}
+				break;
+			case 2:
+				if (attackingFrameTime >= attackThreeDamageTime)
+				{
+					APlayer_Base* hitActor = CheckAttackCollision();
+					if (hitActor != nullptr)
+					{
+						hitActor->Damage(attackThreeDamage, attackThreeKnockback, this->GetActorLocation());
+					}
+					cooldown = true;
+					attackingFrames = false;
+				}
+				break;
+			case 3:
+				if (attackingFrameTime >= attackFourDamageTime)
+				{
+					APlayer_Base* hitActor = CheckAttackCollision();
+					if (hitActor != nullptr)
+					{
+						hitActor->Damage(attackFourDamage, attackFourKnockback, this->GetActorLocation());
+					}
+					cooldown = true;
+					attackingFrames = false;
+				}
+				break;
+		}
+	}
+	else if (cooldown)
+	{
+		attackingFrameTime += deltaTime;
+		switch (attackingType)
+		{
+		case 0:
+			if (attackingFrameTime >= attackOneAttackCD)
+			{
+				cooldown = false;
+				attackingFrameTime = 0;
+				attacking = false;
+			}
+			break;
+		case 1:
+			if (attackingFrameTime >= attackTwoAttackCD)
+			{
+				cooldown = false;
+				attackingFrameTime = 0;
+				attacking = false;
+			}
+			break;
+		case 2:
+			if (attackingFrameTime >= attackThreeAttackCD)
+			{
+				cooldown = false;
+				attackingFrameTime = 0;
+				attacking = false;
+			}
+			break;
+		case 3:
+			if (attackingFrameTime >= attackFourAttackCD)
+			{
+				cooldown = false;
+				attackingFrameTime = 0;
+				attacking = false;
+			}
+			break;
+		default:
+			break;
+		}
+	}
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)
@@ -91,49 +217,45 @@ void APlayer_Base::JumpInput(float value)
 
 void APlayer_Base::AttackOneInput()
 {
-	APlayer_Base* hitActor = CheckAttackCollision();
-	attacking = true;
-	attackingType = 0;
-	attackRange = attackOneRange;
-	if (hitActor != nullptr)
+	if (!cooldown)
 	{
-		hitActor->Damage(attackOneDamage, attackOneKnockback, this->GetActorLocation());
+		attacking = true;
+		attackingFrames = true;
+		attackingType = 0;
+		attackRange = attackOneRange;
 	}
 }
 
 void APlayer_Base::AttackTwoInput()
 {
-	attacking = true;
-	attackingType = 1;
-	attackRange = attackTwoRange;
-	APlayer_Base* hitActor = CheckAttackCollision();
-	if (hitActor != nullptr)
+	if (!cooldown)
 	{
-		hitActor->Damage(attackTwoDamage, attackTwoKnockback, this->GetActorLocation());
+		attacking = true;
+		attackingFrames = true;
+		attackingType = 1;
+		attackRange = attackTwoRange;
 	}
 }
 
 void APlayer_Base::AttackThreeInput()
 {
-	attacking = true;
-	attackingType = 2;
-	attackRange = attackThreeRange;
-	APlayer_Base* hitActor = CheckAttackCollision();
-	if (hitActor != nullptr)
+	if (!cooldown)
 	{
-		hitActor->Damage(attackThreeDamage, attackThreeKnockback, this->GetActorLocation());
+		attacking = true;
+		attackingFrames = true;
+		attackingType = 2;
+		attackRange = attackThreeRange;
 	}
 }
 
 void APlayer_Base::AttackFourInput()
 {
-	attacking = true;
-	attackingType = 3;
-	attackRange = attackFourRange;
-	APlayer_Base* hitActor = CheckAttackCollision();
-	if (hitActor != nullptr)
+	if (!cooldown)
 	{
-		hitActor->Damage(attackFourDamage, attackFourKnockback, this->GetActorLocation());
+		attacking = true;
+		attackingFrames = true;
+		attackingType = 3;
+		attackRange = attackFourRange;
 	}
 }
 

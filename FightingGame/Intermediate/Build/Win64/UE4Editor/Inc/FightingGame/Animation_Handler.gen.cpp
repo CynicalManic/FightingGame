@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_GetAttackType();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_GetGroundedStatus();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_GetMovementSpeed();
+	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame();
 // End Cross Module References
 	void UAnimation_Handler::StaticRegisterNativesUAnimation_Handler()
 	{
@@ -32,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 			{ "GetAttackType", &UAnimation_Handler::execGetAttackType },
 			{ "GetGroundedStatus", &UAnimation_Handler::execGetGroundedStatus },
 			{ "GetMovementSpeed", &UAnimation_Handler::execGetMovementSpeed },
+			{ "SetCurrentFrame", &UAnimation_Handler::execSetCurrentFrame },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -210,6 +212,39 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics
+	{
+		struct Animation_Handler_eventSetCurrentFrame_Parms
+		{
+			int32 frame;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_frame;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::NewProp_frame = { UE4CodeGen_Private::EPropertyClass::Int, "frame", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Animation_Handler_eventSetCurrentFrame_Parms, frame), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::NewProp_frame,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Animation" },
+		{ "ModuleRelativePath", "Animation_Handler.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAnimation_Handler, "SetCurrentFrame", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Animation_Handler_eventSetCurrentFrame_Parms), Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UAnimation_Handler_NoRegister()
 	{
 		return UAnimation_Handler::StaticClass();
@@ -234,6 +269,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 		{ &Z_Construct_UFunction_UAnimation_Handler_GetAttackType, "GetAttackType" }, // 340151508
 		{ &Z_Construct_UFunction_UAnimation_Handler_GetGroundedStatus, "GetGroundedStatus" }, // 151337544
 		{ &Z_Construct_UFunction_UAnimation_Handler_GetMovementSpeed, "GetMovementSpeed" }, // 83557952
+		{ &Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame, "SetCurrentFrame" }, // 1411574121
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimation_Handler_Statics::Class_MetaDataParams[] = {
@@ -266,7 +302,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAnimation_Handler, 552146778);
+	IMPLEMENT_CLASS(UAnimation_Handler, 249063334);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UAnimation_Handler(Z_Construct_UClass_UAnimation_Handler, &UAnimation_Handler::StaticClass, TEXT("/Script/FightingGame"), TEXT("UAnimation_Handler"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAnimation_Handler);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
