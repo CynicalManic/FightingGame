@@ -39,6 +39,8 @@ protected:
 	float jumpMod;
 	bool grounded;
 	bool attacking;
+	bool attackingFrames;
+	bool cooldown;
 	UPROPERTY(BlueprintReadOnly)
 	float knockbackMod;
 
@@ -51,21 +53,31 @@ protected:
 	FVector attackDirection;
 	float attackRange = 130;
 
-	float attackOneRange = 130;
-	float attackOneDamage = 10;
-	float attackOneKnockback = 1000;
+	float attackingFrameTime = 0;
 
-	float attackTwoRange = 130;
-	float attackTwoDamage = 30;
-	float attackTwoKnockback = 1000;
+	float attackOneRange;
+	float attackOneDamage;
+	float attackOneKnockback;
+	float attackOneDamageTime;
+	float attackOneAttackCD;
 
-	float attackThreeRange = 130;
-	float attackThreeDamage = 0;
-	float attackThreeKnockback = 2500;
+	float attackTwoRange;
+	float attackTwoDamage;
+	float attackTwoKnockback;
+	float attackTwoDamageTime;
+	float attackTwoAttackCD;
 
-	float attackFourRange = 130;
-	float attackFourDamage = 15;
-	float attackFourKnockback = 1000;
+	float attackThreeRange;
+	float attackThreeDamage;
+	float attackThreeKnockback;
+	float attackThreeDamageTime;
+	float attackThreeAttackCD;
+
+	float attackFourRange;
+	float attackFourDamage;
+	float attackFourKnockback;
+	float attackFourDamageTime;
+	float attackFourAttackCD;
 
 	float animationMovementSpeed;
 
@@ -125,6 +137,7 @@ protected:
 	virtual void AttackThreeInput();
 	virtual void AttackFourInput();
 	virtual void SetupPlayer();
+	void CheckFrames(float deltaTime);
 
 	APlayer_Base* CheckAttackCollision();
 };

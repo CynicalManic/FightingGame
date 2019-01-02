@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "Animation_Handler.h"
+#include "Player_Base.h"
 
 // Sets default values for this component's properties
 UAnimation_Handler::UAnimation_Handler()
@@ -25,13 +26,14 @@ void UAnimation_Handler::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	// ...
 }
 
-void UAnimation_Handler::SetupHandlerRefs(bool* groundedStatus, bool* attackingStatus, float* movementSpeed, float* attackingDirection, int* attackingType)
+void UAnimation_Handler::SetupHandlerRefs(APlayer_Base* creatingPlayer, bool* groundedStatus, bool* attackingStatus, float* movementSpeed, float* attackingDirection, int* attackingType)
 {
 	_grounded = groundedStatus;
 	_attacking = attackingStatus;
 	_movementSpeed = movementSpeed;
 	_attackDirection = attackingDirection;
 	_attackType = attackingType;
+	_AttachedPlayer = creatingPlayer;
 }
 
 void UAnimation_Handler::UpdateHandler(bool groundedStatus, bool attackingStatus, float movementSpeed, float attackDirection, int attackType)
