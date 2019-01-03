@@ -1,0 +1,503 @@
+﻿Log file open, 01/03/19 17:05:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FightingGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.691020
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.295s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.03-17.05.10:496][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.03-17.05.10:496][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.03-17.05.10:520][  0]LogHAL: Display: Platform has ~ 16 GB [17126547456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.03-17.05.10:521][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.03-17.05.10:521][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.03-17.05.10:521][  0]LogInit: Computer: EDWARD
+[2019.01.03-17.05.10:521][  0]LogInit: User: John
+[2019.01.03-17.05.10:521][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.03-17.05.10:521][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2019.01.03-17.05.10:522][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.01.03-17.05.10:522][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.03-17.05.10:522][  0]LogMemory: Process Physical Memory: 102.25 MB used, 102.25 MB peak
+[2019.01.03-17.05.10:522][  0]LogMemory: Process Virtual Memory: 93.60 MB used, 93.60 MB peak
+[2019.01.03-17.05.10:522][  0]LogMemory: Physical Memory: 9449.18 MB used,  6883.96 MB free, 16333.15 MB total
+[2019.01.03-17.05.10:522][  0]LogMemory: Virtual Memory: 4642.46 MB used,  6883.96 MB free, 134217728.00 MB total
+[2019.01.03-17.05.11:061][  0]LogInit: Using OS detected language (en-US).
+[2019.01.03-17.05.11:061][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.03-17.05.11:062][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.03-17.05.11:532][  0]LogStreaming: Display: Took  0.471s to InitEngineTextLocalization.
+[2019.01.03-17.05.11:532][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.03-17.05.11:683][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.03-17.05.11:683][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.03-17.05.12:385][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2019.01.03-17.05.12:386][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.03-17.05.12:464][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.01.03-17.05.12:464][  0]LogD3D11RHI:       6061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.01.03-17.05.12:470][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.03-17.05.12:470][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.03-17.05.12:470][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.03-17.05.12:480][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.03-17.05.12:480][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.03-17.05.12:480][  0]LogWindows: EnumDisplayDevices:
+[2019.01.03-17.05.12:480][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.01.03-17.05.12:481][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.01.03-17.05.12:481][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.01.03-17.05.12:482][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.01.03-17.05.12:482][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.03-17.05.12:482][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.01.03-17.05.12:482][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.01.03-17.05.12:482][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.01.03-17.05.12:482][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2019.01.03-17.05.12:516][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.03-17.05.12:532][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.01.03-17.05.12:631][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Git/FightingGame/FightingGame/Intermediate/Shaders/WorkingDirectory/21372/).
+[2019.01.03-17.05.12:632][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/F059D5784330DA494089C4A2356E9697/'.
+[2019.01.03-17.05.12:967][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.03-17.05.13:028][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.03-17.05.13:086][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.03-17.05.13:151][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.03-17.05.13:222][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.03-17.05.13:278][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.03-17.05.13:336][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.03-17.05.13:390][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.03-17.05.13:435][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.03-17.05.13:575][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:575][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:575][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:575][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:575][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:575][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:575][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:576][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.03-17.05.13:609][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.03-17.05.13:795][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.03-17.05.13:795][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.03-17.05.13:852][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.03-17.05.13:852][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.03-17.05.13:898][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.03-17.05.13:938][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.03-17.05.13:977][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.03-17.05.14:056][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.03-17.05.14:102][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.03-17.05.14:102][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.03-17.05.15:122][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.03-17.05.15:123][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.03-17.05.15:123][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.03-17.05.15:123][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.03-17.05.16:165][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.03-17.05.16:218][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.03-17.05.16:219][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.03-17.05.16:219][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.03-17.05.16:219][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.03-17.05.16:219][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/FightingGame/FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.03-17.05.16:219][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.03-17.05.16:244][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.03-17.05.16:258][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.03-17.05.16:258][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.03-17.05.16:258][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.03-17.05.16:275][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.03-17.05.16:277][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.03-17.05.16:289][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.03-17.05.16:683][  0]LogAssetRegistry: FAssetRegistry took 0.0309 seconds to start up
+[2019.01.03-17.05.17:148][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.03-17.05.18:121][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.03-17.05.18:309][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.03-17.05.18:309][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.03-17.05.18:309][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.03-17.05.18:309][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.03-17.05.18:336][  0]LogNetVersion: FightingGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 156865789)
+[2019.01.03-17.05.19:056][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.181924 seconds
+[2019.01.03-17.05.19:062][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.03-17.05.19:062][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.03-17.05.19:062][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.03-17.05.21:083][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.03-17.05.21:103][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.03-17.05.21:392][  0]SourceControl: Source control is disabled
+[2019.01.03-17.05.21:392][  0]SourceControl: Source control is disabled
+[2019.01.03-17.05.21:405][  0]SourceControl: Source control is disabled
+[2019.01.03-17.05.21:413][  0]SourceControl: Source control is disabled
+[2019.01.03-17.05.21:857][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.03-17.05.22:082][  0]LogOcInput: OculusInput pre-init called
+[2019.01.03-17.05.22:178][  0]LogEngine: Initializing Engine...
+[2019.01.03-17.05.22:180][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2019.01.03-17.05.22:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.03-17.05.22:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.03-17.05.22:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.03-17.05.22:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.03-17.05.22:381][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.03-17.05.22:405][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.03-17.05.22:544][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.03-17.05.22:640][  0]LogInit: FAudioDevice initialized.
+[2019.01.03-17.05.22:641][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.03-17.05.22:781][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/John/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.03-17.05.22:790][  0]LogInit: Texture streaming: Enabled
+[2019.01.03-17.05.22:835][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.03-17.05.22:856][  0]LogInit: Transaction tracking system initialized
+[2019.01.03-17.05.22:924][  0]BlueprintLog: New page: Editor Load
+[2019.01.03-17.05.23:178][  0]LocalizationService: Localization service is disabled
+[2019.01.03-17.05.23:613][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.03-17.05.23:613][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.03-17.05.23:614][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.03-17.05.23:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.03-17.05.23:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.03-17.05.23:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.03-17.05.23:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.03-17.05.23:781][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/' took 0.02s
+[2019.01.03-17.05.23:781][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2019.01.03-17.05.23:782][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cylinder'
+[2019.01.03-17.05.23:782][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
+[2019.01.03-17.05.23:943][  0]SourceControl: Source control is disabled
+[2019.01.03-17.05.23:943][  0]Cmd: MAP LOAD FILE="../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.03-17.05.23:944][  0]LightingResults: New page: Lighting Build
+[2019.01.03-17.05.23:948][  0]MapCheck: New page: Map Check
+[2019.01.03-17.05.23:948][  0]LightingResults: New page: Lighting Build
+[2019.01.03-17.05.24:093][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2019.01.03-17.05.24:093][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] 'Player Base' does not inherit from 'Player Controller' ( Cast To Player_Base  would always fail).
+[2019.01.03-17.05.24:094][  0]LogBlueprint: Warning: [Compiler PlayerManager_BP] [0019.46] Compile of PlayerManager_BP successful, but with 2 Warning(s) [in 3 ms] (/Game/PlayerManager_BP.PlayerManager_BP)
+[2019.01.03-17.05.24:266][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.03-17.05.24:277][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.03-17.05.24:299][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.03-17.05.24:530][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 231.154ms to complete.
+[2019.01.03-17.05.24:530][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.587
+[2019.01.03-17.05.24:669][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.03-17.05.24:676][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.03-17.05.24:682][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.03-17.05.24:689][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.03-17.05.24:703][  0]LogCollectionManager: Loaded 0 collections in 0.002538 seconds
+[2019.01.03-17.05.24:763][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Saved/Collections/' took 0.01s
+[2019.01.03-17.05.24:764][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Developers/John/Collections/' took 0.01s
+[2019.01.03-17.05.24:764][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FightingGame/FightingGame/Content/Collections/' took 0.01s
+[2019.01.03-17.05.24:764][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.03-17.05.24:772][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2579 classes and 605 folders.
+[2019.01.03-17.05.24:780][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.03-17.05.24:845][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.03-17.05.24:858][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.03-17.05.24:916][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.03-17.05.24:918][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.03-17.05.24:923][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.03-17.05.24:995][  0]LogRenderer: Reallocating scene render targets to support 1208x680 Format 10 NumSamples 1 (Frame:1).
+[2019.01.03-17.05.25:049][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.03-17.05.25:187][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.03-17.05.25:187][  0]LogLoad: (Engine Initialization) Total time: 20.55 seconds
+[2019.01.03-17.05.25:187][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.03-17.05.25:224][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.03-17.05.25:272][  1]LogAssetRegistry: Asset discovery search completed in 8.6136 seconds
+[2019.01.03-17.05.25:274][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.03-17.05.25:274][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000117 seconds (updated 0 objects)
+[2019.01.03-17.05.28:600][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.03-17.05.35:928][866]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.05.35:932][866]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.05.35:933][866]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.05.35:934][866]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.05.35:934][866]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.05.35:934][866]LogBlueprint: Error: [Compiler Mutant_Controller] The property associated with  Player Anim Handler  could not be found in '/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller_C'
+[2019.01.03-17.05.35:936][866]LogBlueprint: Warning: [Compiler Mutant_Controller] [0031.30] Compile of Mutant_Controller failed. 4 Fatal Issue(s) 2 Warning(s) [in 12 ms] (/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller)
+[2019.01.03-17.05.35:968][866]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.03-17.05.35:976][866]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller
+[2019.01.03-17.05.36:005][866]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.01.03-17.05.36:173][866]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.03-17.05.36:178][866]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.01.03-17.05.36:586][866]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.01.03-17.05.37:192][866]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.03-17.05.37:475][866]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.03-17.05.37:531][866]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.01.03-17.05.37:580][866]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.03-17.05.37:609][867]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.03-17.05.39:920][ 75]LogSlate: Window 'Mutant_Controller' being destroyed
+[2019.01.03-17.05.51:624][452]BlueprintLog: New page: Compile Mutant_Controller
+[2019.01.03-17.05.51:646][452]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.05.51:651][452]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.05.51:652][452]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.05.51:652][452]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.05.51:652][452]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.05.51:653][452]LogBlueprint: Error: [Compiler Mutant_Controller] The property associated with  Player Anim Handler  could not be found in '/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller_C'
+[2019.01.03-17.05.51:774][452]LogBlueprint: Warning: [Compiler Mutant_Controller] [0047.14] Compile of Mutant_Controller failed. 4 Fatal Issue(s) 2 Warning(s) [in 149 ms] (/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller)
+[2019.01.03-17.06.06:772][170]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyPlayer_Mutant.MyPlayer_Mutant
+[2019.01.03-17.06.09:246][391]LogSlate: Window 'MyPlayer_Mutant' being destroyed
+[2019.01.03-17.06.09:373][391]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyPlayer_Mutant.MyPlayer_Mutant
+[2019.01.03-17.06.10:924][513]LogSlate: Window 'MyPlayer_Mutant' being destroyed
+[2019.01.03-17.06.12:212][660]LogRenderer: Reallocating scene render targets to support 1208x744 Format 10 NumSamples 1 (Frame:1).
+[2019.01.03-17.06.28:204][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.03-17.06.28:222][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer_Mutant" FILE="../../../../../../Git/FightingGame/FightingGame/Content/MyPlayer_Mutant.uasset" SILENT=true
+[2019.01.03-17.06.28:298][500]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/MyPlayer_Mutant0DA70BDF43723C8C618E2DB6F3F329EA.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/MyPlayer_Mutant.uasset'
+[2019.01.03-17.06.28:871][564]BlueprintLog: New page: Compile MyPlayer_Mutant
+[2019.01.03-17.07.02:003][477]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller
+[2019.01.03-17.07.02:013][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.03-17.07.02:235][477]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.03-17.07.02:544][477]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.03-17.07.32:338][941]BlueprintLog: New page: Compile Mutant_Controller
+[2019.01.03-17.07.32:360][941]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.07.32:365][941]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.07.32:366][941]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.07.32:367][941]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.07.32:367][941]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.07.32:367][941]LogBlueprint: Error: [Compiler Mutant_Controller] The property associated with  Player Anim Handler  could not be found in '/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller_C'
+[2019.01.03-17.07.32:492][941]LogBlueprint: Warning: [Compiler Mutant_Controller] [0147.86] Compile of Mutant_Controller failed. 4 Fatal Issue(s) 2 Warning(s) [in 153 ms] (/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller)
+[2019.01.03-17.07.56:769][772]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.03-17.08.14:783][731]BlueprintLog: New page: Compile Mutant_Controller
+[2019.01.03-17.08.14:808][731]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.08.14:812][731]LogBlueprint: Warning: [Compiler Mutant_Controller] Could not find a variable named "PlayerAnimHandler" in 'Mutant_Controller_C'.
+Make sure 'Mutant_Controller_C' has been compiled for  Set PlayerAnimHandler
+[2019.01.03-17.08.14:814][731]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.08.14:814][731]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.08.14:814][731]LogBlueprint: Error: [Compiler Mutant_Controller] This blueprint (self) is not a Animation_Handler, therefore ' Target ' must have a connection.
+[2019.01.03-17.08.14:814][731]LogBlueprint: Error: [Compiler Mutant_Controller] The property associated with  Player Anim Handler  could not be found in '/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller_C'
+[2019.01.03-17.08.14:936][731]LogBlueprint: Warning: [Compiler Mutant_Controller] [0190.30] Compile of Mutant_Controller failed. 4 Fatal Issue(s) 2 Warning(s) [in 151 ms] (/Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller)
+[2019.01.03-17.08.40:896][708]BlueprintLog: New page: Compile Mutant_Controller
+[2019.01.03-17.08.47:899][445]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Mutant_ControllerAC3F4A5E4EFC01649FB1A7950C971C10.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Mutant/Animations/Controllers/Mutant_Controller.uasset'
+[2019.01.03-17.09.06:232][568]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Mutant_Controller0D8B7FBE44E6C24BFE29CAB1A340C71E.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Mutant/Animations/Controllers/Mutant_Controller.uasset'
+[2019.01.03-17.09.07:106][669]BlueprintLog: New page: Compile Mutant_Controller
+[2019.01.03-17.09.07:505][696]BlueprintLog: New page: Compile Mutant_Controller
+[2019.01.03-17.09.27:395][942]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.03-17.09.27:413][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer_Mutant" FILE="../../../../../../Git/FightingGame/FightingGame/Content/MyPlayer_Mutant.uasset" SILENT=true
+[2019.01.03-17.09.27:479][942]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/MyPlayer_Mutant3E95F234466CE4BB4FE7349CFD0C7A73.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/MyPlayer_Mutant.uasset'
+[2019.01.03-17.09.31:927][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.03-17.09.31:986][442]BlueprintLog: New page: Compile MyPlayer_Mutant
+[2019.01.03-17.09.34:462][645]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Mutant_ControllerB83C154F4ABA164E2A2127A9ACE1C173.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Mutant/Animations/Controllers/Mutant_Controller.uasset'
+[2019.01.03-17.09.46:081][917]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/Mutant/Animations/Controllers/Mutant_Blend.Mutant_Blend
+[2019.01.03-17.09.46:102][917]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.03-17.09.46:141][917]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.03-17.09.46:515][917]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.03-17.09.47:990][ 72]LogSlate: Window 'Mutant_Blend' being destroyed
+[2019.01.03-17.09.48:794][143]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mutant/Animations/Controllers/Mutant_Controller.Mutant_Controller
+[2019.01.03-17.09.48:803][143]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.03-17.09.49:005][143]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.03-17.09.49:310][143]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.03-17.09.54:081][681]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mutant/Animations/Mutant_Punch_Anim_mixamo_com.Mutant_Punch_Anim_mixamo_com
+[2019.01.03-17.09.54:086][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.03-17.09.54:133][681]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.03-17.09.54:495][681]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.03-17.09.56:240][820]LogSlate: Window 'Mutant_Punch_Anim_mixamo_com' being destroyed
+[2019.01.03-17.10.00:446][144]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.01.03-17.11.07:099][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.03-17.11.10:828][ 73]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mutant/Animations/Mutant_Swiping_Anim_mixamo_com.Mutant_Swiping_Anim_mixamo_com
+[2019.01.03-17.11.10:835][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.03-17.11.10:887][ 73]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.03-17.11.11:216][ 73]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.03-17.11.12:727][192]LogSlate: Window 'Mutant_Swiping_Anim_mixamo_com' being destroyed
+[2019.01.03-17.12.26:533][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.03-17.12.29:993][974]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mutant/Animations/Mutant_Roaring_Anim_mixamo_com.Mutant_Roaring_Anim_mixamo_com
+[2019.01.03-17.12.29:999][974]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.03-17.12.30:046][974]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.03-17.12.30:387][974]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.03-17.12.32:050][ 99]LogSlate: Window 'Mutant_Roaring_Anim_mixamo_com' being destroyed
+[2019.01.03-17.13.31:942][181]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mutant/Animations/Zombie_Attack_Anim_mixamo_com.Zombie_Attack_Anim_mixamo_com
+[2019.01.03-17.14.13:623][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.03-17.14.14:924][450]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Mutant_Controller307438AF42BD411FEC2258B66E808184.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/Mutant/Animations/Controllers/Mutant_Controller.uasset'
+[2019.01.03-17.14.18:790][842]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default7D21E94A4CCF3B8C6DB53FA3A7BDEC4B.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.01.03-17.14.18:893][842]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData6B6C64574B713F12D0DAB991DF787F65.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.01.03-17.14.21:110][ 74]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/CharacterUI.CharacterUI
+[2019.01.03-17.15.08:222][436]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Projects/TGP-Pairs/Mutant/Mutant_Portrait_Game.png)
+[2019.01.03-17.15.08:233][436]LogTexture: Display: Building textures: Mutant_Portrait_Game (BGRA8, 395X374)
+[2019.01.03-17.15.34:323][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2019.01.03-17.15.34:438][850]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUID41D28EF4B480AD8EFDB538FFDB1F8E6.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2019.01.03-17.15.35:388][938]BlueprintLog: New page: Compile CharacterUI
+[2019.01.03-17.15.35:417][938]LogBlueprint: Error: [Compiler CharacterUI] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2019.01.03-17.15.35:417][938]LogBlueprint: Error: [Compiler CharacterUI] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2019.01.03-17.15.35:462][938]LogBlueprint: Warning: [Compiler CharacterUI] [0630.83] Compile of CharacterUI failed. 2 Fatal Issue(s) 0 Warning(s) [in 73 ms] (/Game/UI/CharacterUI.CharacterUI)
+[2019.01.03-17.15.49:129][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterUI" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset" SILENT=true
+[2019.01.03-17.15.49:229][280]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/CharacterUI60FBF4DA4142FD8C576747A66DD8BE89.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/CharacterUI.uasset'
+[2019.01.03-17.15.50:607][396]BlueprintLog: New page: Compile CharacterUI
+[2019.01.03-17.15.52:384][555]LogSlate: Window 'CharacterUI' being destroyed
+[2019.01.03-17.15.54:552][803]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.03-17.15.54:643][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.01.03-17.15.54:664][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.03-17.15.54:816][803]PIE: New page: PIE session: Minimal_Default (Jan 3, 2019, 5:15:54 PM)
+[2019.01.03-17.15.54:821][803]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.01.03-17.15.54:841][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019709s)
+[2019.01.03-17.15.54:842][803]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.01.03-17.15.54:851][803]LogPlayLevel: PIE: World Init took: (0.009276s)
+[2019.01.03-17.15.54:864][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.042665s)
+[2019.01.03-17.15.54:978][803]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.03-17.15.55:041][803]LogInit: FAudioDevice initialized.
+[2019.01.03-17.15.55:317][803]LogLoad: Game class is 'FightingGameMode_C'
+[2019.01.03-17.15.55:327][803]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.01.03-17.15.55
+[2019.01.03-17.15.55:347][803]LogWorld: Bringing up level for play took: 0.022060
+[2019.01.03-17.15.55:523][803]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.01.03-17.15.55:580][803]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.01.03-17.15.55:580][803]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.01.03-17.15.55:666][803]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.537
+[2019.01.03-17.15.55:666][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.01.03-17.15.57:279][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.01.03-17.15.57:279][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.03-17.15.57:330][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.03-17.15.57:330][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.01.03-17.15.57:381][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.03-17.15.57:406][976]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.01.03-17.15.58:142][ 64]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (mutant)
+[2019.01.03-17.15.58:758][130]Cmd: DELETE
+[2019.01.03-17.15.58:758][130]Cmd: ACTOR DELETE
+[2019.01.03-17.15.58:933][130]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.01.03-17.15.58:988][130]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2019.01.03-17.15.59:518][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.03-17.15.59:931][216]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default4073FF4F4C311D6701C43C89241BE9D7.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.01.03-17.16.00:031][216]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Minimal_Default_BuiltData623CEE8D42078599071428A06695DE34.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.01.03-17.16.02:802][297]LogSlate: Window 'Save Content' being destroyed
+[2019.01.03-17.16.02:837][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Images/Mutant_Portrait_Game" FILE="../../../../../../Git/FightingGame/FightingGame/Content/UI/Images/Mutant_Portrait_Game.uasset" SILENT=true
+[2019.01.03-17.16.02:871][297]LogSavePackage: Moving '../../../../../../Git/FightingGame/FightingGame/Saved/Mutant_Portrait_Game047A24C245665C49579FA6B53C6750B7.tmp' to '../../../../../../Git/FightingGame/FightingGame/Content/UI/Images/Mutant_Portrait_Game.uasset'
+[2019.01.03-17.16.03:149][297]LogSlate: Window 'FightingGame - Unreal Editor' being destroyed
+[2019.01.03-17.16.03:150][297]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.03-17.16.03:377][298]Cmd: QUIT_EDITOR
+[2019.01.03-17.16.04:465][298]LogExit: Preparing to exit.
+[2019.01.03-17.16.05:146][298]LogExit: Editor shut down
+[2019.01.03-17.16.05:148][298]LogExit: Transaction tracking system shut down

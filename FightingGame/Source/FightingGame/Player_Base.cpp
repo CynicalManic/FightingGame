@@ -68,6 +68,7 @@ void APlayer_Base::BeginPlay()
 	attacking = false;
 	cooldown = false;
 	attackingFrames = false;
+	movementSpeed = 100;
 }
 
 // Called every frame
@@ -75,7 +76,6 @@ void APlayer_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	UpdateMovement(DeltaTime);
-	movementSpeed = 100;
 	jumpMod = 9999999;
 	CheckFrames(DeltaTime);
 	animationMovementSpeed = FMath::Abs(movementInput * 100);

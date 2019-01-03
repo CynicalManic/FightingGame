@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FightingGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1DE18D47-60D2-413E-82C1-C2705093FC15}</UniqueIdentifier>
+      <UniqueIdentifier>{EA8D0360-CC28-49DE-A31E-94DDF4599FDE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FightingGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5936C6CA-29DF-4200-B1F1-400E5478F828}</UniqueIdentifier>
+      <UniqueIdentifier>{C9ED1292-23AB-4505-9B4D-06B1A4D26E8E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FightingGame">
-      <UniqueIdentifier>{F276BA97-2DD1-4EFF-BB39-EC3AD5E82FC0}</UniqueIdentifier>
+      <UniqueIdentifier>{97A0F37A-C27B-42F4-9F98-77DFA9D4EC22}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FightingGame\Animation_Handler.cpp">
       <Filter>Source\FightingGame</Filter>
@@ -68,14 +68,20 @@
     <ClInclude Include="..\..\Source\FightingGame\Player_Base.h">
       <Filter>Source\FightingGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\FightingGame\Player_Eve.cpp">
+      <Filter>Source\FightingGame</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\FightingGame\Player_Eve.h">
       <Filter>Source\FightingGame</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\FightingGame\Player_Eve.cpp">
+    <ClInclude Include="..\..\Source\FightingGame\Player_Mutant.h">
+      <Filter>Source\FightingGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FightingGame\Player_Mutant.cpp">
       <Filter>Source\FightingGame</Filter>
     </ClCompile>
   </ItemGroup>
