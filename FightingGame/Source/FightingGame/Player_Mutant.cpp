@@ -10,24 +10,28 @@ void APlayer_Mutant::SetupPlayer()
 	attackOneKnockback = 2000;
 	attackOneDamageTime = 0.309f;
 	attackOneAttackCD = 0.791f;
+	attackOneStun = 0.5f;
 
 	attackTwoRange = 500;
 	attackTwoDamage = 100;
 	attackTwoKnockback = 800;
 	attackTwoDamageTime = 1.318f;
 	attackTwoAttackCD = 1.349f;
+	attackTwoStun = 1.0f;
 
 	attackThreeRange = 100;
 	attackThreeDamage = 0;
 	attackThreeKnockback = 5000;
 	attackThreeDamageTime = 2.213f;
 	attackThreeAttackCD = 3.187f;
+	attackThreeStun = 0.5f;
 
 	attackFourRange = 280;
 	attackFourDamage = 20;
 	attackFourKnockback = 500;
 	attackFourDamageTime = 1.067f;
 	attackFourAttackCD = 1.55f;
+	attackFourStun = 0.5f;
 
 	movementSpeed = 50;
 }

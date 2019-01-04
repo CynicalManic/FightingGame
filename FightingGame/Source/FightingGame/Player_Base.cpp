@@ -28,24 +28,28 @@ void APlayer_Base::SetupPlayer()
 	attackOneKnockback = 1000;
 	attackOneDamageTime = 0.549f;
 	attackOneAttackCD = 0.701f;
+	attackOneStun = 0.5f;
 
 	attackTwoRange = 280;
 	attackTwoDamage = 30;
 	attackTwoKnockback = 1000;
 	attackTwoDamageTime = 0.71f;
 	attackTwoAttackCD = 1.457;
+	attackTwoStun = 1.0f;
 
 	attackThreeRange = 250;
 	attackThreeDamage = 0;
 	attackThreeKnockback = 5000;
 	attackThreeDamageTime = 2.338f;
 	attackThreeAttackCD = 1.529;
+	attackThreeStun = 0.5f;
 
 	attackFourRange = 200;
 	attackFourDamage = 15;
 	attackFourKnockback = 1000;
 	attackFourDamageTime = 0.639f;
 	attackFourAttackCD = 1.444;
+	attackFourStun = 0.5f;
 }
 
 bool APlayer_Base::CheckIfActive()
@@ -66,7 +70,6 @@ void APlayer_Base::BeginPlay()
 	CharacterMovementComponent = GetCharacterMovement();
 	SetupPlayer();
 	attacking = false;
-	cooldown = false;
 	attackingFrames = false;
 	movementSpeed = 100;
 }
@@ -78,6 +81,7 @@ void APlayer_Base::Tick(float DeltaTime)
 	UpdateMovement(DeltaTime);
 	jumpMod = 9999999;
 	CheckFrames(DeltaTime);
+	UpdateStatusEffects(DeltaTime);
 	animationMovementSpeed = FMath::Abs(movementInput * 100);
 	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');
 	this->SetActorLocation(FVector(200.0, GetActorLocation().Y, GetActorLocation().Z));
@@ -96,9 +100,8 @@ void APlayer_Base::CheckFrames(float deltaTime)
 					APlayer_Base* hitActor = CheckAttackCollision();
 					if (hitActor != nullptr)
 					{
-						hitActor->Damage(attackOneDamage, attackOneKnockback, this->GetActorLocation());
+						hitActor->Damage(attackOneDamage, attackOneKnockback, this->GetActorLocation(), attackOneStun);
 					}
-					cooldown = true;
 					attackingFrames = false;
 				}
 				break;
@@ -108,9 +111,8 @@ void APlayer_Base::CheckFrames(float deltaTime)
 					APlayer_Base* hitActor = CheckAttackCollision();
 					if (hitActor != nullptr)
 					{
-						hitActor->Damage(attackTwoDamage, attackTwoKnockback, this->GetActorLocation());
+						hitActor->Damage(attackTwoDamage, attackTwoKnockback, this->GetActorLocation(), attackTwoStun);
 					}
-					cooldown = true;
 					attackingFrames = false;
 				}
 				break;
@@ -120,9 +122,8 @@ void APlayer_Base::CheckFrames(float deltaTime)
 					APlayer_Base* hitActor = CheckAttackCollision();
 					if (hitActor != nullptr)
 					{
-						hitActor->Damage(attackThreeDamage, attackThreeKnockback, this->GetActorLocation());
+						hitActor->Damage(attackThreeDamage, attackThreeKnockback, this->GetActorLocation(), attackThreeStun);
 					}
-					cooldown = true;
 					attackingFrames = false;
 				}
 				break;
@@ -132,61 +133,20 @@ void APlayer_Base::CheckFrames(float deltaTime)
 					APlayer_Base* hitActor = CheckAttackCollision();
 					if (hitActor != nullptr)
 					{
-						hitActor->Damage(attackFourDamage, attackFourKnockback, this->GetActorLocation());
+						hitActor->Damage(attackFourDamage, attackFourKnockback, this->GetActorLocation(), attackFourStun);
 					}
-					cooldown = true;
 					attackingFrames = false;
 				}
 				break;
-		}
-	}
-	else if (cooldown)
-	{
-		attackingFrameTime += deltaTime;
-		switch (attackingType)
-		{
-		case 0:
-			if (attackingFrameTime >= attackOneAttackCD)
-			{
-				cooldown = false;
-				attackingFrameTime = 0;
-				attacking = false;
-			}
-			break;
-		case 1:
-			if (attackingFrameTime >= attackTwoAttackCD)
-			{
-				cooldown = false;
-				attackingFrameTime = 0;
-				attacking = false;
-			}
-			break;
-		case 2:
-			if (attackingFrameTime >= attackThreeAttackCD)
-			{
-				cooldown = false;
-				attackingFrameTime = 0;
-				attacking = false;
-			}
-			break;
-		case 3:
-			if (attackingFrameTime >= attackFourAttackCD)
-			{
-				cooldown = false;
-				attackingFrameTime = 0;
-				attacking = false;
-			}
-			break;
-		default:
-			break;
 		}
 	}
 }
 
 void APlayer_Base::UpdateMovement(float DeltaTime)
 {
-	AddMovementInput(FVector(0, movementInput * movementSpeed, 0) * DeltaTime);
-	if (CharacterMovementComponent->IsMovingOnGround())
+	if (stunned == false && recovering == false)
+		AddMovementInput(FVector(0, movementInput * movementSpeed, 0) * DeltaTime);
+	if (CharacterMovementComponent->IsMovingOnGround() && stunned == false && recovering == false)
 	{
 		CharacterMovementComponent->AddImpulse(FVector(0, 0, jumpForce * jumpMod) * DeltaTime);
 	}
@@ -202,6 +162,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("Attack2", IE_Pressed, this, &APlayer_Base::AttackTwoInput);
 	PlayerInputComponent->BindAction("Attack3", IE_Pressed, this, &APlayer_Base::AttackThreeInput);
 	PlayerInputComponent->BindAction("Attack4", IE_Pressed, this, &APlayer_Base::AttackFourInput);
+	PlayerInputComponent->BindAction("TestInput", IE_Pressed, this, &APlayer_Base::TestInput);
 }
 
 void APlayer_Base::MovementInput(float value)
@@ -217,54 +178,77 @@ void APlayer_Base::JumpInput(float value)
 
 void APlayer_Base::AttackOneInput()
 {
-	if (!cooldown)
+	if (!recovering)
 	{
 		attacking = true;
 		attackingFrames = true;
 		attackingType = 0;
 		attackRange = attackOneRange;
+		SetRecovery(attackOneAttackCD);
 	}
 }
 
 void APlayer_Base::AttackTwoInput()
 {
-	if (!cooldown)
+	if (!recovering)
 	{
 		attacking = true;
 		attackingFrames = true;
 		attackingType = 1;
 		attackRange = attackTwoRange;
+		SetRecovery(attackTwoAttackCD);
 	}
 }
 
 void APlayer_Base::AttackThreeInput()
 {
-	if (!cooldown)
+	if (!recovering)
 	{
 		attacking = true;
 		attackingFrames = true;
 		attackingType = 2;
 		attackRange = attackThreeRange;
+		SetRecovery(attackThreeAttackCD);
 	}
 }
 
 void APlayer_Base::AttackFourInput()
 {
-	if (!cooldown)
+	if (!recovering)
 	{
 		attacking = true;
 		attackingFrames = true;
 		attackingType = 3;
 		attackRange = attackFourRange;
+		SetRecovery(attackFourAttackCD);
 	}
 }
 
-void APlayer_Base::Damage(float damage, float knockback, FVector attackerPosition)
+void APlayer_Base::TestInput()
 {
-	knockbackMod += damage;
-	FVector knockbackVector = (this->GetActorLocation() - attackerPosition).GetSafeNormal();
-	CharacterMovementComponent->AddImpulse((knockbackVector * knockback) * knockbackMod);
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I have been hit"));
+	SetStunDuration(1.0f);
+}
+
+void APlayer_Base::Damage(float damage, float knockback, FVector attackerPosition, float _stunDuration)
+{
+	if (invincible == false)
+	{
+		if (armoured == false)
+		{
+			knockbackMod += damage;
+			FVector knockbackVector = (this->GetActorLocation() - attackerPosition).GetSafeNormal();
+			CharacterMovementComponent->AddImpulse((knockbackVector * knockback) * knockbackMod);
+		}
+		else
+		{
+			knockbackMod += damage / 2;
+			armourRemaining -= 1;
+		}
+		
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I have been hit"));
+		
+		SetStunDuration(_stunDuration);
+	}
 }
 
 APlayer_Base* APlayer_Base::CheckAttackCollision()
@@ -306,12 +290,13 @@ void APlayer_Base::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, cla
 
 		if (_respawnPoints.Num() != 0)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am Respawning"));
 			int randomNumber = FMath::RandRange(0, _respawnPoints.Num() - 1);
 			FVector location = _respawnPoints[randomNumber]->GetActorLocation();
 			this->SetActorLocation(location);
 			FVector zeroVelocity = { 0,0,0 };
-			this->GetRootComponent()->ComponentVelocity = zeroVelocity;
+			CharacterMovementComponent->Velocity = zeroVelocity;
+			SetInvincible(2.0f);
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am Respawning"));
 		}
 	}
 }
@@ -321,6 +306,102 @@ void APlayer_Base::SetRespawnArray(TArray<AActor*> respawns)
 	_respawnPoints = respawns;
 }
 
+//		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//		!!!ANIMATION CHANGE SET HERE!!!
+//		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+void APlayer_Base::SetStunDuration(float _stunDuration)
+{
+	if (invincible == false)
+	{
+		if (stunned == false)
+			stunned = true;	
 
+		if (stunDuration < _stunDuration)
+			stunDuration = _stunDuration;
 
+		// Insert Animation change here, duration of animation is equal to stun duration. If the animation change is done on a trigger the stun ends in update status effects
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(stunDuration));
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am stunned for:"));
+	}
+}
 
+void APlayer_Base::UpdateStatusEffects(float deltaTime)
+{
+	if (stunned == true)
+	{
+		stunDuration -= deltaTime;
+		if (stunDuration <= 0)
+		{
+			stunned = false;	
+			//Stunned state has ended, put code for animation end here if thats how it works
+		}
+		attacking = false;
+		attackingFrames = false;
+		attackingFrameTime = 0.0f;
+
+		
+
+		recovering = false;
+	}
+	if (recovering == true)
+	{
+		recoveryDuration -= deltaTime;
+		if (recoveryDuration <= 0)
+		{
+			recovering = false;
+			attackingFrameTime = 0.0f;
+			attacking = false;
+		}
+	}
+	if (invincible == true)
+	{
+		invincibilityDuration -= deltaTime;
+		if (invincibilityDuration <= 0)
+			invincible = false;		
+	}
+	if (armoured == true)
+	{
+		invincibilityDuration -= deltaTime;
+		if (armouredDuration <= 0 || armourRemaining <= 0)
+		{
+			armoured = false;
+			armourRemaining = 0;
+		}
+	}
+	if (knockbackImmunity == true)
+	{
+		knockbackImmunityDuration -= deltaTime;
+		if (knockbackImmunityDuration <= 0)
+		{
+			knockbackImmunity = false;
+		}
+	}
+}
+
+void APlayer_Base::SetRecovery(float _recoveryDuration)
+{
+	recovering = true;
+	recoveryDuration = _recoveryDuration;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(recoveryDuration));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am recovering for:"));
+}
+void APlayer_Base::SetKnockbackImmunity(float _recoveryDuration)
+{
+	knockbackImmunity = true;
+	knockbackImmunityDuration = _recoveryDuration;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(knockbackImmunity));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am knockback immune for:"));
+}
+void APlayer_Base::SetInvincible(float _recoveryDuration)
+{
+	invincible = true;
+	invincibilityDuration = _recoveryDuration;
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(invincibilityDuration));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am invincible for:"));
+}
+void APlayer_Base::SetArmoured(float _recoveryDuration,int _amount) 
+{
+	armoured = true;
+	armouredDuration = _recoveryDuration;
+	armourRemaining = _amount;
+}

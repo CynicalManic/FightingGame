@@ -25,6 +25,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<AActor*> _respawnPoints;
 
+
+
 //Protected Variables
 protected:
 	UCharacterMovementComponent* CharacterMovementComponent;
@@ -40,7 +42,7 @@ protected:
 	bool grounded;
 	bool attacking;
 	bool attackingFrames;
-	bool cooldown;
+	bool doubleJumped;
 	UPROPERTY(BlueprintReadOnly)
 	float knockbackMod;
 
@@ -60,29 +62,54 @@ protected:
 	float attackOneKnockback;
 	float attackOneDamageTime;
 	float attackOneAttackCD;
+	float attackOneStun;
 
 	float attackTwoRange;
 	float attackTwoDamage;
 	float attackTwoKnockback;
 	float attackTwoDamageTime;
 	float attackTwoAttackCD;
+	float attackTwoStun;
 
 	float attackThreeRange;
 	float attackThreeDamage;
 	float attackThreeKnockback;
 	float attackThreeDamageTime;
 	float attackThreeAttackCD;
+	float attackThreeStun;
 
 	float attackFourRange;
 	float attackFourDamage;
 	float attackFourKnockback;
 	float attackFourDamageTime;
 	float attackFourAttackCD;
+	float attackFourStun;
 
 	float animationMovementSpeed;
 
 	UPROPERTY(BlueprintReadOnly)
 	int playerID = 1;
+
+	// if stunned is true the player cannot move or attack and current actions are cancelled
+	bool stunned = false;
+	float stunDuration = 0.0f;
+
+	// When attacking and shortly after the attack the character is stuck recovering to stop move spam
+	bool recovering = false;
+	float recoveryDuration = 0.0f;
+
+	// Stops damage from being taken and removes stun and knockback
+	bool invincible = false;
+	float invincibilityDuration = 0.0f;
+
+	// Prevents knockback and mitigates damage for a set amount of attacks
+	bool armoured = false;
+	float armouredDuration = 0.0f;
+	int armourRemaining = 0.0f;
+
+	// Prevents knockback 
+	bool knockbackImmunity = false;
+	float knockbackImmunityDuration = 0.0f;
 
 	enum PlayerState
 	{
@@ -104,9 +131,14 @@ public:
 	virtual void UpdateMovement(float DeltaTime);
 
 	//Action On Call
-	virtual void Damage(float damage, float knockback, FVector attackerPosition);
+	virtual void Damage(float damage, float knockback, FVector attackerPosition, float _stunDuration);
 	int GetPlayerID() { return playerID; }
 	void SetPlayerID(int ID) { playerID = ID; }
+
+	void SetStunDuration(float _stunDuration);
+	void SetInvincible(float _stunDuration);
+	void SetKnockbackImmunity(float _stunDuration);
+	void SetArmoured(float _stunDuration, int _armourAmount);
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "GetFunction")
 		FString CollisionType(AActor* OtherActor);
@@ -136,8 +168,11 @@ protected:
 	virtual void AttackTwoInput();
 	virtual void AttackThreeInput();
 	virtual void AttackFourInput();
+	virtual void TestInput();
 	virtual void SetupPlayer();
 	void CheckFrames(float deltaTime);
+	void UpdateStatusEffects(float deltaTime);
+	void SetRecovery(float _recoveryDuration);
 
 	APlayer_Base* CheckAttackCollision();
 };
