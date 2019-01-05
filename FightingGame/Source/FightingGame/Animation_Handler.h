@@ -26,11 +26,12 @@ protected:
 	int* _attackType;
 	APlayer_Base* _AttachedPlayer;
 	int _currentFrame = 0;
+	bool* _stunned;
 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	void SetupHandlerRefs(APlayer_Base* creatingPlayer, bool* groundedStatus, bool* attackingStatus, float* movementSpeed, float* attackingDirection, int* attackingType);
+	void SetupHandlerRefs(APlayer_Base* creatingPlayer, bool* groundedStatus, bool* attackingStatus, float* movementSpeed, float* attackingDirection, int* attackingType, bool* stunned);
 	void UpdateHandler(bool groundedStatus, bool attackingStatus, float movementSpeed, float attackDirection, int attackType);
 	UFUNCTION(BlueprintCallable, Category = "Animation") bool GetGroundedStatus() { return *_grounded; }
 	UFUNCTION(BlueprintCallable, Category = "Animation") bool GetAttackingStatus() { return *_attacking; }
@@ -38,4 +39,5 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Animation") float GetAttackDirection() { return *_attackDirection; }
 	UFUNCTION(BlueprintCallable, Category = "Animation") int GetAttackType() { return *_attackType; }
 	UFUNCTION(BlueprintCallable, Category = "Animation") void SetCurrentFrame(int frame) { _currentFrame = frame; }
+	UFUNCTION(BlueprintCallable, Category = "Animation") bool GetStunnedStatus() { return *_stunned; }
 };

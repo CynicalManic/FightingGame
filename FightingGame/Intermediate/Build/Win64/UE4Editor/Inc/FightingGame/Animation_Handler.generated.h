@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FightingGame_Source_FightingGame_Animation_Handler_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetStunnedStatus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetStunnedStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetCurrentFrame) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_frame); \
@@ -66,6 +74,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FightingGame_Source_FightingGame_Animation_Handler_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetStunnedStatus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetStunnedStatus(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetCurrentFrame) \
 	{ \

@@ -14,7 +14,7 @@ class FIGHTINGGAME_API APlayer_Mutant : public APlayer_Base
 {
 	GENERATED_BODY()
 	virtual void SetupPlayer() override;
-	
+	virtual void AttackTwoInput() override;
 	
 	
 };

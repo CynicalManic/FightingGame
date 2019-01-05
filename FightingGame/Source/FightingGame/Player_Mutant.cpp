@@ -12,11 +12,11 @@ void APlayer_Mutant::SetupPlayer()
 	attackOneAttackCD = 0.791f;
 	attackOneStun = 0.5f;
 
-	attackTwoRange = 500;
+	attackTwoRange = 550;
 	attackTwoDamage = 100;
-	attackTwoKnockback = 800;
-	attackTwoDamageTime = 1.318f;
-	attackTwoAttackCD = 1.349f;
+	attackTwoKnockback = 4000;
+	attackTwoDamageTime = 2.636;
+	attackTwoAttackCD = 2.698f;
 	attackTwoStun = 1.0f;
 
 	attackThreeRange = 100;
@@ -33,5 +33,11 @@ void APlayer_Mutant::SetupPlayer()
 	attackFourAttackCD = 1.55f;
 	attackFourStun = 0.5f;
 
-	movementSpeed = 50;
+	movementSpeed = 45;
+}
+
+void APlayer_Mutant::AttackTwoInput()
+{
+	Super::AttackTwoInput();
+	SetArmoured((attackTwoDamageTime + attackTwoAttackCD), 2, true);
 }

@@ -107,6 +107,9 @@ protected:
 	float armouredDuration = 0.0f;
 	int armourRemaining = 0.0f;
 
+	//Armour but prevents stunning until armour has broken
+	bool superArmour = false;
+
 	// Prevents knockback 
 	bool knockbackImmunity = false;
 	float knockbackImmunityDuration = 0.0f;
@@ -138,7 +141,7 @@ public:
 	void SetStunDuration(float _stunDuration);
 	void SetInvincible(float _stunDuration);
 	void SetKnockbackImmunity(float _stunDuration);
-	void SetArmoured(float _stunDuration, int _armourAmount);
+	void SetArmoured(float _stunDuration, int _armourAmount, bool super = false);
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "GetFunction")
 		FString CollisionType(AActor* OtherActor);

@@ -15,7 +15,7 @@ APlayer_Base::APlayer_Base()
 	objectCollider->OnComponentBeginOverlap.AddDynamic(this, &APlayer_Base::OnOverlapBegin);
 	AnimationHandler = this->CreateDefaultSubobject<UAnimation_Handler>(TEXT("Animation Handler Component"));
 	this->AddOwnedComponent(AnimationHandler);
-	AnimationHandler->SetupHandlerRefs(this, &grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType);
+	AnimationHandler->SetupHandlerRefs(this, &grounded, &attacking, &animationMovementSpeed, &(attackDirection.X), &attackingType, &stunned);
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 }
@@ -50,6 +50,8 @@ void APlayer_Base::SetupPlayer()
 	attackFourDamageTime = 0.639f;
 	attackFourAttackCD = 1.444;
 	attackFourStun = 0.5f;
+
+	movementSpeed = 100;
 }
 
 bool APlayer_Base::CheckIfActive()
@@ -71,7 +73,6 @@ void APlayer_Base::BeginPlay()
 	SetupPlayer();
 	attacking = false;
 	attackingFrames = false;
-	movementSpeed = 100;
 }
 
 // Called every frame
@@ -247,7 +248,8 @@ void APlayer_Base::Damage(float damage, float knockback, FVector attackerPositio
 		
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I have been hit"));
 		
-		SetStunDuration(_stunDuration);
+		if(!superArmour)
+			SetStunDuration(_stunDuration);
 	}
 }
 
@@ -314,7 +316,10 @@ void APlayer_Base::SetStunDuration(float _stunDuration)
 	if (invincible == false)
 	{
 		if (stunned == false)
-			stunned = true;	
+		{
+			stunned = true;
+			attacking = false;
+		}
 
 		if (stunDuration < _stunDuration)
 			stunDuration = _stunDuration;
@@ -399,9 +404,10 @@ void APlayer_Base::SetInvincible(float _recoveryDuration)
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(invincibilityDuration));
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am invincible for:"));
 }
-void APlayer_Base::SetArmoured(float _recoveryDuration,int _amount) 
+void APlayer_Base::SetArmoured(float _recoveryDuration,int _amount, bool super) 
 {
 	armoured = true;
 	armouredDuration = _recoveryDuration;
 	armourRemaining = _amount;
+	superArmour = super;
 }

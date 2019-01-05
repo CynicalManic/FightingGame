@@ -26,7 +26,7 @@ void UAnimation_Handler::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	// ...
 }
 
-void UAnimation_Handler::SetupHandlerRefs(APlayer_Base* creatingPlayer, bool* groundedStatus, bool* attackingStatus, float* movementSpeed, float* attackingDirection, int* attackingType)
+void UAnimation_Handler::SetupHandlerRefs(APlayer_Base* creatingPlayer, bool* groundedStatus, bool* attackingStatus, float* movementSpeed, float* attackingDirection, int* attackingType, bool* stunned)
 {
 	_grounded = groundedStatus;
 	_attacking = attackingStatus;
@@ -34,6 +34,7 @@ void UAnimation_Handler::SetupHandlerRefs(APlayer_Base* creatingPlayer, bool* gr
 	_attackDirection = attackingDirection;
 	_attackType = attackingType;
 	_AttachedPlayer = creatingPlayer;
+	_stunned = stunned;
 }
 
 void UAnimation_Handler::UpdateHandler(bool groundedStatus, bool attackingStatus, float movementSpeed, float attackDirection, int attackType)

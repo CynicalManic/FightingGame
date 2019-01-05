@@ -28,4 +28,6 @@ void APlayer_Eve::SetupPlayer()
 	attackFourKnockback = 500;
 	attackFourDamageTime = 0.973f;
 	attackFourAttackCD = 0.627f;
+
+	movementSpeed = 110;
 }

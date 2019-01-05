@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_GetAttackType();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_GetGroundedStatus();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_GetMovementSpeed();
+	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus();
 	FIGHTINGGAME_API UFunction* Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame();
 // End Cross Module References
 	void UAnimation_Handler::StaticRegisterNativesUAnimation_Handler()
@@ -33,6 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 			{ "GetAttackType", &UAnimation_Handler::execGetAttackType },
 			{ "GetGroundedStatus", &UAnimation_Handler::execGetGroundedStatus },
 			{ "GetMovementSpeed", &UAnimation_Handler::execGetMovementSpeed },
+			{ "GetStunnedStatus", &UAnimation_Handler::execGetStunnedStatus },
 			{ "SetCurrentFrame", &UAnimation_Handler::execSetCurrentFrame },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -212,6 +214,44 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics
+	{
+		struct Animation_Handler_eventGetStunnedStatus_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((Animation_Handler_eventGetStunnedStatus_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(Animation_Handler_eventGetStunnedStatus_Parms), &Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Animation" },
+		{ "ModuleRelativePath", "Animation_Handler.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAnimation_Handler, "GetStunnedStatus", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Animation_Handler_eventGetStunnedStatus_Parms), Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame_Statics
 	{
 		struct Animation_Handler_eventSetCurrentFrame_Parms
@@ -269,6 +309,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 		{ &Z_Construct_UFunction_UAnimation_Handler_GetAttackType, "GetAttackType" }, // 340151508
 		{ &Z_Construct_UFunction_UAnimation_Handler_GetGroundedStatus, "GetGroundedStatus" }, // 151337544
 		{ &Z_Construct_UFunction_UAnimation_Handler_GetMovementSpeed, "GetMovementSpeed" }, // 83557952
+		{ &Z_Construct_UFunction_UAnimation_Handler_GetStunnedStatus, "GetStunnedStatus" }, // 536530030
 		{ &Z_Construct_UFunction_UAnimation_Handler_SetCurrentFrame, "SetCurrentFrame" }, // 1411574121
 	};
 #if WITH_METADATA
@@ -302,7 +343,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimation_Handler() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAnimation_Handler, 249063334);
+	IMPLEMENT_CLASS(UAnimation_Handler, 3632620593);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UAnimation_Handler(Z_Construct_UClass_UAnimation_Handler, &UAnimation_Handler::StaticClass, TEXT("/Script/FightingGame"), TEXT("UAnimation_Handler"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAnimation_Handler);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
