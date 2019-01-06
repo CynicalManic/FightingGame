@@ -140,8 +140,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayer_Base); \
 	FORCEINLINE static uint32 __PPO__movementInput() { return STRUCT_OFFSET(APlayer_Base, movementInput); } \
 	FORCEINLINE static uint32 __PPO__knockbackMod() { return STRUCT_OFFSET(APlayer_Base, knockbackMod); } \
 	FORCEINLINE static uint32 __PPO__knockbackModString() { return STRUCT_OFFSET(APlayer_Base, knockbackModString); } \
-	FORCEINLINE static uint32 __PPO__attackDirection() { return STRUCT_OFFSET(APlayer_Base, attackDirection); } \
-	FORCEINLINE static uint32 __PPO__playerID() { return STRUCT_OFFSET(APlayer_Base, playerID); }
+	FORCEINLINE static uint32 __PPO__attackDirection() { return STRUCT_OFFSET(APlayer_Base, attackDirection); }
 
 
 #define FightingGame_Source_FightingGame_Player_Base_h_12_PROLOG \

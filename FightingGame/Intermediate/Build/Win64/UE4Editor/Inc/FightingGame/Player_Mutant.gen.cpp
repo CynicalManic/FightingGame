@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Mutant() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Mutant, 761686551);
+	IMPLEMENT_CLASS(APlayer_Mutant, 405790507);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Mutant(Z_Construct_UClass_APlayer_Mutant, &APlayer_Mutant::StaticClass, TEXT("/Script/FightingGame"), TEXT("APlayer_Mutant"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Mutant);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

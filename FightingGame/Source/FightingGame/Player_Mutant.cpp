@@ -13,7 +13,7 @@ void APlayer_Mutant::SetupPlayer()
 	attackOneStun = 0.5f;
 
 	attackTwoRange = 550;
-	attackTwoDamage = 100;
+	attackTwoDamage = 150;
 	attackTwoKnockback = 4000;
 	attackTwoDamageTime = 2.636;
 	attackTwoAttackCD = 2.698f;

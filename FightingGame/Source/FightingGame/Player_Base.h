@@ -87,8 +87,7 @@ protected:
 
 	float animationMovementSpeed;
 
-	UPROPERTY(BlueprintReadOnly)
-	int playerID = 1;
+	
 
 	// if stunned is true the player cannot move or attack and current actions are cancelled
 	bool stunned = false;
@@ -159,6 +158,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, Category = "UI")
 	int characterNum;
+
+	UPROPERTY(BlueprintReadWrite)
+		int playerID = 1;
 
 //Protected Functions
 protected:

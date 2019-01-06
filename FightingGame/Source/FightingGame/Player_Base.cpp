@@ -246,8 +246,6 @@ void APlayer_Base::Damage(float damage, float knockback, FVector attackerPositio
 			armourRemaining -= 1;
 		}
 		
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I have been hit"));
-		
 		if(!superArmour)
 			SetStunDuration(_stunDuration);
 	}
@@ -255,17 +253,12 @@ void APlayer_Base::Damage(float damage, float knockback, FVector attackerPositio
 
 APlayer_Base* APlayer_Base::CheckAttackCollision()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Casting Hit"));
+	
 	FHitResult RV_Hit(ForceInit);
 	FCollisionQueryParams paramaters;
 	paramaters.AddIgnoredActor(this);
 	GetWorld()->LineTraceSingleByChannel(RV_Hit, this->GetActorLocation(), this->GetActorLocation() + (attackDirection * attackRange), ECollisionChannel::ECC_Pawn, paramaters);
 	DrawDebugLine(GetWorld(), this->GetActorLocation(), RV_Hit.Location, FColor(255, 0, 0), false, -1, 0, 12.333);
-	if (RV_Hit.Actor != nullptr)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I Hit Something"));
-	}
-
 	try
 	{
 		AActor* actor = RV_Hit.GetActor();
