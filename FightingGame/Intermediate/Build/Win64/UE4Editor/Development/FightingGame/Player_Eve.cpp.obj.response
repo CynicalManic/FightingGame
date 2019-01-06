@@ -401,20 +401,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\FightingGame"
-/I "E:\Github Work\FightingGame\FightingGame\Source"
-/I "E:\Github Work\FightingGame\FightingGame\Source\FightingGame"
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
+/I D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\FightingGame
+/I D:\Git\FightingGame\FightingGame\Source
+/I D:\Git\FightingGame\FightingGame\Source\FightingGame
+/I "D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Github Work\FightingGame\FightingGame\Source\FightingGame\Player_Eve.cpp"
-/FI"E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Definitions.FightingGame.h"
-/Fo"E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Player_Eve.cpp.obj"
+/FI"D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Git\FightingGame\FightingGame\Source\FightingGame\Player_Eve.cpp"
+/FI"D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Definitions.FightingGame.h"
+/Fo"D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\Player_Eve.cpp.obj"
 /TP
 /GR-
 /W4

@@ -1,31 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FightingGameEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for FightingGameEditor
-    Running UnrealHeaderTool "E:\Github Work\FightingGame\FightingGame\FightingGame.uproject" "E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FightingGameEditor in 14.6012976 seconds
-  Building 19 actions with 8 processes...
-    [1/19] SharedPCH.Engine.cpp
-    [2/19] FightingGame.init.gen.cpp
-    [3/19] FightingGameGameModeBase.gen.cpp
-    [4/19] Animation_Handler.gen.cpp
-    [5/19] PlayerManager.gen.cpp
-    [6/19] Player_Base.gen.cpp
-    [7/19] Player_Eve.cpp
-    [8/19] Player_Eve.gen.cpp
-    [9/19] FightingGame.cpp
-    [10/19] PlayerManager.cpp
-    [11/19] FightingGameGameModeBase.cpp
-    [12/19] Player_Mutant.cpp
-    [13/19] Animation_Handler.cpp
-    [14/19] Player_Base.cpp
-    [15/19] Player_Mutant.gen.cpp
-    [16/19] Camera.gen.cpp
-    [17/19] Camera.cpp
-    [18/19] UE4Editor-FightingGame.lib
-       Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.exp
-    [19/19] UE4Editor-FightingGame.dll
-       Creating library E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.lib and object E:\Github Work\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.exp
+  Building 3 actions with 8 processes...
+    [1/3] Player_Base.cpp
+    [2/3] UE4Editor-FightingGame.lib
+       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.exp
+    [3/3] UE4Editor-FightingGame.dll
+       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.exp
   Deploying FightingGameEditor Win64 Development...
-  Total build time: 82.88 seconds (Parallel executor: 56.88 seconds)
+  Total build time: 11.62 seconds (Parallel executor: 7.60 seconds)

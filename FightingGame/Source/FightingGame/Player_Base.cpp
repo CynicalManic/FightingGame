@@ -462,12 +462,15 @@ void APlayer_Base::SetArmoured(float _recoveryDuration,int _amount, bool super)
 
 void APlayer_Base::ShieldUpdate(float deltaTime)
 {
-	if (shieldRemaining < 100)
+	if (blocking)
 	{
-		shieldRemaining += deltaTime * 25;
-		if (shieldRemaining > 100)
+		if (shieldRemaining < 100)
 		{
-			shieldRemaining = 100;
+			shieldRemaining += deltaTime * 25;
+			if (shieldRemaining > 100)
+			{
+				shieldRemaining = 100;
+			}
 		}
 	}
 }
