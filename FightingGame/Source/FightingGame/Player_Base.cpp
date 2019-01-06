@@ -80,11 +80,12 @@ void APlayer_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	UpdateMovement(DeltaTime);
-	jumpMod = 9999999;
+	jumpMod = 555;
 	CheckFrames(DeltaTime);
 	UpdateStatusEffects(DeltaTime);
 	animationMovementSpeed = FMath::Abs(movementInput * 100);
 	knockbackModString = (FString::SanitizeFloat(knockbackMod) + '%');
+	ShieldUpdate(DeltaTime);
 	this->SetActorLocation(FVector(200.0, GetActorLocation().Y, GetActorLocation().Z));
 }
 
@@ -145,11 +146,45 @@ void APlayer_Base::CheckFrames(float deltaTime)
 
 void APlayer_Base::UpdateMovement(float DeltaTime)
 {
+	
+	doubleJumpCooldown -= DeltaTime;
+
 	if (stunned == false && recovering == false)
 		AddMovementInput(FVector(0, movementInput * movementSpeed, 0) * DeltaTime);
 	if (CharacterMovementComponent->IsMovingOnGround() && stunned == false && recovering == false)
 	{
-		CharacterMovementComponent->AddImpulse(FVector(0, 0, jumpForce * jumpMod) * DeltaTime);
+		if (doubleJumped)
+		{
+			doubleJumped = false;
+		}
+
+		if (jumpForce > 0 && doubleJumpCooldown <= 0)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jump"));
+			doubleJumpCooldown = 0.5f;
+
+			//Jump Code
+			FVector newVelocity = { 0,0,jumpMod };
+			CharacterMovementComponent->AddImpulse(newVelocity, true);
+		}
+		
+	}
+	else if(stunned == false && recovering == false && !doubleJumped)
+	{
+		if (doubleJumpCooldown <= 0)
+		{
+			FVector jump = FVector(0, 0, jumpForce * jumpMod);
+			if (jump.Z > 0)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Double Jump"));
+				doubleJumped = true;
+
+				//Jump Code
+				FVector newVelocity = CharacterMovementComponent->Velocity;
+				newVelocity.Z = 500;
+				CharacterMovementComponent->Velocity = newVelocity;
+			}
+		}
 	}
 }
 
@@ -230,36 +265,50 @@ void APlayer_Base::Shield(float value)
 {
 	if (value > 0)
 	{
-		//Feel free to get rid of this, it was for testing
-		shiledRemaining -= 1;
-		//ShieldCodeHere
-		//I chose Axis over action because it can be held down and can be a constant input
+		blocking = false;
+	}
+	else
+	{
+		blocking = true;
 	}
 }
 
 void APlayer_Base::TestInput()
 {
-	SetStunDuration(1.0f);
+	FVector test = { 0,0,0 };
+	Damage(100, 10, test, 0.5);
 }
 
 void APlayer_Base::Damage(float damage, float knockback, FVector attackerPosition, float _stunDuration)
 {
 	if (invincible == false)
 	{
-		if (armoured == false)
+		if (blocking)
 		{
-			knockbackMod += damage;
-			FVector knockbackVector = (this->GetActorLocation() - attackerPosition).GetSafeNormal();
-			CharacterMovementComponent->AddImpulse((knockbackVector * knockback) * knockbackMod);
+			if (armoured == false)
+			{
+				knockbackMod += damage;
+				FVector knockbackVector = (this->GetActorLocation() - attackerPosition).GetSafeNormal();
+				CharacterMovementComponent->AddImpulse((knockbackVector * knockback) * knockbackMod);
+			}
+			else
+			{
+				knockbackMod += damage / 2;
+				armourRemaining -= 1;
+			}
+		
+			if(!superArmour)
+				SetStunDuration(_stunDuration);
 		}
 		else
 		{
-			knockbackMod += damage / 2;
-			armourRemaining -= 1;
+			shieldRemaining -= damage * 0.8;
+			if (shieldRemaining < 0)
+			{
+				shieldRemaining = 0;
+				SetStunDuration(2.0f);
+			}
 		}
-		
-		if(!superArmour)
-			SetStunDuration(_stunDuration);
 	}
 }
 
@@ -303,7 +352,6 @@ void APlayer_Base::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, cla
 			FVector zeroVelocity = { 0,0,0 };
 			CharacterMovementComponent->Velocity = zeroVelocity;
 			SetInvincible(2.0f);
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am Respawning"));
 		}
 	}
 }
@@ -328,10 +376,6 @@ void APlayer_Base::SetStunDuration(float _stunDuration)
 
 		if (stunDuration < _stunDuration)
 			stunDuration = _stunDuration;
-
-		// Insert Animation change here, duration of animation is equal to stun duration. If the animation change is done on a trigger the stun ends in update status effects
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::SanitizeFloat(stunDuration));
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("I am stunned for:"));
 	}
 }
 
@@ -347,9 +391,7 @@ void APlayer_Base::UpdateStatusEffects(float deltaTime)
 		}
 		attacking = false;
 		attackingFrames = false;
-		attackingFrameTime = 0.0f;
-
-		
+		attackingFrameTime = 0.0f;		
 
 		recovering = false;
 	}
@@ -376,6 +418,7 @@ void APlayer_Base::UpdateStatusEffects(float deltaTime)
 		{
 			armoured = false;
 			armourRemaining = 0;
+			superArmour = false;
 		}
 	}
 	if (knockbackImmunity == true)
@@ -415,4 +458,16 @@ void APlayer_Base::SetArmoured(float _recoveryDuration,int _amount, bool super)
 	armouredDuration = _recoveryDuration;
 	armourRemaining = _amount;
 	superArmour = super;
+}
+
+void APlayer_Base::ShieldUpdate(float deltaTime)
+{
+	if (shieldRemaining < 100)
+	{
+		shieldRemaining += deltaTime * 25;
+		if (shieldRemaining > 100)
+		{
+			shieldRemaining = 100;
+		}
+	}
 }

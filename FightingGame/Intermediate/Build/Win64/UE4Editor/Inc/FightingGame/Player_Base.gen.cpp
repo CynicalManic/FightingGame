@@ -267,9 +267,9 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_shiledRemaining_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_shieldRemaining_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_shiledRemaining;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_shieldRemaining;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerID_MetaData[];
 #endif
@@ -291,9 +291,9 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_knockbackMod;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_movementInput_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_doubleJumpCooldown_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_movementInput;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_doubleJumpCooldown;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimationHandler_MetaData[];
 #endif
@@ -330,12 +330,12 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_shiledRemaining_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_shieldRemaining_MetaData[] = {
 		{ "Category", "Player_Base" },
 		{ "ModuleRelativePath", "Player_Base.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_shiledRemaining = { UE4CodeGen_Private::EPropertyClass::Float, "shiledRemaining", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(APlayer_Base, shiledRemaining), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_shiledRemaining_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_shiledRemaining_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_shieldRemaining = { UE4CodeGen_Private::EPropertyClass::Float, "shieldRemaining", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(APlayer_Base, shieldRemaining), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_shieldRemaining_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_shieldRemaining_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerID_MetaData[] = {
 		{ "Category", "Player_Base" },
@@ -372,12 +372,12 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_knockbackMod = { UE4CodeGen_Private::EPropertyClass::Float, "knockbackMod", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000014, 1, nullptr, STRUCT_OFFSET(APlayer_Base, knockbackMod), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_knockbackMod_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_knockbackMod_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementInput_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_doubleJumpCooldown_MetaData[] = {
 		{ "Category", "Player_Base" },
 		{ "ModuleRelativePath", "Player_Base.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementInput = { UE4CodeGen_Private::EPropertyClass::Float, "movementInput", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000014, 1, nullptr, STRUCT_OFFSET(APlayer_Base, movementInput), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementInput_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementInput_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_doubleJumpCooldown = { UE4CodeGen_Private::EPropertyClass::Float, "doubleJumpCooldown", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000014, 1, nullptr, STRUCT_OFFSET(APlayer_Base, doubleJumpCooldown), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_doubleJumpCooldown_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_doubleJumpCooldown_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer_Base_Statics::NewProp_AnimationHandler_MetaData[] = {
 		{ "Category", "Animation" },
@@ -402,13 +402,13 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerNum = { UE4CodeGen_Private::EPropertyClass::Int, "playerNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayer_Base, playerNum), METADATA_PARAMS(Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerNum_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer_Base_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_shiledRemaining,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_shieldRemaining,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_playerID,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_characterNum,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_attackDirection,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_knockbackModString,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_knockbackMod,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_movementInput,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_doubleJumpCooldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp_AnimationHandler,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp__respawnPoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer_Base_Statics::NewProp__respawnPoints_Inner,
@@ -437,7 +437,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer_Base, 727379150);
+	IMPLEMENT_CLASS(APlayer_Base, 3561223013);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer_Base(Z_Construct_UClass_APlayer_Base, &APlayer_Base::StaticClass, TEXT("/Script/FightingGame"), TEXT("APlayer_Base"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer_Base);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

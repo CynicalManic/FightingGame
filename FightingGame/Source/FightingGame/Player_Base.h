@@ -35,6 +35,7 @@ protected:
 	UAnimation_Handler* AnimationHandler = nullptr;
 
 	UPROPERTY(BlueprintReadOnly)
+	float doubleJumpCooldown = 0.0f;
 	float movementInput;
 	float movementSpeed;
 	float jumpForce;
@@ -42,7 +43,7 @@ protected:
 	bool grounded;
 	bool attacking;
 	bool attackingFrames;
-	bool doubleJumped;
+	bool doubleJumped = false;
 	UPROPERTY(BlueprintReadOnly)
 	float knockbackMod;
 
@@ -111,6 +112,8 @@ protected:
 	bool knockbackImmunity = false;
 	float knockbackImmunityDuration = 0.0f;
 
+	bool blocking = false;
+
 	enum PlayerState
 	{
 		Alive,
@@ -161,7 +164,7 @@ public:
 		int playerID = 1;
 
 	UPROPERTY(BlueprintReadOnly)
-		float shiledRemaining = 100; /*Keep value between 0 and 100 so it knows how much of the bar to fill*/
+		float shieldRemaining = 100; /*Keep value between 0 and 100 so it knows how much of the bar to fill*/
 
 //Protected Functions
 protected:
@@ -180,6 +183,7 @@ protected:
 	void UpdateStatusEffects(float deltaTime);
 	void SetRecovery(float _recoveryDuration);
 	void Shield(float value);
+	void ShieldUpdate(float deltaTime);
 
 	APlayer_Base* CheckAttackCollision();
 };

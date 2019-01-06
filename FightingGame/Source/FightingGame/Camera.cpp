@@ -69,8 +69,8 @@ void ACamera::Tick(float DeltaTime)
 		// This code checks how far the camera needs to be
 		// the first check sets a minimum camera range and the following zoom out to fit in all the objects into the scene.
 
-		if (lengthX < 600 && lengthZ < 600)
-			finalCameraLocation.X = (largestPosition->X - 600 - 200);
+		if (lengthX < 200 && lengthZ < 200)
+			finalCameraLocation.X = (largestPosition->X - 200 - 200);
 		else if (lengthX > lengthZ)
 			finalCameraLocation.X = (largestPosition->X - lengthX - 200);
 		else
