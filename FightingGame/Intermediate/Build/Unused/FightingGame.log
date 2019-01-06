@@ -1,4 +1,21 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Creating makefile for FightingGameEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.14.26428 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for FightingGameEditor
+    Running UnrealHeaderTool "D:\Git\FightingGame\FightingGame\FightingGame.uproject" "D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\FightingGameEditor\Development\FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FightingGameEditor in 9.7592353 seconds
+  Building 10 actions with 8 processes...
+    [1/10] Player_Eve.cpp
+    [2/10] Player_Eve.gen.cpp
+    [3/10] Player_Mutant.cpp
+    [4/10] Animation_Handler.cpp
+    [5/10] Player_Mutant.gen.cpp
+    [6/10] Player_Base.gen.cpp
+    [7/10] PlayerManager.cpp
+    [8/10] Player_Base.cpp
+    [9/10] UE4Editor-FightingGame.lib
+       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.exp
+    [10/10] UE4Editor-FightingGame.dll
+       Creating library D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.lib and object D:\Git\FightingGame\FightingGame\Intermediate\Build\Win64\UE4Editor\Development\FightingGame\UE4Editor-FightingGame.suppressed.exp
   Deploying FightingGameEditor Win64 Development...
-  Total build time: 2.04 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 34.74 seconds (Parallel executor: 3.23 seconds)

@@ -87,8 +87,6 @@ protected:
 
 	float animationMovementSpeed;
 
-	
-
 	// if stunned is true the player cannot move or attack and current actions are cancelled
 	bool stunned = false;
 	float stunDuration = 0.0f;
@@ -162,6 +160,9 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 		int playerID = 1;
 
+	UPROPERTY(BlueprintReadOnly)
+		float shiledRemaining = 100; /*Keep value between 0 and 100 so it knows how much of the bar to fill*/
+
 //Protected Functions
 protected:
 	virtual void BeginPlay() override;
@@ -178,6 +179,7 @@ protected:
 	void CheckFrames(float deltaTime);
 	void UpdateStatusEffects(float deltaTime);
 	void SetRecovery(float _recoveryDuration);
+	void Shield(float value);
 
 	APlayer_Base* CheckAttackCollision();
 };

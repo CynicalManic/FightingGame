@@ -159,6 +159,7 @@ void APlayer_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("HorizontalMove", this, &APlayer_Base::MovementInput);
 	PlayerInputComponent->BindAxis("Jump", this, &APlayer_Base::JumpInput);
+	PlayerInputComponent->BindAxis("Shield", this, &APlayer_Base::Shield);
 	PlayerInputComponent->BindAction("Attack1", IE_Pressed, this, &APlayer_Base::AttackOneInput);
 	PlayerInputComponent->BindAction("Attack2", IE_Pressed, this, &APlayer_Base::AttackTwoInput);
 	PlayerInputComponent->BindAction("Attack3", IE_Pressed, this, &APlayer_Base::AttackThreeInput);
@@ -222,6 +223,17 @@ void APlayer_Base::AttackFourInput()
 		attackingType = 3;
 		attackRange = attackFourRange;
 		SetRecovery(attackFourAttackCD);
+	}
+}
+
+void APlayer_Base::Shield(float value)
+{
+	if (value > 0)
+	{
+		//Feel free to get rid of this, it was for testing
+		shiledRemaining -= 1;
+		//ShieldCodeHere
+		//I chose Axis over action because it can be held down and can be a constant input
 	}
 }
 
